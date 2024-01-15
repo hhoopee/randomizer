@@ -1,13 +1,14 @@
-const azerbaijaniFemaleSurnamesAzerbaijani = [
-  "Əliyeva", "Məmmədova", "Hüseynova", "İsmayılova", "Rəhimova", "Quliyeva", "Mustafayeva", "Cəfərova", "Əhmədova", "Səfərova",
-  "Abbasova", "Nəsirova", "Həsənova", "Hacıyeva", "Mirzəyeva", "Qurbanova", "Orucova", "Quliyeva", "Əğayeva", "Quliyeva",
-  "Məxmudova", "Məmmədzadə", "Aslanova", "Mikayılova", "Quliyeva", "Məxmudova", "İsmayılova", "Həsənova", "Cəfərova", "Abdullayeva",
-  "Rüstəmova", "Qurbanova", "Süleymanova", "Rəhimova", "Hüseynli", "Məmmədova", "Əliyeva", "Abbasova", "Quliyeva", "Əhmədova", "Hacıyeva",
-  "Cavadova", "Qasırova", "Əminova", "Bayramova", "Səfərova", "Nəsirova", "Əliyeva", "İsmayılova", "Mirzəyeva", "Qurbanova", "Rəhimova",
-  "Mustafayeva", "Hacıyeva", "Hüseynova", "Cəfərova", "Səfərova", "Abbasova", "Quliyeva", "Nəsirova", "Rüstəmova", "Quliyeva", "Məmmədzadə",
-  "Hüseynzadə", "Cavadova", "Aslanova", "Mikayılova", "Əliyeva", "Abdullayeva", "Rəhimova", "Qurbanova", "Səfərova", "Bayramova", "Hacıyeva",
-  "Əminova", "Süleymanova", "Nəsirova", "Məmmədova", "Quliyeva", "Mustafayeva", "Cəfərova", "İsmayılova", "Abbasova", "Rüstəmova", "Əliyeva",
-  "Səfərova", "Hüseynova", "Quliyeva", "Rəhimova", "Nəsirova", "Mirzəyeva", "Mustafayeva", "Abbasova", "Cəfərova", "Süleymanova", "Məmmədzadə"
+const armenianFemaleNamesArmenian = [
+  "Անահիտ", "Մարիամ", "Տաթեվ", "Լուսինե", "Նարինե", "Արևիկ", "Աննա", "Արփինե", "Հասմիկ", "Լիանա",
+  "Սիրանուշ", "Գայանե", "Ռուզաննա", "Սաթենիկ", "Լուսինե", "Արմինե", "Մարինե", "Նոնա", "Անի", "Սիլվա",
+  "Վարդուհի", "Հրանուշ", "Լիլիթ", "Այդա", "Լարա", "Լուսաբեր", "Իրինա", "Լարա", "Շուշան", "Շողիկ",
+  "Հրիփսիմե", "Հասմիկ", "Լիանա", "Անահիտ", "Սիրանուշ", "Էլենա", "Անուշ", "Իվետ", "Աստղիկ", "Անուշիկ",
+  "Արփի", "Նաիրա", "Դիանա", "Գոհար", "Զարա", "Հերմինե", "Իրինա", "Կարինա", "Նաթալի", "Նունե",
+  "Վարդուհի", "Ռիմա", "Լուսինե", "Լիանա", "Լուսինե", "Սիրանուշ", "Մարինե", "Լիլիթ", "Արփի", "Նունե",
+  "Ռուզաննա", "Սաթիկ", "Շուշան", "Սվետլանա", "Տիգրանուհի", "Տաթևիկ", "Ծովինար", "Վարդիթեր", "Վերոնիկա", "Վիոլետա",
+  "Յուլիա", "Զարա", "Արմինե", "Անի", "Մարինե", "Աիդա", "Զարա", "Հրիփսիմե", "Սիլվա", "Անուշիկ",
+  "Դիանա", "Շողիկ", "Անի", "Նարինե", "Սաթիկ", "Ռուզաննա", "Անահիտ", "Արփի", "Լուսինե", "Սիրանուշ",
+  "Վարդուհի", "Արմինե", "Հերմինե", "Ռիմա", "Նոնա", "Լարա", "Նունե", "Իվետ", "Հասմիկ", "Լիլիթ"
 ];
 
-console.log(azerbaijaniFemaleSurnamesAzerbaijani);
+console.log(armenianFemaleNamesArmenian);
