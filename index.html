@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./countries.js"></script>
+    <script type="module" src="./functions.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tabs-container">
+            <div class="tab active">EN</div>
+            <div class="tab">Tab</div>
+            <div class="tab">Tab</div>
+        </div>
+        <div class="info-container">
+            <div class="country-container cnt">
+                <p>Country</p>
+                <div class="select-container">
+                    <select name="select-country" id="select-country" class="select">
+                        <option value="" disabled selected> </option>
+                    </select>
+                </div>
+            </div>
+            <div class="age-container cnt">
+                <p>Age</p>
+                <div class="select-container">
+                    <select name="select-age" id="" class="select">
+                        <option value="">18</option>
+                        <option value="">20</option>
+                        <option value="">30</option>
+                    </select>
+                </div>
+            </div>
+            <div class="gender-container cnt">
+                <p>Gender</p>
+                <div class="radio-container">
+                    <div class="radio">
+                        <input type="radio" class="gender" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" class="gender" name="gender" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container cnt">
+                <button class="generate-btn">Generate</button>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" class="first">
+            <input type="text" class="second">
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
