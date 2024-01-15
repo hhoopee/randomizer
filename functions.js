@@ -14,11 +14,18 @@ export function getAge(value) {
     const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'];
     let now = new Date();
-    const year = now.getFullYear() - value;
-    const randomNumber = randomInteger(0, now.getMonth() - 1);
+    const randomNumber = randomInteger(0, 11);
     const month = MONTHS[randomNumber];
-    const day = [0, 2, 4, 6, 7, 9, 11].includes(randomNumber) ? randomInteger(0, 31)
-    : randomNumber === 1 ? randomInteger(0, 28) : randomInteger(0, 30);
+    const day = [0, 2, 4, 6, 7, 9, 11].includes(randomNumber) ? randomInteger(1, 31)
+    : randomNumber === 1 ? randomInteger(1, 28) : randomInteger(1, 30);
+    let year;
+    if (randomNumber > now.getMonth()) {
+        year = now.getFullYear() - (+value + 1);
+    } else if (randomNumber === now.getMonth() && now.getDate() < day) {
+        year = now.getFullYear() - (+value + 1);
+    } else {
+        year = now.getFullYear() - value;
+    }
     return {year, month, day};
 }
 

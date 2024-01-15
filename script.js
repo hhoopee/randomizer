@@ -3,6 +3,7 @@ import { randomInteger, createOption, getAge} from "./functions.js";
 
 
 const selectCountry = document.getElementById('select-country');
+const selectAge = document.getElementById('select-age');
 const generateBtn = document.querySelector('.generate-btn');
 const gender = document.querySelectorAll('.gender');
 const tabs = document.querySelectorAll('.tab');
@@ -25,22 +26,29 @@ tabs.forEach(tab => {
 })
 
 
+
 const countriesNames = [...Object.keys(countries)]
 
 countriesNames.forEach(countryName => {
-    const option = document.createElement('option');
-    option.value = countryName;
-    option.textContent = countryName;
-    selectCountry.append(option);
+    createOption(countryName, selectCountry);
 })
+
+
+
+for (let i = 18; i <= 64; i += 1) {
+    createOption(i, selectAge);
+}
+
 
 
 
 const firstEn = document.querySelector('.first-en');
 const secondEn = document.querySelector('.second-en');
+const birthEn = document.querySelector('.birth-en');
 
 const firstGeo = document.querySelector('.first-geo');
 const secondGeo = document.querySelector('.second-geo');
+const birthGeo = document.querySelector('.birth-geo');
 
 generateBtn.addEventListener('click', () => {
 // test
@@ -59,4 +67,8 @@ generateBtn.addEventListener('click', () => {
     secondEn.value = surnamesEn[surnameRandomNumber];
     firstGeo.value = namesGeo[nameRandomNumber];
     secondGeo.value = surnamesGeo[surnameRandomNumber];
+    
+    const {year, month, day} = getAge(selectAge.value);
+    birthEn.value = `${day}/${month}/${year}`;
+    birthGeo.value = `${day}/${month}/${year}`;
 })
