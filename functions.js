@@ -28,4 +28,3 @@ export function getAge(value) {
     }
     return {year, month, day};
 }
-
