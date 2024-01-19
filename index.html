@@ -1,109 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="./script.js"></script>
     <script type="module" src="./countries.js"></script>
     <script type="module" src="./functions.js"></script>
-    <link rel="stylesheet" href="main.css">
-    <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+    <title>Randomizer</title>
+  </head>
+  <body>
     <div class="container">
-        <div class="tabs-container">
-            <div class="tab active" id="first-tab">EN</div>
-            <div class="tab" id="second-tab">Geo</div>
-            <!-- <div class="tab">Tab</div> -->
+      <div class="tabs-container">
+        <div class="tab active" id="first-tab">EN</div>
+        <div class="tab" id="second-tab">Geo</div>
+        <!-- <div class="tab">Tab</div> -->
+      </div>
+      <div class="info-container">
+        <div class="country-container cnt">
+          <p>Country</p>
+          <div class="select-container">
+            <select name="select-country" id="select-country" class="select">
+              <!-- <option value="" disabled selected> </option> -->
+            </select>
+          </div>
         </div>
-        <div class="info-container">
-            <div class="country-container cnt">
-                <p>Country</p>
-                <div class="select-container">
-                    <select name="select-country" id="select-country" class="select">
-                        <!-- <option value="" disabled selected> </option> -->
-                    </select>
-                </div>
-            </div>
-            <div class="age-container cnt">
-                <p>Age</p>
-                <div class="select-container">
-                    <select name="select-age" id="select-age" class="select">
-                    </select>
-                </div>
-            </div>
-            <div class="gender-container cnt">
-                <p>Gender</p>
-                <div class="radio-container">
-                    <div class="radio">
-                        <input type="radio" class="gender" name="gender" id="female" checked>
-                        <label for="female">Female</label>
-                    </div>
-                    <div class="radio">
-                        <input type="radio" class="gender" name="gender" id="male">
-                        <label for="male">Male</label>
-                    </div>
-                </div>
-            </div>
-            <div class="button-container cnt">
-                <button class="generate-btn">Generate</button>
-            </div>
+        <div class="age-container cnt">
+          <p>Age</p>
+          <div class="select-container">
+            <select name="select-age" id="select-age" class="select"></select>
+          </div>
         </div>
-        <div class="input-container first-tab active">
-            <div class="first-container">
-                <p>First Name</p>
-                <input type="text" class="input first-en">
-                <svg class="copy-btn" id="copy-first-en" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>    
+        <div class="gender-container cnt">
+          <p>Gender</p>
+          <div class="radio-container">
+            <div class="radio">
+              <input
+                type="radio"
+                class="gender"
+                name="gender"
+                id="female"
+                checked
+              />
+              <label for="female">Female</label>
             </div>
-            <div class="first-container">
-                <p>Second Name</p>
-                <input type="text" class="input second-en">
-                <svg class="copy-btn" id="copy-second-en" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>                    
+            <div class="radio">
+              <input type="radio" class="gender" name="gender" id="male" />
+              <label for="male">Male</label>
             </div>
-            <div class="first-container">
-                <p>Birth Date</p>
-                <input type="text" class="input birth-en">
-                <svg class="copy-btn" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>                    
-            </div>
+          </div>
         </div>
-        <div class="input-container second-tab">
-            <div class="first-container">
-                <p>First Name</p>
-                <input type="text" class="input first-geo">
-                <svg class="copy-btn" id="copy-first-geo" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>    
-            </div>
-            <div class="first-container">
-                <p>Second Name</p>
-                <input type="text" class="input second-geo">
-                <svg class="copy-btn" id="copy-second-geo" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>                    
-            </div>
-            <div class="first-container">
-                <p>Birth Date</p>
-                <input type="text" class="input birth-geo">
-                <svg class="copy-btn" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333" stroke="#2D5AEE" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>                    
-            </div>
+        <div class="button-container cnt">
+          <button class="generate-btn">Generate</button>
         </div>
-        <div></div>
-        <div></div>
+      </div>
+      <div class="input-container first-tab active">
+        <div class="first-container">
+          <p>First Name</p>
+          <input type="text" class="input first-en" />
+          <svg
+            class="copy-btn"
+            id="copy-first-en"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="first-container">
+          <p>Second Name</p>
+          <input type="text" class="input second-en" />
+          <svg
+            class="copy-btn"
+            id="copy-second-en"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="first-container">
+          <p>Birth Date</p>
+          <input type="text" class="input birth-en" />
+          <svg
+            class="copy-btn"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="input-container second-tab">
+        <div class="first-container">
+          <p>First Name</p>
+          <input type="text" class="input first-geo" />
+          <svg
+            class="copy-btn"
+            id="copy-first-geo"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="first-container">
+          <p>Second Name</p>
+          <input type="text" class="input second-geo" />
+          <svg
+            class="copy-btn"
+            id="copy-second-geo"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="first-container">
+          <p>Birth Date</p>
+          <input type="text" class="input birth-geo" />
+          <svg
+            class="copy-btn"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.08333 10.6391C9.08333 10.2265 9.24724 9.8308 9.539 9.53904C9.83076 9.24728 10.2265 9.08337 10.6391 9.08337H15.6942C15.8985 9.08337 16.1009 9.12361 16.2896 9.2018C16.4784 9.27998 16.6499 9.39458 16.7943 9.53904C16.9388 9.68351 17.0534 9.85501 17.1316 10.0438C17.2098 10.2325 17.25 10.4348 17.25 10.6391V15.6943C17.25 15.8986 17.2098 16.1009 17.1316 16.2897C17.0534 16.4784 16.9388 16.6499 16.7943 16.7944C16.6499 16.9388 16.4784 17.0534 16.2896 17.1316C16.1009 17.2098 15.8985 17.25 15.6942 17.25H10.6391C10.4348 17.25 10.2325 17.2098 10.0437 17.1316C9.85497 17.0534 9.68346 16.9388 9.539 16.7944C9.39453 16.6499 9.27994 16.4784 9.20175 16.2897C9.12357 16.1009 9.08333 15.8986 9.08333 15.6943V10.6391Z"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M7.34033 14.7633C7.16145 14.6613 7.01266 14.5139 6.909 14.336C6.80535 14.158 6.7505 13.9559 6.75 13.75V7.91667C6.75 7.275 7.275 6.75 7.91667 6.75H13.75C14.1875 6.75 14.4255 6.97458 14.625 7.33333"
+              stroke="#2D5AEE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
     </div>
-    
-</body>
+  </body>
 </html>
