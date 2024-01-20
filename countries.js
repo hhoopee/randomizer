@@ -4208,23 +4208,111 @@ const countries = {
     'Croatia': { 'en': {
             'sex': {
                 'male': {
-                    'first': [],
-                    'second': []
+                    'first': [
+                        'Ivan', 'Marko', 'Josip', 'Ante', 'Petar', 'Matej', 'Tomislav', 'Nikola', 'Filip', 'Igor',
+                        'Davor', 'Ivica', 'Zoran', 'Luka', 'Mario', 'Dario', 'Kristijan', 'Stjepan', 'Damir', 'Robert',
+                        'Renato', 'Marin', 'Dražen', 'Boris', 'Domagoj', 'Sinisa', 'Ilija', 'Vladimir', 'Krunoslav', 'Miro',
+                        'Siniša', 'Ivo', 'Hrvoje', 'Goran', 'Zvonimir', 'Josip', 'Dinko', 'Branimir', 'Dino', 'Jure',
+                        'Željko', 'Karlo', 'Duje', 'Šime', 'Toni', 'Dalibor', 'Zdravko', 'Ivan', 'Darko', 'Franko',
+                        'René', 'Stipe', 'Marino', 'Davorin', 'Dragan', 'Dinko', 'Ljudevit', 'Valentino', 'Zdravko', 'Ivano',
+                        'Davor', 'Vedran', 'Alen', 'Matija', 'Bruno', 'Božidar', 'Jakov', 'Adrian', 'Nenad', 'Stanko',
+                        'Emil', 'Vatroslav', 'Denis', 'Tomislav', 'Robert', 'Andrija', 'Karlo', 'Grgur', 'Kresimir', 'Neven',
+                        'Tihomir', 'Sandro', 'Želimir', 'Dorian', 'Edi', 'Filip', 'Gabriel', 'Ilija', 'Janko', 'Karlo',
+                        'Luka', 'Marin', 'Nino', 'Ognjen', 'Patrik', 'Roko', 'Teo', 'Viktor', 'Zvonimir', 'Zygmunt'
+                      ],
+                    'second': [
+                        'Kovačić', 'Horvat', 'Babić', 'Jurić', 'Pavić', 'Novak', 'Marić', 'Ivanović', 'Kovač', 'Tomljanović',
+                        'Vuković', 'Knežević', 'Perić', 'Kovačević', 'Radić', 'Matić', 'Blažević', 'Petrović', 'Marković', 'Vidović',
+                        'Nikolić', 'Jovanović', 'Kos', 'Križanović', 'Pavlović', 'Lukić', 'Vlahović', 'Barišić', 'Šarić', 'Rukavina',
+                        'Tomić', 'Martinović', 'Perković', 'Blažić', 'Varga', 'Milić', 'Ilić', 'Antunović', 'Zorić', 'Vukelić',
+                        'Obradović', 'Klarić', 'Šimunović', 'Cindrić', 'Herceg', 'Šimić', 'Čuljak', 'Lovrić', 'Mišić', 'Župan',
+                        'Katić', 'Vukman', 'Mišković', 'Jerković', 'Vučković', 'Maras', 'Čule', 'Ivančić', 'Blažičević', 'Pleško',
+                        'Radišić', 'Mandić', 'Brezina', 'Valentić', 'Bukovac', 'Ivanković', 'Šošić', 'Bašić', 'Galić', 'Tadić',
+                        'Dragović', 'Vlašić', 'Škrlec', 'Bogdanović', 'Pavlić', 'Lončarić', 'Zelić', 'Radoš', 'Kramarić', 'Crnčić',
+                        'Grgić', 'Grubišić', 'Jukić', 'Čolak', 'Matković', 'Ledenko', 'Bralić', 'Španić', 'Ljubić', 'Majetić',
+                        'Krznarić', 'Karačić', 'Medić', 'Špoljarić', 'Kovačić', 'Klisović', 'Bogdanić', 'Dadić', 'Fabić', 'Čavlek'
+                      ]
                 },
                 'female': {
-                    'first': [],
-                    'second': [],
+                    'first': [
+                        'Ana', 'Iva', 'Martina', 'Elena', 'Petra', 'Lucija', 'Mia', 'Ivana', 'Marija', 'Kristina',
+                        'Nina', 'Sara', 'Magdalena', 'Dora', 'Tina', 'Monika', 'Lana', 'Ema', 'Andrea', 'Dijana',
+                        'Josipa', 'Katarina', 'Tamara', 'Antonija', 'Ana-Marija', 'Valentina', 'Laura', 'Barbara', 'Vesna', 'Jelena',
+                        'Natalija', 'Lea', 'Nika', 'Viktorija', 'Ivana', 'Lucija', 'Lara', 'Tea', 'Vanja', 'Ivona',
+                        'Ljiljana', 'Martina', 'Ines', 'Vanda', 'Klara', 'Marina', 'Ella', 'Ana', 'Ljubica', 'Mirjana',
+                        'Tamara', 'Ivana', 'Nina', 'Monika', 'Kristina', 'Matea', 'Dora', 'Marija', 'Helena', 'Sandra',
+                        'Diana', 'Dunja', 'Elena', 'Luna', 'Antonela', 'Neda', 'Adrijana', 'Eva', 'Karla', 'Nikolina',
+                        'Ivanka', 'Jasna', 'Branka', 'Ana', 'Lejla', 'Vlatka', 'Ivana', 'Antonia', 'Magdalena', 'Ivanka',
+                        'Klaudija', 'Ivona', 'Tamara', 'Marta', 'Renata', 'Sonja', 'Tamara', 'Tena', 'Matea', 'Mihaela',
+                        'Nika', 'Petra', 'Sara', 'Tina', 'Valentina', 'Vesna', 'Zrinka', 'Anamarija', 'Dorotea', 'Josipa'
+                      ],
+                    'second': [
+                        'Kovačić', 'Horvat', 'Babić', 'Jurić', 'Pavić', 'Novak', 'Marić', 'Ivanović', 'Kovač', 'Tomljanović',
+                        'Vuković', 'Knežević', 'Perić', 'Kovačević', 'Radić', 'Matić', 'Blažević', 'Petrović', 'Marković', 'Vidović',
+                        'Nikolić', 'Jovanović', 'Kos', 'Križanović', 'Pavlović', 'Lukić', 'Vlahović', 'Barišić', 'Šarić', 'Rukavina',
+                        'Tomić', 'Martinović', 'Perković', 'Blažić', 'Varga', 'Milić', 'Ilić', 'Antunović', 'Zorić', 'Vukelić',
+                        'Obradović', 'Klarić', 'Šimunović', 'Cindrić', 'Herceg', 'Šimić', 'Čuljak', 'Lovrić', 'Mišić', 'Župan',
+                        'Katić', 'Vukman', 'Mišković', 'Jerković', 'Vučković', 'Maras', 'Čule', 'Ivančić', 'Blažičević', 'Pleško',
+                        'Radišić', 'Mandić', 'Brezina', 'Valentić', 'Bukovac', 'Ivanković', 'Šošić', 'Bašić', 'Galić', 'Tadić',
+                        'Dragović', 'Vlašić', 'Škrlec', 'Bogdanović', 'Pavlić', 'Lončarić', 'Zelić', 'Radoš', 'Kramarić', 'Crnčić',
+                        'Grgić', 'Grubišić', 'Jukić', 'Čolak', 'Matković', 'Ledenko', 'Bralić', 'Španić', 'Ljubić', 'Majetić',
+                        'Krznarić', 'Karačić', 'Medić', 'Špoljarić', 'Kovačić', 'Klisović', 'Bogdanić', 'Dadić', 'Fabić', 'Čavlek'
+                      ],
                 }
             }
         }, 'native': {
             'sex': {
                 'male': {
-                    'first': [],
-                    'second': []
+                    'first': [
+                        'Ivan', 'Marko', 'Josip', 'Ante', 'Petar', 'Matej', 'Tomislav', 'Nikola', 'Filip', 'Igor',
+                        'Davor', 'Ivica', 'Zoran', 'Luka', 'Mario', 'Dario', 'Kristijan', 'Stjepan', 'Damir', 'Robert',
+                        'Renato', 'Marin', 'Dražen', 'Boris', 'Domagoj', 'Sinisa', 'Ilija', 'Vladimir', 'Krunoslav', 'Miro',
+                        'Siniša', 'Ivo', 'Hrvoje', 'Goran', 'Zvonimir', 'Josip', 'Dinko', 'Branimir', 'Dino', 'Jure',
+                        'Željko', 'Karlo', 'Duje', 'Šime', 'Toni', 'Dalibor', 'Zdravko', 'Ivan', 'Darko', 'Franko',
+                        'René', 'Stipe', 'Marino', 'Davorin', 'Dragan', 'Dinko', 'Ljudevit', 'Valentino', 'Zdravko', 'Ivano',
+                        'Davor', 'Vedran', 'Alen', 'Matija', 'Bruno', 'Božidar', 'Jakov', 'Adrian', 'Nenad', 'Stanko',
+                        'Emil', 'Vatroslav', 'Denis', 'Tomislav', 'Robert', 'Andrija', 'Karlo', 'Grgur', 'Kresimir', 'Neven',
+                        'Tihomir', 'Sandro', 'Želimir', 'Dorian', 'Edi', 'Filip', 'Gabriel', 'Ilija', 'Janko', 'Karlo',
+                        'Luka', 'Marin', 'Nino', 'Ognjen', 'Patrik', 'Roko', 'Teo', 'Viktor', 'Zvonimir', 'Zygmunt'
+                      ],
+                    'second': [
+                        'Kovačić', 'Horvat', 'Babić', 'Jurić', 'Pavić', 'Novak', 'Marić', 'Ivanović', 'Kovač', 'Tomljanović',
+                        'Vuković', 'Knežević', 'Perić', 'Kovačević', 'Radić', 'Matić', 'Blažević', 'Petrović', 'Marković', 'Vidović',
+                        'Nikolić', 'Jovanović', 'Kos', 'Križanović', 'Pavlović', 'Lukić', 'Vlahović', 'Barišić', 'Šarić', 'Rukavina',
+                        'Tomić', 'Martinović', 'Perković', 'Blažić', 'Varga', 'Milić', 'Ilić', 'Antunović', 'Zorić', 'Vukelić',
+                        'Obradović', 'Klarić', 'Šimunović', 'Cindrić', 'Herceg', 'Šimić', 'Čuljak', 'Lovrić', 'Mišić', 'Župan',
+                        'Katić', 'Vukman', 'Mišković', 'Jerković', 'Vučković', 'Maras', 'Čule', 'Ivančić', 'Blažičević', 'Pleško',
+                        'Radišić', 'Mandić', 'Brezina', 'Valentić', 'Bukovac', 'Ivanković', 'Šošić', 'Bašić', 'Galić', 'Tadić',
+                        'Dragović', 'Vlašić', 'Škrlec', 'Bogdanović', 'Pavlić', 'Lončarić', 'Zelić', 'Radoš', 'Kramarić', 'Crnčić',
+                        'Grgić', 'Grubišić', 'Jukić', 'Čolak', 'Matković', 'Ledenko', 'Bralić', 'Španić', 'Ljubić', 'Majetić',
+                        'Krznarić', 'Karačić', 'Medić', 'Špoljarić', 'Kovačić', 'Klisović', 'Bogdanić', 'Dadić', 'Fabić', 'Čavlek'
+                      ]
                 },
                 'female': {
-                    'first': [],
-                    'second': [],
+                    'first': [
+                        'Ana', 'Iva', 'Martina', 'Elena', 'Petra', 'Lucija', 'Mia', 'Ivana', 'Marija', 'Kristina',
+                        'Nina', 'Sara', 'Magdalena', 'Dora', 'Tina', 'Monika', 'Lana', 'Ema', 'Andrea', 'Dijana',
+                        'Josipa', 'Katarina', 'Tamara', 'Antonija', 'Ana-Marija', 'Valentina', 'Laura', 'Barbara', 'Vesna', 'Jelena',
+                        'Natalija', 'Lea', 'Nika', 'Viktorija', 'Ivana', 'Lucija', 'Lara', 'Tea', 'Vanja', 'Ivona',
+                        'Ljiljana', 'Martina', 'Ines', 'Vanda', 'Klara', 'Marina', 'Ella', 'Ana', 'Ljubica', 'Mirjana',
+                        'Tamara', 'Ivana', 'Nina', 'Monika', 'Kristina', 'Matea', 'Dora', 'Marija', 'Helena', 'Sandra',
+                        'Diana', 'Dunja', 'Elena', 'Luna', 'Antonela', 'Neda', 'Adrijana', 'Eva', 'Karla', 'Nikolina',
+                        'Ivanka', 'Jasna', 'Branka', 'Ana', 'Lejla', 'Vlatka', 'Ivana', 'Antonia', 'Magdalena', 'Ivanka',
+                        'Klaudija', 'Ivona', 'Tamara', 'Marta', 'Renata', 'Sonja', 'Tamara', 'Tena', 'Matea', 'Mihaela',
+                        'Nika', 'Petra', 'Sara', 'Tina', 'Valentina', 'Vesna', 'Zrinka', 'Anamarija', 'Dorotea', 'Josipa'
+                      ],
+                    'second': [
+                        'Kovačić', 'Horvat', 'Babić', 'Jurić', 'Pavić', 'Novak', 'Marić', 'Ivanović', 'Kovač', 'Tomljanović',
+                        'Vuković', 'Knežević', 'Perić', 'Kovačević', 'Radić', 'Matić', 'Blažević', 'Petrović', 'Marković', 'Vidović',
+                        'Nikolić', 'Jovanović', 'Kos', 'Križanović', 'Pavlović', 'Lukić', 'Vlahović', 'Barišić', 'Šarić', 'Rukavina',
+                        'Tomić', 'Martinović', 'Perković', 'Blažić', 'Varga', 'Milić', 'Ilić', 'Antunović', 'Zorić', 'Vukelić',
+                        'Obradović', 'Klarić', 'Šimunović', 'Cindrić', 'Herceg', 'Šimić', 'Čuljak', 'Lovrić', 'Mišić', 'Župan',
+                        'Katić', 'Vukman', 'Mišković', 'Jerković', 'Vučković', 'Maras', 'Čule', 'Ivančić', 'Blažičević', 'Pleško',
+                        'Radišić', 'Mandić', 'Brezina', 'Valentić', 'Bukovac', 'Ivanković', 'Šošić', 'Bašić', 'Galić', 'Tadić',
+                        'Dragović', 'Vlašić', 'Škrlec', 'Bogdanović', 'Pavlić', 'Lončarić', 'Zelić', 'Radoš', 'Kramarić', 'Crnčić',
+                        'Grgić', 'Grubišić', 'Jukić', 'Čolak', 'Matković', 'Ledenko', 'Bralić', 'Španić', 'Ljubić', 'Majetić',
+                        'Krznarić', 'Karačić', 'Medić', 'Špoljarić', 'Kovačić', 'Klisović', 'Bogdanić', 'Dadić', 'Fabić', 'Čavlek'
+                      ],
                 }
             }
         }},
