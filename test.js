@@ -1,14 +1,14 @@
-const croatianSurnames = [
-  'Kovačić', 'Horvat', 'Babić', 'Jurić', 'Pavić', 'Novak', 'Marić', 'Ivanović', 'Kovač', 'Tomljanović',
-  'Vuković', 'Knežević', 'Perić', 'Kovačević', 'Radić', 'Matić', 'Blažević', 'Petrović', 'Marković', 'Vidović',
-  'Nikolić', 'Jovanović', 'Kos', 'Križanović', 'Pavlović', 'Lukić', 'Vlahović', 'Barišić', 'Šarić', 'Rukavina',
-  'Tomić', 'Martinović', 'Perković', 'Blažić', 'Varga', 'Milić', 'Ilić', 'Antunović', 'Zorić', 'Vukelić',
-  'Obradović', 'Klarić', 'Šimunović', 'Cindrić', 'Herceg', 'Šimić', 'Čuljak', 'Lovrić', 'Mišić', 'Župan',
-  'Katić', 'Vukman', 'Mišković', 'Jerković', 'Vučković', 'Maras', 'Čule', 'Ivančić', 'Blažičević', 'Pleško',
-  'Radišić', 'Mandić', 'Brezina', 'Valentić', 'Bukovac', 'Ivanković', 'Šošić', 'Bašić', 'Galić', 'Tadić',
-  'Dragović', 'Vlašić', 'Škrlec', 'Bogdanović', 'Pavlić', 'Lončarić', 'Zelić', 'Radoš', 'Kramarić', 'Crnčić',
-  'Grgić', 'Grubišić', 'Jukić', 'Čolak', 'Matković', 'Ledenko', 'Bralić', 'Španić', 'Ljubić', 'Majetić',
-  'Krznarić', 'Karačić', 'Medić', 'Špoljarić', 'Kovačić', 'Klisović', 'Bogdanić', 'Dadić', 'Fabić', 'Čavlek'
+const usaSurnames = [
+  'Smith', 'Johnson', 'Williams', 'Jones', 'Brown', 'Davis', 'Miller', 'Wilson', 'Moore', 'Taylor',
+  'Anderson', 'Thomas', 'Jackson', 'White', 'Harris', 'Martin', 'Thompson', 'Garcia', 'Martinez', 'Robinson',
+  'Clark', 'Rodriguez', 'Lewis', 'Lee', 'Walker', 'Hall', 'Allen', 'Young', 'Hernandez', 'King',
+  'Wright', 'Lopez', 'Hill', 'Scott', 'Green', 'Adams', 'Baker', 'Nelson', 'Carter', 'Mitchell',
+  'Perez', 'Roberts', 'Turner', 'Phillips', 'Campbell', 'Parker', 'Evans', 'Edwards', 'Collins', 'Stewart',
+  'Sanchez', 'Morris', 'Rogers', 'Reed', 'Cook', 'Morgan', 'Bell', 'Murphy', 'Bailey', 'Rivera',
+  'Cooper', 'Richardson', 'Cox', 'Howard', 'Ward', 'Torres', 'Peterson', 'Gray', 'Ramirez', 'James',
+  'Watson', 'Brooks', 'Kelly', 'Sanders', 'Price', 'Bennett', 'Wood', 'Barnes', 'Ross', 'Henderson',
+  'Coleman', 'Jenkins', 'Perry', 'Powell', 'Long', 'Patterson', 'Hughes', 'Flores', 'Washington', 'Butler',
+  'Simmons', 'Foster', 'Gonzalez', 'Bryant', 'Alexander', 'Russell', 'Griffin', 'Diaz', 'Hayes', 'Myers'
 ];
 
-console.log(croatianSurnames);
+console.log(usaSurnames);
