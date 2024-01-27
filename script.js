@@ -70,9 +70,11 @@ const copyFirstEn = document.getElementById("copy-first-en");
 const copySecondEn = document.getElementById("copy-second-en");
 const copyFirstGeo = document.getElementById("copy-first-geo");
 const copySecondGeo = document.getElementById("copy-second-geo");
+const copyBDEn = document.getElementById("copy-birth-en");
+const copyBDGeo = document.getElementById("copy-birth-geo");
 
-const BUTTONS = [copyFirstEn, copyFirstGeo, copySecondEn, copySecondGeo];
-const INPUTS = [firstEn, firstGeo, secondEn, secondGeo];
+const BUTTONS = [copyFirstEn, copyFirstGeo, copySecondEn, copySecondGeo, copyBDEn, copyBDGeo];
+const INPUTS = [firstEn, firstGeo, secondEn, secondGeo, birthEn, birthGeo];
 
 BUTTONS.forEach((button, index) => {
   button.addEventListener("click", () => {
