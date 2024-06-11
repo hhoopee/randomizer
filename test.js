@@ -1,14 +1,11 @@
 const usaSurnames = [
-  'Smith', 'Johnson', 'Williams', 'Jones', 'Brown', 'Davis', 'Miller', 'Wilson', 'Moore', 'Taylor',
-  'Anderson', 'Thomas', 'Jackson', 'White', 'Harris', 'Martin', 'Thompson', 'Garcia', 'Martinez', 'Robinson',
-  'Clark', 'Rodriguez', 'Lewis', 'Lee', 'Walker', 'Hall', 'Allen', 'Young', 'Hernandez', 'King',
-  'Wright', 'Lopez', 'Hill', 'Scott', 'Green', 'Adams', 'Baker', 'Nelson', 'Carter', 'Mitchell',
-  'Perez', 'Roberts', 'Turner', 'Phillips', 'Campbell', 'Parker', 'Evans', 'Edwards', 'Collins', 'Stewart',
-  'Sanchez', 'Morris', 'Rogers', 'Reed', 'Cook', 'Morgan', 'Bell', 'Murphy', 'Bailey', 'Rivera',
-  'Cooper', 'Richardson', 'Cox', 'Howard', 'Ward', 'Torres', 'Peterson', 'Gray', 'Ramirez', 'James',
-  'Watson', 'Brooks', 'Kelly', 'Sanders', 'Price', 'Bennett', 'Wood', 'Barnes', 'Ross', 'Henderson',
-  'Coleman', 'Jenkins', 'Perry', 'Powell', 'Long', 'Patterson', 'Hughes', 'Flores', 'Washington', 'Butler',
-  'Simmons', 'Foster', 'Gonzalez', 'Bryant', 'Alexander', 'Russell', 'Griffin', 'Diaz', 'Hayes', 'Myers'
+  'Chan', 'Cheung',   'Leung', 'Lau', 'Li', 'Cheng', 'Lai', 'Yeung', 'Tang', 'Chow', 'Fung', 'Tsang', 'Kwok', 'Yu', 
+  'Chu', 'Tse', 'Yip', 'Law', 'Liu', 'Wong', 'Hui', 'Mak', 'Yuen', 'Wu', 'Chiu', 'Choi', 'So', 'Au', 'Poon', 'Kwan',
+  'Ma', 'Chen', 'Wang', 'Wan', 'Lui', 'Tong', 'Siu', 'Man', 'Ip', 'Tsui', 'Pang', 'Zhang', 'Mok', 'Kong', 'Lam', 'Ko',
+  'Kwong', 'Luk', 'Ng', 'Yiu', 'Chong', 'Lin', 'Ho', 'Yung', 'Yan', 'Chui', 'Fan', 'Yang', 'Chang', 'Choy', 'Huang',
+  'Sin', 'Tai', 'Sze', 'Kan', 'Shum',   'Fu', 'Yim', 'Sun', 'Ling', 'Tan', 'Ngai', 'Fok', 'Xu', 'Hong', 'Lee', 'Lu',
+  'Suen', 'Tam', 'Chung', 'Zhou', 'Pun', 'Yin', 'Zhao', 'Zhu', 'Hu', 'Szeto',   'Cheuk', 'Tsoi', 'Cho', 'Yue', 'Keung',
+  'Liang', 'He', 'Lung', 'Mo', 'Kim', 'Shiu', 'Zheng', 'Kung', 'Ku', 'Jiang', 'Wei', 'Tso'
 ];
 
 console.log(usaSurnames);

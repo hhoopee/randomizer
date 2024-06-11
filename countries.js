@@ -1272,12 +1272,47 @@ const countries = {
     'Hong Kong': { 'en': {
             'sex': {
                 'male': {
-                    'first': [],
-                    'second': []
+                    'first': ['Chi', 'Tong', 'Shu', 'Tao', 'Peng', 'Long', 'Neo', 'Liang', 'Yong', 'Hai', 'Tian', 'Qiang', 'Cong', 'Andrew', 'Shuai',
+                    'Heng', 'Mao', 'William', 'Xiaoming', 'Pengfei', 'Thomas', 'Simon', 'Paul', 'Shuo', 'Xiaodong', 'Takeshi', 'Chris',
+                    'Junjie', 'Zhenyu', 'Zhigang', 'Zhan', 'Steven', 'James', 'Yijun', 'Jiawei', 'Gary', 'Jason', 'Kenneth', 'Sam',
+                    'Yifeng', 'Joe', 'Haoran', 'Quan', 'Junyi', 'Sen', 'Zhijun', 'Ricky', 'Yiming', 'Yuming', 'Anthony', 'Ivan', 'Zhiqiang',
+                    'Xiaolong', 'Jacky', 'Mark', 'Victor', 'Lang', 'Haifeng', 'Weimin', 'Wenhao', 'Zhiyuan', 'Dian', 'Wilson', 'Biao', 
+                    'Bebe', 'Xiaobo', 'Zhiming', 'Kian', 'Hongwei', 'Charles', 'Jack', 'Teo', 'Mingming', 'Zhimin', 'Wenbin', 'Pengcheng',
+                    'Binbin', 'Kai', 'Hao', 'Song', 'Chao', 'Di', 'Can', 'Xing', 'Michael', 'Chuan', 'David', 'Gang', 'Sy', 'Eric', 'Peter',
+                    'John', 'Guo', 'Alex', 'Guang', 'Raymond', 'Patrick', 'Yifei', 'Tony', 'Alan', 'Kevin', 'Stephen', 'Ken', 'Vincent',
+                    'Zhiwei', 'Henry', 'Daniel', 'Benjamin', 'Cai', 'Kelvin', 'Weiming', 'Wenjun', 'Luan', 'Aiden', 'Sunday', 'Edward',
+                    'Om', 'Zhiyong', 'Richard', 'Joseph', 'Wenbo', 'Dongdong', 'Yuxuan', 'Chuang', 'Yulin', 'Xiaopeng', 'Philip', 'Matthew',
+                    'Brian', 'Stanley', 'Eddie', 'Liming', 'Ge', 'Xiong', 'Keith', 'Samuel', 'Albert', 'Kenny', 'Jimmy', 'Johnny', 'Martin',
+                    'Yimin', 'Xiaoguang', 'Ou', 'Lixin', 'Guodong', 'Jiajun', 'Da', 'Weifeng'],
+                    'second': ['Chan', 'Cheung',   'Leung', 'Lau', 'Li', 'Cheng', 'Lai', 'Yeung', 'Tang', 'Chow', 'Fung', 'Tsang', 'Kwok', 'Yu', 
+                    'Chu', 'Tse', 'Yip', 'Law', 'Liu', 'Wong', 'Hui', 'Mak', 'Yuen', 'Wu', 'Chiu', 'Choi', 'So', 'Au', 'Poon', 'Kwan',
+                    'Ma', 'Chen', 'Wang', 'Wan', 'Lui', 'Tong', 'Siu', 'Man', 'Ip', 'Tsui', 'Pang', 'Zhang', 'Mok', 'Kong', 'Lam', 'Ko',
+                    'Kwong', 'Luk', 'Ng', 'Yiu', 'Chong', 'Lin', 'Ho', 'Yung', 'Yan', 'Chui', 'Fan', 'Yang', 'Chang', 'Choy', 'Huang',
+                    'Sin', 'Tai', 'Sze', 'Kan', 'Shum',   'Fu', 'Yim', 'Sun', 'Ling', 'Tan', 'Ngai', 'Fok', 'Xu', 'Hong', 'Lee', 'Lu',
+                    'Suen', 'Tam', 'Chung', 'Zhou', 'Pun', 'Yin', 'Zhao', 'Zhu', 'Hu', 'Szeto',   'Cheuk', 'Tsoi', 'Cho', 'Yue', 'Keung',
+                    'Liang', 'He', 'Lung', 'Mo', 'Kim', 'Shiu', 'Zheng', 'Kung', 'Ku', 'Jiang', 'Wei', 'Tso']
                 },
                 'female': {
-                    'first': [],
-                    'second': [],
+                    'first': ['Yan', 'Man', 'Mei', 'Wei', 'Ling', 'Yin', 'Hui', 'Xiao', 'Yun', 'Ning', 'Xin', 'Jin', 'Qing', 'Xi', 'Meng', 'Li',
+                    'Qian', 'Tingting', 'Rong', 'Qi', 'Ya', 'Xiang', 'Yifan', 'Yuanyuan', 'Huan', 'Zhu', 'Lingling', 'Miao', 'Qin',
+                    'Meiling', 'Yuping', 'Xiaoyu', 'Yingying', 'Cheng', 'Yanyan', 'Mai', 'Shuang', 'Feifei', 'Bei', 'Tea', 'Yilin',
+                    'Winnie', 'Ru', 'Xiaoxiao', 'Xiaowen', 'Karen', 'Xiaoying', 'Yiwei', 'Kay', 'Yuxin', 'Qiu', 'Xinyue', 'Liling',
+                    'Xiaoyan', 'Xiaowei', 'Jianfeng', 'Yangyang', 'Rongrong', 'Xiaoli', 'Tiantian', 'Grace', 'Joyce', 'Mandy', 'Jianwei',
+                    'Jingyi', 'Ailin', 'Ziyi', 'Qiao', 'Xinxin', 'Connie', 'Vivian', 'Eva', 'Yihan', 'Yanhong', 'Qianqian', 'Angela',
+                    'Dennis', 'Iris', 'Catherine', 'Chenchen', 'Jiahui', 'Zhenhua', 'Xiaolin', 'Yanping', 'Annie', 'Carol', 'Carmen',
+                    'Candy', 'Elaine', 'Anna', 'Danny', 'Christine', 'Cindy', 'Jennifer', 'Yanli', 'Yuling', 'Beibei', 'Yuhong', 'Ying',
+                    'Chun', 'Ming', 'May', 'Lin', 'Fei', 'Hong',  'Lei', 'Min', 'Yang', 'Chen', 'Jie', 'Ye', 'Xu', 'Han', 'Nan', 'Lan',
+                    'Bin', 'Lou', 'Zhi', 'Zhen', 'Pei', 'Shanshan', 'Xuan', 'Zheng', 'Ai', 'Xue', 'Na', 'Chan', 'Zhao', 'Jingjing', 'Xenia',
+                    'Weiwei', 'Xinyi', 'Meimei', 'Xian', 'Qiong', 'Liying', 'Xia', 'Wenjing', 'Lian', 'Xiaojun', 'Lee', 'Jiayi', 'Yuting',
+                    'Xinyu', 'Xiaohui', 'Yiwen', 'Yu', 'Siyu', 'Linlin', 'Yiyi', 'Haiyan', 'Amy', 'Liwen', 'Yanling', 'Liping', 'Alice',
+                    'Xiaofei', 'Yuqing', 'Jingwen',   'Huimin', 'Zhenzhen', 'Yixin', 'Xiaohong', 'Michelle', 'Xiaolei'],
+                    'second': ['Chan', 'Cheung',   'Leung', 'Lau', 'Li', 'Cheng', 'Lai', 'Yeung', 'Tang', 'Chow', 'Fung', 'Tsang', 'Kwok', 'Yu', 
+                    'Chu', 'Tse', 'Yip', 'Law', 'Liu', 'Wong', 'Hui', 'Mak', 'Yuen', 'Wu', 'Chiu', 'Choi', 'So', 'Au', 'Poon', 'Kwan',
+                    'Ma', 'Chen', 'Wang', 'Wan', 'Lui', 'Tong', 'Siu', 'Man', 'Ip', 'Tsui', 'Pang', 'Zhang', 'Mok', 'Kong', 'Lam', 'Ko',
+                    'Kwong', 'Luk', 'Ng', 'Yiu', 'Chong', 'Lin', 'Ho', 'Yung', 'Yan', 'Chui', 'Fan', 'Yang', 'Chang', 'Choy', 'Huang',
+                    'Sin', 'Tai', 'Sze', 'Kan', 'Shum',   'Fu', 'Yim', 'Sun', 'Ling', 'Tan', 'Ngai', 'Fok', 'Xu', 'Hong', 'Lee', 'Lu',
+                    'Suen', 'Tam', 'Chung', 'Zhou', 'Pun', 'Yin', 'Zhao', 'Zhu', 'Hu', 'Szeto',   'Cheuk', 'Tsoi', 'Cho', 'Yue', 'Keung',
+                    'Liang', 'He', 'Lung', 'Mo', 'Kim', 'Shiu', 'Zheng', 'Kung', 'Ku', 'Jiang', 'Wei', 'Tso'],
                 }
             }
         }, 'native': {
