@@ -54,57 +54,37 @@ const countries = {
         }, 'native': {
             'sex': {
                 'male': {
-                    'first': [
-                        "Lukas", "Maximilian", "Elias", "David", "Jakob", "Paul", "Leon", "Felix", "Luca", "Moritz",
-                        "Jonas", "Fabian", "Simon", "Julian", "Niklas", "Alexander", "Jonathan", "Tobias", "Benjamin", "Dominik",
-                        "Philipp", "Christian", "Sebastian", "Adrian", "Markus", "Anton", "Nico", "Michael", "Valentin", "Florian",
-                        "Daniel", "Fabio", "Vincent", "Emil", "Gabriel", "Nikolai", "Emanuel", "Raphael", "Oliver", "Hannes",
-                        "Klaus", "Wolfgang", "Andreas", "Johann", "Richard", "Gerald", "Heinz", "Werner", "Alfred", "Armin",
-                        "Benedikt", "Bernd", "Christoph", "David", "Edwin", "Franz", "Gerhard", "Gunter", "Helmut", "Ingo", "Jan",
-                        "Karl", "Kurt", "Leopold", "Matthias", "Norbert", "Oskar", "Pascal", "Quirin", "Roland", "Stefan", "Theo",
-                        "Uwe", "Viktor", "Wilhelm", "Xaver", "Yannick", "Zacharias"
-                      ],
+                    'first': ["Maximilian", "Alexander", "Paul", "Leon", "Lukas", "Felix", "Elias", "Finn", "Noah",
+                      "Jonas", "Luis", "Julian", "Moritz", "David", "Niklas", "Simon", "Jan", "Luca", "Philipp", "Tim", "Fabian",
+                      "Johannes", "Florian", "Tom", "Matthias", "Benedikt", "Samuel", "Tobias", "Dominik", "Sebastian", "Erik",
+                      "Daniel", "Adrian", "Jannik", "Markus", "Benjamin", "Kevin", "Christian", "Stefan", "Kai", "Michael", "Rafael",
+                      "Patrick", "Marvin", "Hannes", "Oliver", "Nico", "Anton", "Julius", "Konstantin"],
                     'second': [
-                        "Schmidt", "Müller", "Wagner", "Schneider", "Fischer", "Weber", "Meyer", "Huber", "Hofer", "Gruber",
-                        "Leitner", "Steiner", "Schmid", "Maier", "Eder", "Bauer", "Winkler", "Auer", "Pichler", "Berger",
-                        "Fuchs", "Wallner", "Mayr", "Lang", "Schwarz", "Fischer", "Wimmer", "Hofmann", "Lechner", "Moser",
-                        "Eder", "Neumann", "Haas", "Hofmann", "Winkler", "Koller", "Wolf", "Leitner", "Wagner", "Grün",
-                        "Herrmann", "Binder", "Aigner", "Schuster", "Richter", "Herzog", "Schwarz", "Fiala", "Scholz",
-                        "Fröhlich", "Hermann", "Haas", "Hess", "Lederer", "Lang", "Zimmermann", "Schubert", "Brunner",
-                        "Resch", "Reiter", "Fritz", "Gruber", "Brunner", "Schmidt", "Brandtner", "Moser", "Leitner",
-                        "Gross", "Egger", "Wieser", "Reiter", "Bach", "Kramer", "Pfeiffer", "Stadler", "Weiss", "Sailer",
-                        "Bauer", "Schreiber", "Lechner", "Scholz", "Fröhlich", "Wimmer", "Eder", "Reiter", "Koch", "Roth",
-                        "Leitner", "Sauer"
-                      ]
+                      "Gruber", "Huber", "Bauer", "Wagner", "Müller", "Pichler", "Steiner", "Moser", "Mayer", "Hofer",
+                      "Leitner", "Berger", "Fuchs", "Eder", "Fischer", "Binder", "Weber", "Schmidt", "Schneider", "Reiter",
+                      "Meier", "Wolf", "Egger", "Schmid", "Winkler", "Maier", "Schwarz", "Koch", "Kurz", "Ebner",
+                      "Auer", "Lang", "Brunner", "Friedl", "Lechner", "Baumann", "Holzer", "Gasser", "Hoegl", "Heinrich",
+                      "Pfeifer", "Wieser", "Mayr", "Otto", "Koller", "Haas", "Brandl", "Schuster", "Winter", "Mayerhofer"
+                    ]
                 },
                 'female': {
-                    'first': [
-                        "Sophie", "Lena", "Anna", "Emma", "Laura", "Lea", "Lara", "Hannah", "Julia", "Sarah",
-                        "Isabella", "Ella", "Mia", "Emilia", "Alina", "Melanie", "Vanessa", "Marie", "Lina", "Clara",
-                        "Katharina", "Nina", "Victoria", "Amelie", "Lisa", "Jana", "Eva", "Paula", "Magdalena", "Celine",
-                        "Zoe", "Olivia", "Maria", "Sophia", "Jasmin", "Rosa", "Ava", "Carina", "Elisa", "Mila",
-                        "Eleonora", "Selina", "Miriam", "Antonia", "Leonie", "Valerie", "Anastasia", "Greta", "Charlotte",
-                        "Fiona", "Livia", "Nora", "Sara", "Elena", "Vivian", "Amy", "Evelyn", "Gloria", "Irina",
-                        "Melina", "Ina", "Elvira", "Helena", "Raphaela", "Sabrina", "Alicia", "Emely", "Eliana", "Linda",
-                        "Marlene", "Stella", "Theresa", "Beatrice", "Helene", "Ines", "Veronika", "Frida", "Maja", "Aurora",
-                        "Lisbeth", "Lorena", "Amelia", "Diana", "Isa", "Rosalie", "Ruth", "Yara", "Alma", "Mira"
-                      ],
+                    'first': ["Anna", "Sophie", "Lena", "Leonie", "Laura", "Emilia", "Hannah", "Marie", "Mia",
+                      "Luisa", "Johanna", "Elena", "Lina", "Lara", "Clara", "Sarah", "Julia", "Emma", "Sophia", "Magdalena", "Lea",
+                      "Nina", "Amelie", "Valentina", "Mila", "Eva", "Lisa", "Paula", "Elisa", "Katharina", "Isabella", "Carina", "Nora",
+                      "Maria", "Charlotte", "Helena", "Stella", "Jana", "Greta", "Tabea", "Melina", "Marlene", "Theresa", "Victoria",
+                      "Annika", "Caroline", "Ella", "Franziska", "Martina", "Simone"],
                     'second': [
-                        "Schmidt", "Müller", "Wagner", "Schneider", "Fischer", "Weber", "Meyer", "Huber", "Hofer", "Gruber",
-                        "Leitner", "Steiner", "Schmid", "Maier", "Eder", "Bauer", "Winkler", "Auer", "Pichler", "Berger",
-                        "Fuchs", "Wallner", "Mayr", "Lang", "Schwarz", "Fischer", "Wimmer", "Hofmann", "Lechner", "Moser",
-                        "Eder", "Neumann", "Haas", "Hofmann", "Winkler", "Koller", "Wolf", "Leitner", "Wagner", "Grün",
-                        "Herrmann", "Binder", "Aigner", "Schuster", "Richter", "Herzog", "Schwarz", "Fiala", "Scholz",
-                        "Fröhlich", "Hermann", "Haas", "Hess", "Lederer", "Lang", "Zimmermann", "Schubert", "Brunner",
-                        "Resch", "Reiter", "Fritz", "Gruber", "Brunner", "Schmidt", "Brandtner", "Moser", "Leitner",
-                        "Gross", "Egger", "Wieser", "Reiter", "Bach", "Kramer", "Pfeiffer", "Stadler", "Weiss", "Sailer",
-                        "Bauer", "Schreiber", "Lechner", "Scholz", "Fröhlich", "Wimmer", "Eder", "Reiter", "Koch", "Roth",
-                        "Leitner", "Sauer"
-                      ]
+                      "Gruber", "Huber", "Bauer", "Wagner", "Müller", "Pichler", "Steiner", "Moser", "Mayer", "Hofer",
+                      "Leitner", "Berger", "Fuchs", "Eder", "Fischer", "Binder", "Weber", "Schmidt", "Schneider", "Reiter",
+                      "Meier", "Wolf", "Egger", "Schmid", "Winkler", "Maier", "Schwarz", "Koch", "Kurz", "Ebner",
+                      "Auer", "Lang", "Brunner", "Friedl", "Lechner", "Baumann", "Holzer", "Gasser", "Hoegl", "Heinrich",
+                      "Pfeifer", "Wieser", "Mayr", "Otto", "Koller", "Haas", "Brandl", "Schuster", "Winter", "Mayerhofer"
+                    ]
                 }
             }
         }},
-    'Azerbaijan': { 'en': {
+    'Azerbaijan': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -211,7 +191,8 @@ const countries = {
                 }
             }
         }},
-    'Albania': { 'en': {
+    'Albania': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -270,17 +251,12 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        "Adrian", "Besnik", "Dritan", "Elton", "Fatmir", "Genc", "Hasan", "Ilir", "Jon", "Kreshnik",
-                        "Liridon", "Maks", "Nertil", "Oltion", "Petrit", "Qemal", "Renato", "Skënder", "Taulant", "Urim",
-                        "Vasil", "Xhavit", "Ylli", "Zef", "Agron", "Blerim", "Dashamir", "Erjon", "Flamur", "Gentian",
-                        "Hektor", "Ismet", "Jurgen", "Kliton", "Luan", "Mikel", "Naim", "Olsi", "Përparim", "Qamil",
-                        "Ramazan", "Saimir", "Taulant", "Urim", "Viktor", "Xhevahir", "Ylber", "Zaim", "Arben", "Bujar",
-                        "Dorian", "Endrit", "Fatos", "Gjergj", "Ilaz", "Jozef", "Kastriot", "Lum", "Marjan", "Nik",
-                        "Oltion", "Pajtim", "Qëndrim", "Redi", "Shpëtim", "Tedi", "Urim", "Valon", "Xhulio", "Yll",
-                        "Zoti", "Artan", "Bardhyl", "Dardan", "Edon", "Flori", "Gazi", "Ilion", "Jonuz", "Kozma",
-                        "Lek", "Milazim", "Nevruz", "Ornel", "Pëllumb", "Qëndrore", "Ramush", "Shemsi", "Tahir", "Uendi",
-                        "Vigan", "Xhorxh", "Yllmir", "Zaim", "Ardit", "Bujen", "Dren", "Elham", "Fation", "Gjini"
-                      ],
+                      "Arben", "Bujar", "Dritan", "Edison", "Elion", "Fatos", "Flamur", "Genti", "Granit", "Ilir",
+                      "Ismail", "Jetmir", "Kastriot", "Luan", "Mentor", "Nderim", "Orion", "Pëllumb", "Rinor", "Shkëlzen",
+                      "Sokol", "Valon", "Visar", "Ylli", "Alban", "Besnik", "Dorian", "Erion", "Genc", "Gentian",
+                      "Ardit", "Agron", "Alket", "Arian", "Arjan", "Astrit", "Besart", "Dardan", "Dritëro", "Enis",
+                      "Fatmir", "Fisnik", "Kreshnik", "Lirim", "Lindon", "Liridon", "Shpend", "Skënder", "Valmir", "Xhevdet"
+                  ],
                     'second': [
                         "Krasniqi", "Qorri", "Rama", "Gashi", "Gjonaj", "Xhaka", "Krasniqi", "Thaçi", "Lleshi", "Maloku",
                         "Vllasaliu", "Hoxha", "Kuka", "Elezi", "Krasniqi", "Lala", "Ibrahimi", "Kryeziu", "Selimi", "Krasniqi",
@@ -296,17 +272,12 @@ const countries = {
                 },
                 'female': {
                     'first': [
-                        "Adelina", "Besa", "Dafina", "Elira", "Flaka", "Genta", "Hana", "Ilira", "Jona", "Klea",
-                        "Lira", "Marsela", "Nita", "Ornela", "Petronela", "Qendresa", "Rina", "Suela", "Tea", "Uarda",
-                        "Valbona", "Xhoana", "Yllka", "Zeta", "Antigona", "Bukurije", "Diana", "Ermira", "Fjolla", "Gresa",
-                        "Hera", "Inesa", "Jehona", "Krenare", "Luljeta", "Megi", "Njomza", "Oneda", "Pranvera", "Qëndore",
-                        "Rovena", "Shpresa", "Teuta", "Uarda", "Valza", "Xhilda", "Yllka", "Zana", "Arbëresha", "Blerta",
-                        "Drita", "Endrina", "Fjolla", "Gresa", "Hava", "Ilira", "Jehona", "Klea", "Lindi", "Marsida",
-                        "Njomza", "Oriana", "Pranvera", "Qëndesa", "Rina", "Shpresa", "Tea", "Uendi", "Valbona", "Xhilda",
-                        "Yllka", "Zeta", "Anjeza", "Bukuroshe", "Dafina", "Era", "Flutura", "Gresa", "Helena", "Inesa",
-                        "Jona", "Klevisa", "Lara", "Megi", "Nora", "Orinda", "Pjeterdina", "Qamile", "Rea", "Shpresa",
-                        "Tereza", "Uarda", "Valbona", "Xhensila", "Yllka", "Zara"
-                      ],
+                      "Arta", "Besa", "Drita", "Elda", "Elira", "Flora", "Gentiana", "Ilirjana", "Ismira", "Jeta",
+                      "Kaltrina", "Lira", "Mira", "Nora", "Orjana", "Pranvera", "Rina", "Shpresa", "Valbona", "Yllka",
+                      "Zana", "Adelina", "Aferdita", "Albana", "Alketa", "Ana", "Arjeta", "Arlinda", "Aurela", "Blerina",
+                      "Brikena", "Diellza", "Eglantina", "Emira", "Eranda", "Eriona", "Fatmira", "Fjolla", "Lindita", "Loreta",
+                      "Lumturi", "Miranda", "Nertilja", "Shqipe", "Teuta", "Vjollca", "Xhoana", "Zamira", "Zhuljeta", "Dafina"
+                  ],
                     'second': [
                         "Krasniqi", "Qorri", "Rama", "Gashi", "Gjonaj", "Xhaka", "Krasniqi", "Thaçi", "Lleshi", "Maloku",
                         "Vllasaliu", "Hoxha", "Kuka", "Elezi", "Krasniqi", "Lala", "Ibrahimi", "Kryeziu", "Selimi", "Krasniqi",
@@ -322,7 +293,8 @@ const countries = {
                 }
             }
         }},
-    'Andorra': { 'en': {
+    'Andorra': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -381,17 +353,12 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        "Marc", "Jordi", "Enric", "Antoni", "Gerard", "Carles", "Xavier", "Josep", "Pere", "Lluis",
-                        "Ramon", "Albert", "Francesc", "Jaume", "David", "Eduard", "Mateu", "Oriol", "Ricard", "Santi",
-                        "Miquel", "Joaquim", "Salvador", "Manel", "Alex", "Esteve", "Narcis", "Quim", "Guillem", "Javi",
-                        "Victor", "Daniel", "Arnau", "Pol", "Jose", "Oscar", "Felix", "Martin", "Raul", "Gines",
-                        "Xavier", "Emili", "Agusti", "Mariano", "Julio", "Isidre", "Fabio", "Pau", "Teo", "Angel",
-                        "Agusti", "Ismael", "Tono", "Ivan", "Dani", "Marc", "Aitor", "Iker", "Sergio", "Ruben",
-                        "Jon", "Abel", "Miguel", "Adrian", "Roberto", "Jorge", "Alvaro", "Gabriel", "Hugo", "Alfonso",
-                        "Jesus", "Javier", "Diego", "Victor", "Alberto", "Carlos", "Juan", "Enrique", "Pedro", "Manuel",
-                        "Miguel", "David", "Jose", "Francisco", "Antonio", "Alejandro", "Javier", "Jose Antonio", "Francisco Javier", "Jose Luis",
-                        "Juan Carlos", "Jesus", "Miguel Angel", "Francisco Jose", "Angel", "Juan Jose", "Joaquin", "Jose Manuel", "Rafael", "Fernando"
-                      ],
+                      "Joan", "Josep", "Marc", "Jordi", "Pere", "Antoni", "Francesc", "Miquel", "Manel", "Ramon",
+                      "Carles", "David", "Xavier", "Albert", "Sergi", "Oriol", "Martí", "Rafael", "Jaume", "Pau",
+                      "Daniel", "Nicolau", "Toni", "Aleix", "Lluís", "Ricard", "Enric", "Gerard", "Roger", "Andreu",
+                      "Adrià", "Àlex", "Arnau", "Bernat", "Bruno", "Ferran", "Guillem", "Hèctor", "Izan", "Ivan",
+                      "Jan", "Joan Pau", "Joel", "Nil", "Pol", "Raül", "Sebastià", "Tomàs", "Víctor", "Arnau"
+                  ],
                     'second': [
                         "Martí", "Serra", "Valls", "Riba", "Pujol", "Martínez", "Vila", "Baró", "Aranda", "Riu",
                         "Miquel", "Costa", "Ricart", "Torres", "Ferrer", "Balaguer", "Nadal", "Bosch", "Palau", "Miró",
@@ -407,17 +374,12 @@ const countries = {
                 },
                 'female': {
                     'first': [
-                        "Anna", "Laia", "Maria", "Elena", "Montserrat", "Laura", "Judith", "Nuria", "Marta", "Silvia",
-                        "Sandra", "Roser", "Esther", "Pilar", "Cristina", "Ester", "Judit", "Adriana", "Mireia", "Lourdes",
-                        "Carla", "Ariadna", "Natalia", "Eva", "Aina", "Alba", "Nerea", "Claudia", "Ainhoa", "Raquel",
-                        "Carme", "Gemma", "Irene", "Aurora", "Lidia", "Clara", "Mercedes", "Dolores", "Isabel", "Elisabeth",
-                        "Olga", "Beatriz", "Aurora", "Concepcion", "Nieves", "Natalia", "Inmaculada", "Teresa", "Angela",
-                        "Monica", "Sofia", "Almudena", "Julia", "Ana Maria", "Virginia", "Rosa", "Consuelo", "Juana",
-                        "Josefa", "Rocio", "Yolanda", "Alicia", "Victoria", "Catalina", "Luz", "Margarita", "Encarnacion",
-                        "Amparo", "Daniela", "Emilia", "Esperanza", "Manuela", "Francisca", "Guadalupe", "Asuncion", "Milagros",
-                        "Rafaela", "Antonia", "Concha", "Lola", "Diana", "Susana", "Noelia", "Sonia", "Vanessa", "Elena",
-                        "Miriam", "Carmen", "Maria Jose", "Beatriz", "Patricia", "Nerea", "Ana", "Paz", "Lidia", "Rosa"
-                      ],
+                      "Laia", "Marta", "Anna", "Laura", "Julia", "Emma", "Sara", "Maria", "Paula", "Andrea",
+                      "Clàudia", "Aina", "Elena", "Núria", "Carla", "Judith", "Ariadna", "Meritxell", "Cristina", "Montserrat",
+                      "Silvia", "Nadia", "Alba", "Júlia", "Carme", "Irene", "Lídia", "Mireia", "Raquel", "Lola",
+                      "Berta", "Sònia", "Gemma", "Ariadna", "Noa", "Marina", "Diana", "Ester", "Pilar", "Eva",
+                      "Tània", "Núria", "Cecília", "Miriam", "Xènia", "Montserrat", "Adriana", "Mar", "Roser", "Aina"
+                  ],
                     'second': [
                         "Martí", "Serra", "Valls", "Riba", "Pujol", "Martínez", "Vila", "Baró", "Aranda", "Riu",
                         "Miquel", "Costa", "Ricart", "Torres", "Ferrer", "Balaguer", "Nadal", "Bosch", "Palau", "Miró",
@@ -433,7 +395,8 @@ const countries = {
                 }
             }
         }},
-    'Armenia': { 'en': {
+    'Armenia': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -494,61 +457,41 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        "Arman", "Artur", "Davit", "Ashot", "Hayk", "Tigran", "Gevorg", "Karen", "Vardan", "Ruben",
-                        "Suren", "Hakob", "Gagik", "Levon", "Aram", "Samvel", "Robert", "Sarkis", "Mher", "Narek",
-                        "Edgar", "Rafael", "Gor", "Andranik", "Tigran", "Hovhannes", "Arsen", "Garegin", "Vahan", "Areg",
-                        "Gurgen", "Hrant", "Areg", "Edik", "Vahe", "Areg", "Aramayis", "Zaven", "Zhirayr", "Hamlet",
-                        "Vrezh", "Razmik", "Sevak", "Antranik", "Norayr", "Areg", "Hovsep", "Khachik", "Hovig", "Artashes",
-                        "Gegham", "Hamo", "Raffi", "Varazdat", "Khoren", "Haykaz", "Nairi", "Aren", "Alik", "Artak",
-                        "Vigen", "Artyom", "Hmayak", "Daron", "Davit", "Haygazun", "Koryun", "Taron", "Zohrab", "Grigor",
-                        "Ardashes", "Arshak", "Ardavast", "Aregak", "Gevork", "Khachatur", "Khajag", "Misak", "Movses", "Nareg",
-                        "Poghos", "Sahak", "Saribek", "Sarkis", "Stepan", "Tadevos", "Toros", "Touman", "Tsaghik", "Vartan",
-                        "Viken", "Voskan", "Yeghishe", "Zarmayr", "Zoravar", "Zorik", "Zorikto", "Zorikto", "Zorian", "Zorikto"
-                      ],
+                      "Արամ", "Հայկ", "Սուրեն", "Գոր", "Լեւոն", "Հովհաննես", "Արսեն", "Սերգեյ", "Դավիթ", "Արման",
+                      "Վահագն", "Արտյոմ", "Սիմոն", "Անդրանիկ", "Արշակ", "Ռուբեն", "Տիգրան", "Նարինե", "Հրաչան", "Արմին",
+                      "Համլետ", "Սպարտակ", "Բենիամին", "Կարեն", "Թորոս", "Գագիկ", "Սուս", "Վահան", "Անդրան", "Կոստանդին",
+                      "Հրակ", "Արմիկ", "Ստեփան", "Մանվել", "Արմանդ", "Գեորգ", "Մարտիրոս", "Ստեփանոս", "Տիրան", "Արտաշես",
+                      "Հրաչյա", "Հայկո", "Սմբատ", "Համազա", "Սիլվա", "Արաքս", "Լեոն", "Տիրամ", "Միհրան", "Հրանտ"
+                  ],
                     'second': [
-                        "Aleksanyan", "Mirzoyan", "Karapetyan", "Sargsyan", "Tatulyan", "Hayrapetyan", "Gasparyan", "Aleysyan", "Nazaryan", "Khachatryan",
-                        "Davydyan", "Khachikyan", "Halabyan", "Vardanyan", "Grigoryan", "Abelyan", "Movsisyan", "Adamyan", "Bagratyan", "Martirosyan",
-                        "Manukyan", "Arakelyan", "Bagdasaryan", "Galustyan", "Nikolayan", "Arzumanyan", "Adalyan", "Harutyunyan", "Gustaghyan", "Danyelyan",
-                        "Mukhadyan", "Araratyan", "Dukhayan", "Malakhyanyan", "Khachatrian", "Muradyan", "Nazaryan", "Asatryan", "Kamalyan", "Armenian",
-                        "Sevakyan", "Hovsepyan", "Sogomonyan", "Gulparanyan", "Darbinyan", "Minasyan", "Arshakyan", "Nasranyan", "Dumanyan", "Armanyan",
-                        "Khachatryan", "Azgamikyan", "Margaryan", "Bagdasaryan", "Hakobyan", "Avagyan", "Hakobyan", "Gabrielyan", "Yeghiazaryan", "Aghajanyan",
-                        "Asoyan", "Gevorgyan", "Israelyan", "Ispiryan", "Kazaryan", "Kazanjian", "Karagulyan", "Khachadourian", "Kharazyan", "Khatchadourian",
-                        "Khojayan", "Kirakosyan", "Kocharyan", "Kurkjian", "Kurumlian", "Manaseryan", "Manoukian", "Margaryan", "Matevosyan", "Mazmanyan",
-                        "Mkhitaryan", "Movsesian", "Nadjarian", "Nalbandian", "Nazarian", "Nersesian", "Ohanian", "Ouzounian", "Papazian", "Parsanian",
-                        "Partamian", "Petrosyan", "Saghatelyan", "Sahagian", "Sarkisian", "Saroyan", "Sedrakyan", "Sepanian", "Soghomonyan", "Sukiasian",
-                        "Tatoulian", "Terzian", "Topalian", "Torosian", "Tumasyan", "Vartanian", "Vartazarian", "Vartkesian", "Yacoubian", "Yeghiazarian"
-                      ]
+                      "Բաղդասարյան", "Գասպարյան", "Հարությունյան", "Գրիգորյան", "Գարիբյան", "Հովսեփյան", "Միրզոյան", "Աբգարյան", "Հակոբյան", "Տիգրանյան",
+                      "Անդրեասյան", "Մկրտչյան", "Աբրահամյան", "Բաղդասարյան", "Դանիելյան", "Գարեգինյան", "Արշակյան", "Սահակյան", "Մայսյան", "Ավագյան",
+                      "Գեղամյան", "Անանյան", "Մուրադյան", "Ավետիսյան", "Հովհաննիսյան", "Վանատյան", "Գալստյան", "Գրիգորյան", "Գուրգենյան", "Եղիազարյան",
+                      "Սարոյան", "Վահագնյան", "Ալեքսանյան", "Կարապետյան", "Արամեան", "Ավետիսյան", "Սարգսյան", "Ամիրյան", "Անուշյան", "Պետրոսյան",
+                      "Գագիկյան", "Մկրտչյան", "Գալստյան", "Տեր-Պետրոսյան", "Ալեքսանյան", "Դարբինյան", "Վարդանյան", "Ալեքսանդրյան", "Դավթյան", "Սարգսյան",
+                      "Պարոնյան", "Արշակյան", "Հովհաննիսյան"
+                  ]
                 },
                 'female': {
                     'first': [
-                        "Anahit", "Mariam", "Tatev", "Lusine", "Narine", "Arevik", "Anna", "Arpine", "Hasmik", "Liana",
-                        "Siranush", "Gayane", "Ruzanna", "Satenik", "Lucine", "Armine", "Marine", "Nona", "Ani", "Silva",
-                        "Varduhi", "Hranush", "Lilit", "Aida", "Lara", "Lusaber", "Irina", "Lara", "Shushan", "Shoghik",
-                        "Hripsime", "Hasmik", "Liana", "Anahit", "Siranush", "Elena", "Anush", "Ivet", "Astghik", "Anushik",
-                        "Arpi", "Naira", "Diana", "Gohar", "Zara", "Hermine", "Irina", "Karina", "Natalie", "Nune",
-                        "Vardanush", "Rima", "Lusine", "Liana", "Lusine", "Siranush", "Marine", "Lilit", "Arpi", "Nune",
-                        "Ruzanna", "Satik", "Shushan", "Svetlana", "Tigranuhi", "Tatevik", "Tsovinar", "Varditer", "Veronika", "Violeta",
-                        "Yulia", "Zara", "Armine", "Ani", "Marine", "Aida", "Zara", "Hripsime", "Silva", "Anushik",
-                        "Diana", "Shoghik", "Ani", "Narine", "Satik", "Ruzanna", "Anahit", "Arpi", "Lusine", "Siranush",
-                        "Varduhi", "Armine", "Hermine", "Rima", "Nona", "Lara", "Nune", "Ivet", "Hasmik", "Lilit"
-                      ],
+                      "Անի", "Նազելի", "Սոնա", "Նելլի", "Անահիտ", "Լիլիթ", "Գոհար", "Սոնիա", "Սոնա", "Մելիսսա",
+                      "Նարինե", "Վանեսա", "Արտինե", "Տաթեւիկ", "Սոֆիա", "Լիլիթ", "Մարիամ", "Մասիս", "Լիանա", "Հայասի",
+                      "Սոֆիա", "Անի", "Բելլա", "Սարինե", "Հարինե", "Նունե", "Նարինե", "Սամվելա", "Լիա", "Սարինե",
+                      "Հարան", "Անահիտ", "Բելլա", "Լիլիթ", "Լիլիա", "Մանե", "Սասուն", "Սոֆիա", "Արա", "Բելլա",
+                      "Անգելա", "Նազելի", "Նարինե", "Մելիսսա", "Սոնա", "Սոֆիա", "Իսաբելլա", "Մանելլա", "Նարինե"
+                  ],
                     'second': [
-                        "Aleksanyan", "Mirzoyan", "Karapetyan", "Sargsyan", "Tatulyan", "Hayrapetyan", "Gasparyan", "Aleysyan", "Nazaryan", "Khachatryan",
-                        "Davydyan", "Khachikyan", "Halabyan", "Vardanyan", "Grigoryan", "Abelyan", "Movsisyan", "Adamyan", "Bagratyan", "Martirosyan",
-                        "Manukyan", "Arakelyan", "Bagdasaryan", "Galustyan", "Nikolayan", "Arzumanyan", "Adalyan", "Harutyunyan", "Gustaghyan", "Danyelyan",
-                        "Mukhadyan", "Araratyan", "Dukhayan", "Malakhyanyan", "Khachatrian", "Muradyan", "Nazaryan", "Asatryan", "Kamalyan", "Armenian",
-                        "Sevakyan", "Hovsepyan", "Sogomonyan", "Gulparanyan", "Darbinyan", "Minasyan", "Arshakyan", "Nasranyan", "Dumanyan", "Armanyan",
-                        "Khachatryan", "Azgamikyan", "Margaryan", "Bagdasaryan", "Hakobyan", "Avagyan", "Hakobyan", "Gabrielyan", "Yeghiazaryan", "Aghajanyan",
-                        "Asoyan", "Gevorgyan", "Israelyan", "Ispiryan", "Kazaryan", "Kazanjian", "Karagulyan", "Khachadourian", "Kharazyan", "Khatchadourian",
-                        "Khojayan", "Kirakosyan", "Kocharyan", "Kurkjian", "Kurumlian", "Manaseryan", "Manoukian", "Margaryan", "Matevosyan", "Mazmanyan",
-                        "Mkhitaryan", "Movsesian", "Nadjarian", "Nalbandian", "Nazarian", "Nersesian", "Ohanian", "Ouzounian", "Papazian", "Parsanian",
-                        "Partamian", "Petrosyan", "Saghatelyan", "Sahagian", "Sarkisian", "Saroyan", "Sedrakyan", "Sepanian", "Soghomonyan", "Sukiasian",
-                        "Tatoulian", "Terzian", "Topalian", "Torosian", "Tumasyan", "Vartanian", "Vartazarian", "Vartkesian", "Yacoubian", "Yeghiazarian"
-                      ],
+                      "Բաղդասարյան", "Հարությունյան", "Գարեգինյան", "Անդրեասյան", "Մուրադյան", "Հովհաննիսյան", "Մկրտչյան", "Մուրատյան", "Գրիգորյան", "Գուրգենյան",
+                      "Դանիելյան", "Գալստյան", "Եղիազարյան", "Սարոյան", "Վահագնյան", "Մալյան", "Ալեքսանյան", "Կարապետյան", "Արամեան", "Ավետիսյան",
+                      "Սարգսյան", "Ամիրյան", "Անուշյան", "Պետրոսյան", "Գագիկյան", "Մկրտչյան", "Գալստյան", "Տեր-Պետրոսյան", "Ալեքսանյան", "Դարբինյան",
+                      "Վարդանյան", "Ալեքսանդրյան", "Դավթյան", "Սարգսյան", "Պարոնյան", "Արշակյան", "Հովհաննիսյան", "Մկրտչյան", "Դարբինյան",
+                      "Սարգսյան", "Սարգսյան", "Գալստյան", "Գուրգենյան", "Եղիազարյան", "Գրիգորյան"
+                  ],
                 }
             }
         }},
-    'Belgium': { 'en': {
+    'Belgium': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -607,59 +550,40 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        "Lucas", "Liam", "Noah", "Ethan", "Adam", "Finn", "Victor", "Leo", "Arthur", "Gabriel",
-                        "Maxime", "Louis", "Jules", "Oscar", "Mathis", "Théo", "Tom", "Milo", "Hugo", "Axel",
-                        "Felix", "Matteo", "Emile", "Nathan", "Alexander", "Arthur", "Antoine", "Samuel", "Isaac", "Olivier",
-                        "Benjamin", "Elias", "Simon", "Xander", "Mathias", "Baptiste", "David", "Daniel", "Michael", "Raphael",
-                        "Tristan", "Cédric", "Vincent", "Julien", "Nicolas", "Christian", "Pierre", "Adrien", "André", "Georges",
-                        "Luc", "Philippe", "Jacques", "Jean", "René", "Paul", "Henri", "Alain", "Marc", "Albert",
-                        "Charles", "Denis", "Claude", "François", "Guy", "Pierre", "Roger", "Robert", "Thierry", "Yves",
-                        "Patrick", "Eric", "David", "Serge", "Michel", "Jean-Paul", "Franck", "Alexandre", "Sylvain", "Grégoire",
-                        "Jonathan", "Thierry", "Christophe", "Pascal", "Laurent", "Bruno", "Gilles", "Dominique", "Christophe", "Didier",
-                        "Xavier", "Antoine", "Geoffrey", "Sébastien", "Emmanuel", "Fabrice", "Olivier", "Vincent", "Jerome", "Cyril"
-                      ],
+                      "Jean", "Pierre", "Luc", "Philippe", "Michel", "Marc", "Patrick", "Alain", "Thierry", "Didier",
+                      "Eric", "Vincent", "Yves", "Sébastien", "Christophe", "Olivier", "François", "David", "Nicolas", "Gilles",
+                      "Bruno", "Denis", "Laurent", "Fabrice", "Stéphane", "Sylvain", "Maxime", "Jonathan", "Claude", "Georges",
+                      "Alexandre", "Paul", "Romain", "Anthony", "Jérôme", "Mathieu", "Christophe", "Jacques", "Damien", "Benoît",
+                      "Julien", "Patrick", "Raphaël", "Antoine", "Gérard", "Benjamin", "Lucas", "Emmanuel", "Martin", "René"
+                  ],
                     'second': [
-                        "Dubois", "Janssens", "Willems", "Jacobs", "Mertens", "Martens", "Pauwels", "Lambert", "Hermans", "De Smet",
-                        "Desmet", "Delvaux", "Lefevre", "Dewitte", "Lambrecht", "Goossens", "De Wilde", "Van den Berg", "Michiels", "Lefever",
-                        "Vandenbergh", "Maes", "Vandenberghe", "Lacroix", "Baert", "Lemaire", "Dupont", "Dumont", "Dupuis", "Leroy",
-                        "Simon", "Noel", "Dumont", "Fontaine", "Leclercq", "Lemaire", "Durant", "Van Hove", "Bakker", "Smeets",
-                        "Vanderveken", "Wouters", "Peeters", "Janssen", "Vandenberg", "Vanderheyden", "Thijs", "De Cock", "Van Damme", "Dekker",
-                        "Devos", "Declercq", "Vermeulen", "Vermeire", "Van Dyck", "De Backer", "Van de Velde", "Govaert", "Van Dijk", "De Boeck",
-                        "Wouters", "Van Dyck", "Schmitz", "Vermeersch", "Vandewalle", "Vandecasteele", "Verheyen", "Vermeulen", "Van Dam", "Verhaeghe",
-                        "De Groote", "Van Hout", "De Vries", "Wouters", "Van Den Bossche", "Van De Velde", "Willems", "Van Den Bosch", "Smet",
-                        "Van Den Broeck", "Martens", "Pauwels", "Lemmens", "Bosmans", "Claes", "Van der Linden", "Van Der Heyden", "Vandenbossche", "Vanderlinden",
-                        "Vandeweghe", "Verhaegen", "Verhulst", "Vermassen", "Vermeir", "Vandepitte", "Vanderpoel", "Vanderstraeten", "Vanderveeke", "Vanhercke"
-                      ]
+                      "Dupont", "Dubois", "Lambert", "Martens", "Simon", "Laurent", "Lefevre", "De Smet", "Jacobs", "Hendrickx",
+                      "Pierre", "Lemaire", "Desmet", "Claes", "Goffin", "Dumont", "Martin", "Van Damme", "Dumont", "Lefebvre",
+                      "Leclercq", "Willems", "Legrand", "Sauvage", "Roosens", "Pauwels", "Mertens", "Vermeulen", "Carlier", "Van den Berg",
+                      "Bertrand", "Janssens", "Dubois", "Mathieu", "Cornelis", "Leroy", "Michiels", "Leclercq", "Lefevre", "De Sutter",
+                      "Wouters", "Lambert", "François", "Benoît", "Leroy", "Stevens", "Mathieu", "Lejeune", "Carlier", "Vandenberghe"
+                  ]
                 },
                 'female': {
                     'first': [
-                        "Emma", "Olivia", "Ava", "Mila", "Ella", "Amelia", "Alice", "Charlotte", "Lina", "Zoe",
-                        "Juliette", "Louise", "Léa", "Camille", "Lily", "Anna", "Lucie", "Nora", "Eva", "Lena",
-                        "Sarah", "Elise", "Clara", "Noor", "Eva", "Manon", "Nina", "Julia", "Fleur", "Liv",
-                        "Eline", "Lara", "Marie", "Lola", "Hannah", "Sophie", "Laura", "Elisa", "Amélie", "Alicia",
-                        "Julia", "Emilie", "Mathilde", "Lore", "Céline", "Jade", "Elsa", "Marthe", "Victoria", "Jasmine",
-                        "Leonie", "Pauline", "Maud", "Valentine", "Fanny", "Stéphanie", "Caroline", "Isabelle", "Christine", "Anne",
-                        "Martine", "Catherine", "Brigitte", "Danielle", "Nathalie", "Sylvie", "Monique", "Marie-France", "Marie-Paule", "Patricia",
-                        "Josiane", "Colette", "Liliane", "Annick", "Chantal", "Nicole", "Sophie", "Aurore", "Nathalie", "Marie-Noëlle",
-                        "Sandrine", "Véronique", "Isabelle", "Anne-Sophie", "Stéphanie", "Emilie", "Delphine", "Laurence", "Mélanie", "Sabine",
-                        "Cécile", "Virginie", "Amandine", "Fanny", "Jennifer", "Valérie", "Céline", "Christelle", "Nancy", "Florence"
-                      ],
+                      "Sophie", "Isabelle", "Caroline", "Nathalie", "Christine", "Catherine", "Valérie", "Martine", "Sylvie", "Marie",
+                      "Véronique", "Sandrine", "Sabine", "Nadine", "Anne", "Françoise", "Brigitte", "Laurence", "Julie", "Pascale",
+                      "Aurélie", "Evelyne", "Claire", "Elodie", "Céline", "Virginie", "Jessica", "Sophie", "Vanessa", "Audrey",
+                      "Elise", "Pauline", "Aurore", "Marion", "Charlotte", "Laura", "Manon", "Emilie", "Florence", "Angélique",
+                      "Camille", "Hélène", "Mathilde", "Chantal", "Léa", "Olivia", "Valentine", "Christelle", "Eva", "Alice"
+                  ],
                     'second': [
-                        "Dubois", "Janssens", "Willems", "Jacobs", "Mertens", "Martens", "Pauwels", "Lambert", "Hermans", "De Smet",
-                        "Desmet", "Delvaux", "Lefevre", "Dewitte", "Lambrecht", "Goossens", "De Wilde", "Van den Berg", "Michiels", "Lefever",
-                        "Vandenbergh", "Maes", "Vandenberghe", "Lacroix", "Baert", "Lemaire", "Dupont", "Dumont", "Dupuis", "Leroy",
-                        "Simon", "Noel", "Dumont", "Fontaine", "Leclercq", "Lemaire", "Durant", "Van Hove", "Bakker", "Smeets",
-                        "Vanderveken", "Wouters", "Peeters", "Janssen", "Vandenberg", "Vanderheyden", "Thijs", "De Cock", "Van Damme", "Dekker",
-                        "Devos", "Declercq", "Vermeulen", "Vermeire", "Van Dyck", "De Backer", "Van de Velde", "Govaert", "Van Dijk", "De Boeck",
-                        "Wouters", "Van Dyck", "Schmitz", "Vermeersch", "Vandewalle", "Vandecasteele", "Verheyen", "Vermeulen", "Van Dam", "Verhaeghe",
-                        "De Groote", "Van Hout", "De Vries", "Wouters", "Van Den Bossche", "Van De Velde", "Willems", "Van Den Bosch", "Smet",
-                        "Van Den Broeck", "Martens", "Pauwels", "Lemmens", "Bosmans", "Claes", "Van der Linden", "Van Der Heyden", "Vandenbossche", "Vanderlinden",
-                        "Vandeweghe", "Verhaegen", "Verhulst", "Vermassen", "Vermeir", "Vandepitte", "Vanderpoel", "Vanderstraeten", "Vanderveeke", "Vanhercke"
-                      ],
+                      "Dubois", "Lambert", "Martens", "Simon", "Laurent", "Lefevre", "De Smet", "Jacobs", "Hendrickx", "Pierre",
+                      "Lemaire", "Desmet", "Claes", "Goffin", "Dumont", "Martin", "Van Damme", "Dumont", "Lefebvre", "Leclercq",
+                      "Willems", "Legrand", "Sauvage", "Roosens", "Pauwels", "Mertens", "Vermeulen", "Carlier", "Van den Berg", "Bertrand",
+                      "Janssens", "Dubois", "Mathieu", "Cornelis", "Leroy", "Michiels", "Leclercq", "Lefevre", "De Sutter", "Wouters",
+                      "Lambert", "François", "Benoît", "Leroy", "Stevens", "Mathieu", "Lejeune", "Carlier", "Vandenberghe"
+                  ],
                 }
             }
         }},
-    'Benin': { 'en': {
+    'Benin': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -717,58 +641,40 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        "Adeoti", "Adjovi", "Akpakpa", "Akpata", "Akpovo", "Akpoyibo", "Akrofi", "Akudinobi", "Alika", "Amadi",
-                        "Amankwa", "Anyanwu", "Apaloo", "Arhin", "Asamoah", "Ashanti", "Atieno", "Ayodele", "Babatunde", "Bamgbala",
-                        "Bankole", "Bashiru", "Bello", "Chijioke", "Chinedu", "Chukwudi", "Danjuma", "Ekow", "Ekundayo", "Enitan",
-                        "Ezenwa", "Folayan", "Folorunsho", "Fotso", "Gbadamosi", "Gbenro", "Ghana", "Idowu", "Ifeanyi", "Igwe",
-                        "Imoh", "Irukwu", "Isong", "Jabari", "Kalu", "Kamara", "Kazeem", "Kenzo", "Kofi", "Kwame",
-                        "Ladipo", "Lamine", "Mandela", "Mandume", "Mensah", "Minani", "Nkrumah", "Nnaji", "Nwachukwu", "Obanla",
-                        "Okafor", "Okeke", "Okonkwo", "Olamide", "Olasunkanmi", "Olawale", "Oluwaseun", "Omondi", "Oni", "Osagie",
-                        "Osayande", "Oyelowo", "Ozuluonye", "Quansah", "Rasheed", "Sadiq", "Sowande", "Tahiru", "Tanaka", "Uche",
-                        "Udeagha", "Udofia", "Ugwu", "Umeh", "Usman", "Uzoigwe", "Vincent", "Wamalwa", "Wanjiru", "Yao",
-                        "Yoruba", "Zuberu"
-                      ],
+                      "Akpabio", "Adeola", "Ayoola", "Babatunde", "Chinedu", "Chukwudi", "Damilola", "Emeka", "Folarin", "Gbolahan",
+                      "Ifeanyichukwu", "Jelili", "Kehinde", "Kunle", "Lanre", "Nnamdi", "Obinna", "Olamide", "Olufemi", "Olumide",
+                      "Oluwaseun", "Oluwafemi", "Oluwasegun", "Oluwaseyi", "Oluwatobi", "Oluwatoyin", "Olumuyiwa", "Rotimi", "Segun", "Taiwo",
+                      "Temitope", "Tunde", "Uche", "Wale", "Yakubu", "Yomi", "Yoruba", "Yusuf", "Zubairu", "Amosu",
+                      "Azikiwe", "Babangida", "Bello", "Danjuma", "Gowon", "Jaja", "Obasanjo", "Ogundipe", "Okonkwo", "Onwubiko"
+                  ],
                     'second': [
-                        "Agbaje", "Akpabio", "Amoussou", "Anagbogu", "Azikiwe", "Balogun", "Dossou", "Eze", "Gnassingbé", "Ibrahim",
-                        "Igboanugo", "Imasuen", "Iroegbu", "Kalu", "Kone", "Lawal", "Mensah", "Nkosi", "Nwabueze", "Obi",
-                        "Ogunbanjo", "Okonkwo", "Oladipo", "Olawale", "Olowu", "Oni", "Osayande", "Oyewole", "Oyinlola", "Soglo",
-                        "Tchomogo", "Ude", "Uzoma", "Wogu", "Zinsou", "Zogbo", "Abiodun", "Adeniran", "Afolayan", "Ajayi",
-                        "Akinjide", "Akinola", "Akinsanya", "Akintola", "Alabi", "Amaechi", "Anyiam", "Asobie", "Atiku", "Awolowo",
-                        "Babangida", "Babatunde", "Bakare", "Balogun", "Bankole", "Chukwuemeka", "Danjuma", "Dauda", "Eke", "Ekwensi",
-                        "Fagbenle", "Fashola", "Fayemi", "Gbaja-Biamila", "Idris", "Igwe", "Iroegbu", "Isiaka", "Jaja", "Kalu",
-                        "Kanu", "Kokori", "Ladoja", "Makinde", "Mohammed", "Nnamani", "Obasanjo", "Ogunbanjo", "Ogunlana", "Okeke",
-                        "Olowookere", "Oni", "Oyedepo", "Oyinlola", "Saraki", "Shagaya", "Sofola", "Soludo", "Uzodinma", "Yakubu",
-                        "Yaradua", "Yuguda", "Zaku"
-                      ]
+                      "Adjovi", "Akpovi", "Dangbé", "Gbédji", "Hounkpatin", "Idohou", "Kokou", "Lawani", "Migan", "Orou",
+                      "Tchalla", "Yayi", "Zinsou", "Agossou", "Aïssi", "Akakpo", "Avognan", "Djogbénou", "Gbèha", "Gbadamassi",
+                      "Kotchikpa", "Lokossou", "Montcho", "Noudégbessi", "Oko", "Osséni", "Togbé", "Togoudo", "Toguè", "Tokpè",
+                      "Yèhouénou", "Zomahoun", "Akpata", "Allagbé", "Atchadé", "Dénakpo", "Gbèdé", "Hounkanrin", "Koutché", "Lawani",
+                      "Lokossou", "Migan", "Orou", "Sossou", "Tchalla", "Vigninou", "Yayi", "Zinsou", "Kodjoh"
+                  ]
                 },
                 'female': {
                     'first': [
-                        "Adenike", "Akunna", "Akwete", "Ayodele", "Ayomide", "Azuka", "Bolanle", "Chiamaka", "Chidimma", "Chinyere",
-                        "Damisi", "Eniola", "Eshe", "Folake", "Funmilayo", "Halima", "Ifeoma", "Imani", "Jumoke", "Kadiatou",
-                        "Kafui", "Kanika", "Kehinde", "Kemi", "Kubura", "Latifah", "Makeda", "Mojisola", "Ngozi", "Nia",
-                        "Nkechi", "Nneka", "Ngozi", "Ogechi", "Olabisi", "Oluchi", "Omowunmi", "Oni", "Ramatoulaye", "Rukayat",
-                        "Safiya", "Sekai", "Sefu", "Shanika", "Simisola", "Siyanda", "Subira", "Tanisha", "Tariro", "Temitope",
-                        "Titi", "Tope", "Tsitsi", "Ufuoma", "Ugochi", "Uzoma", "Wuraola", "Yaa", "Yejide", "Yewande",
-                        "Zainab", "Zalika", "Zanele", "Zawadi", "Zola", "Zuwena", "Zuri", "Adjoa", "Aissa", "Akua",
-                        "Anika", "Asha", "Aziza", "Binta", "Dalia", "Fatou", "Jamila", "Kamaria", "Kaya", "Leila",
-                        "Malika", "Muna", "Naima", "Nia", "Nuru", "Rahima", "Samira", "Tahira", "Zahara", "Zalika"
-                      ],
+                      "Abimbola", "Adesuwa", "Adebimpe", "Ayomide", "Bisola", "Chiamaka", "Chioma", "Damilola", "Ebere", "Folake",
+                      "Ifeyinwa", "Ijeoma", "Imoleayo", "Jumoke", "Kemi", "Kikelomo", "Mojisola", "Ngozi", "Nike", "Nneka",
+                      "Ngozi", "Omolara", "Omotola", "Ronke", "Sade", "Sola", "Temitope", "Titilayo", "Tolulope", "Tosin",
+                      "Yemisi", "Yetunde", "Zainab", "Adewunmi", "Aina", "Ajayi", "Akindele", "Balogun", "Ekwueme", "Falana",
+                      "Fashanu", "Fawehinmi", "Iroko", "Ojo", "Okon", "Okojie", "Olaniyan", "Olawoyin", "Olukoya", "Oni"
+                  ],
                     'second': [
-                        "Agbaje", "Akpabio", "Amoussou", "Anagbogu", "Azikiwe", "Balogun", "Dossou", "Eze", "Gnassingbé", "Ibrahim",
-                        "Igboanugo", "Imasuen", "Iroegbu", "Kalu", "Kone", "Lawal", "Mensah", "Nkosi", "Nwabueze", "Obi",
-                        "Ogunbanjo", "Okonkwo", "Oladipo", "Olawale", "Olowu", "Oni", "Osayande", "Oyewole", "Oyinlola", "Soglo",
-                        "Tchomogo", "Ude", "Uzoma", "Wogu", "Zinsou", "Zogbo", "Abiodun", "Adeniran", "Afolayan", "Ajayi",
-                        "Akinjide", "Akinola", "Akinsanya", "Akintola", "Alabi", "Amaechi", "Anyiam", "Asobie", "Atiku", "Awolowo",
-                        "Babangida", "Babatunde", "Bakare", "Balogun", "Bankole", "Chukwuemeka", "Danjuma", "Dauda", "Eke", "Ekwensi",
-                        "Fagbenle", "Fashola", "Fayemi", "Gbaja-Biamila", "Idris", "Igwe", "Iroegbu", "Isiaka", "Jaja", "Kalu",
-                        "Kanu", "Kokori", "Ladoja", "Makinde", "Mohammed", "Nnamani", "Obasanjo", "Ogunbanjo", "Ogunlana", "Okeke",
-                        "Olowookere", "Oni", "Oyedepo", "Oyinlola", "Saraki", "Shagaya", "Sofola", "Soludo", "Uzodinma", "Yakubu",
-                        "Yaradua", "Yuguda", "Zaku"
-                      ],
+                      "Adjovi", "Akpovi", "Dangbé", "Gbédji", "Hounkpatin", "Idohou", "Kokou", "Lawani", "Migan", "Orou",
+                      "Tchalla", "Yayi", "Zinsou", "Agossou", "Aïssi", "Akakpo", "Avognan", "Djogbénou", "Gbèha", "Gbadamassi",
+                      "Kotchikpa", "Lokossou", "Montcho", "Noudégbessi", "Oko", "Osséni", "Togbé", "Togoudo", "Toguè", "Tokpè",
+                      "Yèhouénou", "Zomahoun", "Akpata", "Allagbé", "Atchadé", "Dénakpo", "Gbèdé", "Hounkanrin", "Koutché", "Lawani",
+                      "Lokossou", "Migan", "Orou", "Sossou", "Tchalla", "Vigninou", "Yayi", "Zinsou", "Kodjoh"
+                  ],
                 }
             }
         }},
-    'Bulgaria': { 'en': {
+    'Bulgaria': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -813,45 +719,40 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        "Ivan", "Georgi", "Dimitar", "Nikolay", "Petar", "Stoyan", "Dragan", "Krasimir", "Rumen", "Ivo",
-                        "Yordan", "Hristo", "Boyan", "Valentin", "Vladimir", "Borislav", "Lyubomir", "Svetoslav", "Yanko", "Veselin",
-                        "Kiril", "Asen", "Atanas", "Todor", "Kamen", "Ilian", "Kaloyan", "Yavor", "Danko", "Slavi",
-                        "Dobromir", "Blagoi", "Zdravko", "Radoslav", "Deyan", "Emil", "Stefan", "Evgeni", "Mitko", "Vasil",
-                        "Plamen", "Nedyalko", "Bogdan", "Zhivko", "Krum", "Milen", "Nikola", "Bozhidar", "Zlatko", "Veliko",
-                        "Branimir", "Yasen", "Anton", "Valeri", "Dicho", "Grigor", "Hristofor", "Yanko", "Zahari", "Ismet",
-                        "Lachezar", "Marian", "Nikifor", "Ognian", "Pencho", "Rostislav", "Spas", "Teodosi", "Ustinya", "Venko",
-                        "Yanislav", "Zlatan", "Bozhidar", "Lyuben", "Milcho", "Nedko", "Orlin", "Ruslan", "Simeon", "Trifon",
-                        "Hristofor", "Valentin", "Yavor", "Zhivko", "Zlatko", "Bozhidar", "Kamen", "Ilian", "Kaloyan", "Yordan",
-                        "Todor", "Stefan", "Evgeni", "Lyubomir", "Svetoslav", "Asen", "Atanas", "Ivan", "Georgi", "Dimitar"
-                      ],
+                      "Иван", "Петър", "Георги", "Николай", "Стефан", "Димитър", "Андрей", "Александър", "Михаил", "Емил",
+                      "Илиян", "Кирил", "Борис", "Тодор", "Васил", "Антон", "Павел", "Даниел", "Христо", "Симеон",
+                      "Владимир", "Красимир", "Янко", "Евгени", "Георгий", "Радослав", "Валентин", "Деян", "Калин", "Йордан",
+                      "Лъчезар", "Божидар", "Здравко", "Мирослав", "Неделчо", "Ивайло", "Пламен", "Славчо", "Ясен", "Камен",
+                      "Йосиф", "Румен", "Християн", "Теодор", "Венцислав", "Благой", "Драгомир", "Марин", "Милко", "Станимир"
+                  ],
                     'second': [
-                        "Ivanov", "Georgiev", "Dimitrov", "Petrov", "Nikolov", "Vasilev", "Stoyanov", "Todorov", "Kostov", "Angelov",
-                        "Hristov", "Iliev", "Kolev", "Yankov", "Pavlov", "Mihaylov", "Grigorov", "Dinev", "Zlatev", "Yordanov",
-                        "Bogdanov", "Stefanov", "Kirov", "Dimitrov", "Tanev", "Vladimirov", "Krasov"
-                      ]
+                      "Иванов", "Петров", "Георгиев", "Николов", "Станев", "Димитров", "Андреев", "Александров", "Михайлов", "Емилов",
+                      "Илиев", "Кирилов", "Борисов", "Тодоров", "Василев", "Антонов", "Павлов", "Даниелов", "Христов", "Симеонов",
+                      "Владимиров", "Красимиров", "Янев", "Евгениев", "Георгиев", "Радославов", "Валентинов", "Деянов", "Калинов", "Йорданов",
+                      "Лъчезаров", "Божидаров", "Здравков", "Мирославов", "Неделчев", "Ивайлов", "Пламенов", "Славчев", "Ясенов", "Каменов",
+                      "Йосифов", "Руменов", "Християнов", "Теодоров", "Венциславов", "Благоев", "Драгомиров", "Маринов", "Милков", "Станимиров"
+                  ]
                 },
                 'female': {
                     'first': [
-                        "Maria", "Iva", "Nina", "Elena", "Kristina", "Viktoria", "Anastasia", "Sofia", "Stefaniya", "Katerina",
-                        "Margarita", "Raya", "Vesela", "Ivelina", "Mihaela", "Lilia", "Rositsa", "Nadezhda", "Denitsa", "Ekaterina",
-                        "Teodora", "Elitsa", "Gergana", "Kalina", "Antoaneta", "Silviya", "Radostina", "Emiliya", "Vanya", "Bilyana",
-                        "Diana", "Ralitsa", "Adelina", "Lyubov", "Zornitsa", "Zlatina", "Yoana", "Valentina", "Desislava", "Simona",
-                        "Dimitrina", "Nikoleta", "Petia", "Rumyana", "Veronika", "Dara", "Veronica", "Svetlana", "Neli", "Stela",
-                        "Aneliya", "Boriana", "Darina", "Elica", "Yuliana", "Ivona", "Rada", "Ivelin", "Vasilena", "Yosifina",
-                        "Tatiana", "Rozalina", "Zvetelina", "Stoyanka", "Lyuba", "Tanya", "Evgeniya", "Reneta", "Ani", "Irina",
-                        "Ginka", "Ralitsa", "Reneta", "Krasimira", "Iskra", "Ivanka", "Yana", "Lora", "Marta", "Natalia",
-                        "Olya", "Sonya", "Tsvetana", "Tanya", "Valeriya", "Yordanka", "Zarina", "Desislava", "Elena", "Kalina",
-                        "Ivanka", "Lyudmila", "Mariya", "Nadezhda", "Ralitsa", "Silviya", "Yordanka", "Zoya", "Galya", "Iva"
-                      ],
+                      "Мария", "Иванка", "Елена", "Анна", "Светла", "Надя", "Наталия", "Даниела", "Емилия", "Весела",
+                      "Румяна", "Виолета", "Магдалена", "Десислава", "Рада", "Ирена", "Таня", "Снежана", "Петя", "Галя",
+                      "Вера", "Биляна", "Христина", "Дарина", "Милена", "Нели", "Стефка", "Росица", "Албена", "Стефани",
+                      "Ралица", "Теодора", "Валентина", "Лилия", "Славка", "Цвета", "Йорданка", "Живка", "Павлина", "Яна",
+                      "Силвия", "Валерия", "Бисерка", "Катя", "Симона", "Мариана", "Мариета", "Гергана", "Маргарита", "Тамара"
+                  ],
                     'second': [
-                        "Ivanova", "Georgieva", "Dimitrova", "Petrova", "Nikolova", "Vasileva", "Stoyanova", "Todorova", "Kostova", "Angelova",
-                        "Hristova", "Ilieva", "Koleva", "Yankova", "Pavlova", "Mihaylova", "Grigorova", "Dineva", "Zlateva", "Yordanova",
-                        "Bogdanova", "Stefanova", "Kirova", "Mladenova", "Taneva", "Vladimirova", "Krasava"
-                      ],
+                      "Иванова", "Петрова", "Георгиева", "Николова", "Станева", "Димитрова", "Андреева", "Александрова", "Михайлова", "Емилова",
+                      "Илиева", "Кирилова", "Борисова", "Тодорова", "Василева", "Антонова", "Павлова", "Даниелова", "Христова", "Симеонова",
+                      "Владимирова", "Красимирова", "Янева", "Евгениева", "Георгиева", "Радославова", "Валентинова", "Деянова", "Калинова", "Йорданова",
+                      "Лъчезарова", "Божидарова", "Здравкова", "Мирославова", "Неделчева", "Ивайлова", "Пламенова", "Славчева", "Ясенова", "Каменова",
+                      "Йосифова", "Руменова", "Християнова", "Теодорова", "Венциславова", "Благоева", "Драгомирова", "Маринова", "Милкова", "Станимирова"
+                  ],
                 }
             }
         }},
-    'Bosnia and Herzegovina': { 'en': {
+    'Bosnia and Herzegovina': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -908,53 +809,35 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        "Adnan", "Mirza", "Emir", "Dino", "Haris", "Emin", "Armin", "Elvir", "Faruk", "Amar",
-                        "Alem", "Safet", "Tarik", "Sanel", "Aldin", "Damir", "Edin", "Enis", "Nermin", "Mirsad",
-                        "Almir", "Selmir", "Denis", "Edis", "Aid", "Semir", "Elvis", "Senad", "Elvedin", "Eldin",
-                        "Arnes", "Ermin", "Nino", "Adis", "Mirnes", "Emir", "Haris", "Ervin", "Alen", "Anel",
-                        "Muhamed", "Ajdin", "Azur", "Davor", "Said", "Suljo", "Zijad", "Sead", "Rijad", "Kenan",
-                        "Benjamin", "Fahrudin", "Admir", "Tarik", "Adel", "Ahmed", "Husein", "Ismar", "Riad", "Samed",
-                        "Alen", "Din", "Asim", "Hamza", "Emrah", "Vedad", "Elvir", "Fikret", "Ernad", "Esad",
-                        "Harun", "Indir", "Mensur", "Nihad", "Salko", "Sandro", "Semih", "Slobodan", "Vedran", "Vlado",
-                        "Zoran", "Zlatan", "Almir", "Din", "Eldar", "Emin", "Esmir", "Fahrudin", "Faris", "Fikret",
-                        "Goran", "Husnija", "Ibrahim", "Igor", "Jasmin", "Jasenko", "Jovan", "Luka", "Marko", "Mehmed"
-                      ],
+                      "Adnan", "Amar", "Armin", "Azur", "Benjamin", "Davor", "Dino", "Edin", "Elvir", "Emir",
+                      "Enes", "Faruk", "Haris", "Ibrahim", "Igor", "Jasmin", "Kenan", "Mirza", "Nedim", "Nermin",
+                      "Rijad", "Safet", "Semir", "Serdar", "Senad", "Slobodan", "Tarik", "Vedran", "Vedad", "Vladimir",
+                      "Zlatan", "Zoran", "Aldin", "Dalibor", "Damir", "Denis", "Dragan", "Emir", "Goran", "Husein",
+                      "Ismar", "Jovan", "Mehmed", "Mirsad", "Nemanja", "Osman", "Sasa", "Sead", "Senad", "Slavko"
+                  ],
                     'second': [
-                        "Hodžić", "Hadžić", "Osmanagić", "Suljić", "Kovačević", "Ibrahimović", "Karić", "Mehić", "Osmić", "Delić",
-                        "Kurtić", "Smajić", "Brkić", "Mandić", "Salkić", "Mujagić", "Ahmetović", "Alagić", "Makić", "Aljić",
-                        "Huskić", "Muharemović", "Dautović", "Mujić", "Dervišević", "Bešić", "Mešić", "Hrnjić", "Sarajlić", "Šećerović",
-                        "Ćosić", "Kadrić", "Agić", "Mujkić", "Husić", "Krehić", "Ramić", "Jusić", "Lukić", "Halilović",
-                        "Ibrulj", "Zukić", "Dizdarević", "Pandža", "Ihtijarević", "Omeragić", "Sijerčić", "Ljevaković", "Mahmić", "Kamberović",
-                        "Lemes", "Geko", "Kolić", "Selimović", "Ćorović", "Merdanović", "Hasečić", "Izetbegović", "Zahiragić", "Jugo",
-                        "Herceg", "Zaimović", "Dugonjić", "Grbić", "Peco", "Dolić", "Karamehmedović", "Lisica", "Ferić", "Jusufbegović",
-                        "Osmanović", "Šabić", "Husić", "Musić", "Dautbegović", "Palić", "Ahmić", "Selmanović", "Serdarević", "Dudić",
-                        "Šemić", "Suljagić", "Matoruga", "Polić", "Mustafić", "Šišić", "Zelenika", "Isaković", "Bajramović", "Tiro"
-                      ]
+                      "Ahmetović", "Alić", "Begić", "Delibašić", "Delić", "Dizdarević", "Džeko", "Hodžić", "Hrustić", "Ibričić",
+                      "Jusufbegović", "Kovačević", "Kurtić", "Mujkić", "Muminović", "Muslić", "Nikolić", "Omeragić", "Osmanagić", "Petrović",
+                      "Redžić", "Salihović", "Smajić", "Suljić", "Terzić", "Tomić", "Velić", "Vidaković", "Zahirović", "Zukić",
+                      "Aganović", "Alagić", "Bajramović", "Brkić", "Čengić", "Dedić", "Dervišević", "Hadžić", "Halilović", "Hrnjić",
+                      "Ivanović", "Kadrić", "Kapetanović", "Karačić", "Kazić", "Mahmutović", "Mehić", "Memić", "Mujčinović", "Pašić"
+                  ]
                 },
                 'female': {
                     'first': [
-                        "Amina", "Lejla", "Amila", "Emina", "Maida", "Aida", "Ajla", "Selma", "Dženita", "Merima",
-                        "Naida", "Ajsa", "Adna", "Belma", "Dina", "Ela", "Elma", "Emira", "Ena", "Erna",
-                        "Lamija", "Lana", "Larisa", "Lejla", "Maja", "Medina", "Melisa", "Mia", "Milena", "Minela",
-                        "Nedžla", "Nela", "Nejla", "Selena", "Selma", "Sumeja", "Tea", "Tijana", "Una", "Vildana",
-                        "Zara", "Zerina", "Zlata", "Šejla", "Šima", "Emina", "Ajša", "Amina", "Amra", "Belkisa",
-                        "Dara", "Dijana", "Dina", "Edina", "Ejla", "Elma", "Ena", "Erna", "Fatima", "Ferida",
-                        "Gordana", "Hana", "Harisa", "Hasiba", "Ina", "Jasmina", "Katrina", "Kerima", "Lamija", "Lejla",
-                        "Lela", "Ljiljana", "Maida", "Maja", "Medina", "Melisa", "Mia", "Naida", "Nejla", "Nela",
-                        "Sanela", "Sejla", "Selma", "Sumeja", "Šejla", "Tara", "Tea", "Una", "Vildana", "Zara",
-                        "Zerina", "Zlata"
-                      ],
+                      "Adrijana", "Aida", "Alma", "Amra", "Azra", "Belma", "Dajana", "Dina", "Edina", "Elma",
+                      "Emina", "Ermina", "Fatima", "Indira", "Jasmina", "Lamija", "Lejla", "Maja", "Medina", "Melisa",
+                      "Merima", "Mersiha", "Mirna", "Naida", "Nermina", "Sanja", "Sara", "Sanela", "Sara", "Selma",
+                      "Senija", "Slađana", "Snježana", "Tanja", "Tea", "Vildana", "Zehra", "Zerina", "Amina", "Amira",
+                      "Azra", "Dijana", "Dženita", "Emina", "Esma", "Jasna", "Lejla", "Maida", "Merjema", "Nerma"
+                  ],
                     'second': [
-                        "Hodžić", "Hadžić", "Osmanagić", "Suljić", "Kovačević", "Ibrahimović", "Karić", "Mehić", "Osmić", "Delić",
-                        "Kurtić", "Smajić", "Brkić", "Mandić", "Salkić", "Mujagić", "Ahmetović", "Alagić", "Makić", "Aljić",
-                        "Huskić", "Muharemović", "Dautović", "Mujić", "Dervišević", "Bešić", "Mešić", "Hrnjić", "Sarajlić", "Šećerović",
-                        "Ćosić", "Kadrić", "Agić", "Mujkić", "Husić", "Krehić", "Ramić", "Jusić", "Lukić", "Halilović",
-                        "Ibrulj", "Zukić", "Dizdarević", "Pandža", "Ihtijarević", "Omeragić", "Sijerčić", "Ljevaković", "Mahmić", "Kamberović",
-                        "Lemes", "Geko", "Kolić", "Selimović", "Ćorović", "Merdanović", "Hasečić", "Izetbegović", "Zahiragić", "Jugo",
-                        "Herceg", "Zaimović", "Dugonjić", "Grbić", "Peco", "Dolić", "Karamehmedović", "Lisica", "Ferić", "Jusufbegović",
-                        "Osmanović", "Šabić", "Husić", "Musić", "Dautbegović", "Palić", "Ahmić", "Selmanović", "Serdarević", "Dudić",
-                        "Šemić", "Suljagić", "Matoruga", "Polić", "Mustafić", "Šišić", "Zelenika", "Isaković", "Bajramović", "Tiro"
-                      ],
+                      "Ahmetović", "Alić", "Begić", "Delibašić", "Delić", "Dizdarević", "Džeko", "Hodžić", "Hrustić", "Ibričić",
+                      "Jusufbegović", "Kovačević", "Kurtić", "Mujkić", "Muminović", "Muslić", "Nikolić", "Omeragić", "Osmanagić", "Petrović",
+                      "Redžić", "Salihović", "Smajić", "Suljić", "Terzić", "Tomić", "Velić", "Vidaković", "Zahirović", "Zukić",
+                      "Aganović", "Alagić", "Bajramović", "Brkić", "Čengić", "Dedić", "Dervišević", "Hadžić", "Halilović", "Hrnjić",
+                      "Ivanović", "Kadrić", "Kapetanović", "Karačić", "Kazić", "Mahmutović", "Mehić", "Memić", "Mujčinović", "Pašić"
+                  ],
                 }
             }
         }},
@@ -1061,7 +944,8 @@ const countries = {
                 }
             }
         }},
-    'Hungary': { 'en': {
+    'Hungary': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -1116,51 +1000,35 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        "Gábor", "István", "János", "László", "Péter", "Zoltán", "Attila", "Tamás", "Ferenc", "István",
-                        "András", "József", "Imre", "Sándor", "Zsolt", "Béla", "György", "Mihály", "Norbert", "Károly",
-                        "Róbert", "Gyula", "Csaba", "Krisztián", "Ferenc", "Máté", "László", "Szabolcs", "Viktor", "Balázs",
-                        "Dávid", "József", "Károly", "András", "Miklós", "Levente", "János", "Zoltán", "Gábor", "Péter",
-                        "László", "Ferenc", "István", "Tamás", "Imre", "Sándor", "Norbert", "Zsolt", "György", "Mihály",
-                        "Róbert", "Gyula", "Csaba", "Krisztián", "Máté", "László", "Szabolcs", "Viktor", "Balázs", "Dávid",
-                        "József", "Károly", "András", "Miklós", "Levente", "János", "Zoltán", "Gábor", "Péter", "László",
-                        "Ferenc", "István", "Tamás", "Imre", "Sándor", "Norbert", "Zsolt", "György", "Mihály", "Róbert",
-                        "Gyula", "Csaba", "Krisztián", "Ferenc", "Máté", "László", "Szabolcs", "Viktor", "Balázs", "Dávid"
-                      ],
+                      "Gábor", "István", "János", "László", "Péter", "Zoltán", "Ferenc", "Attila", "Tibor", "Tamás",
+                      "György", "Béla", "Mihály", "Gergely", "Norbert", "Zsolt", "Dávid", "András", "Ádám", "Károly",
+                      "Lajos", "Márton", "Sándor", "József", "Endre", "Bence", "Viktor", "Gergő", "Dániel", "Balázs",
+                      "Árpád", "Kristóf", "Zsigmond", "Csaba", "Róbert", "Rudolf", "Szabolcs", "Zolt", "Vilmos", "Henrik",
+                      "Levente", "Antal", "Ferencz", "Ákos", "Ernő", "Imre", "József", "Krisztián", "Milán", "Roland"
+                  ],
                     'second': [
-                        "Nagy", "Kovács", "Tóth", "Szabó", "Horváth", "Varga", "Kiss", "Molnár", "Németh", "Farkas",
-                        "Papp", "Balázs", "Takács", "Juhász", "Simon", "Kálmán", "Bíró", "Fehér", "Lakatos", "Pásztor",
-                        "Pataki", "Török", "Kis", "Magyar", "Sándor", "Fehér", "Lukács", "Szőke", "Rácz", "Katona",
-                        "Fekete", "Bakos", "Virág", "János", "Bakos", "Balogh", "Barta", "Bíró", "Fehér", "Gáspár",
-                        "Bálint", "Barna", "Beke", "Benedek", "Bérces", "Bodnár", "Bogdán", "Boros", "Budai", "Csaba",
-                        "Csonka", "Csorba", "Dankó", "Dávid", "Demeter", "Dobos", "Dömötör", "Durkó", "Édes", "Érsek",
-                        "Farkas", "Fábián", "Fehér", "Fekete", "Ferenc", "Fodor", "Földi", "Füzesi", "Gábor", "Gál",
-                        "Gergely", "Görbe", "Gulyás", "Gyarmati", "Gyöngyösi", "Györe", "Györi", "Győző", "Hajdú", "Hegedüs",
-                        "Horváth", "Illés", "István", "Juhász", "Jónás", "Kántor", "Katona", "Kerekes", "Kiss", "Kocsis"
-                      ]
+                      "Nagy", "Kovács", "Tóth", "Szabó", "Horváth", "Varga", "Kiss", "Molnár", "Németh", "Farkas",
+                      "Balázs", "Balogh", "Papp", "Takács", "Juhász", "Szilágyi", "Mészáros", "Simon", "Fekete", "Pintér",
+                      "Katona", "Szűcs", "Kerekes", "Bíró", "Orbán", "Sándor", "Szalai", "Lukács", "Kocsis", "Gál",
+                      "Borbély", "Vincze", "Dénes", "Antal", "Hegedüs", "Fehér", "Fodor", "Bán", "Barta", "Török",
+                      "Virág", "Pál", "Magyar", "Somogyi", "Hajdu", "László", "Vörös", "Tamás", "Máté", "Nagy"
+                  ]
                 },
                 'female': {
                     'first': [
-                        "Szilvia", "Katalin", "Zsófia", "Mária", "Eva", "Ildikó", "Anita", "Edit", "Andrea", "Ibolya",
-                        "Zsuzsanna", "Erzsébet", "Judit", "Ilona", "Krisztina", "Viktória", "Lilla", "Hajnalka", "Nóra", "Dóra",
-                        "Enikő", "Hanna", "Boglárka", "Réka", "Petra", "Bianka", "Emese", "Virág", "Orsolya", "Dalma",
-                        "Szofia", "Anett", "Fanni", "Renáta", "Noémi", "Eszter", "Nikolett", "Jázmin", "Kinga", "Lili",
-                        "Luca", "Evelin", "Borbála", "Diana", "Flóra", "Laura", "Léna", "Rózsa", "Sára", "Tímea",
-                        "Vanessa", "Zita", "Zsanett", "Livia", "Mariann", "Vivien", "Alexandra", "Barbara", "Cintia", "Ema",
-                        "Fruzsina", "Gréta", "Helga", "Irén", "Júlia", "Kitti", "Leila", "Melinda", "Nelli", "Olivér",
-                        "Panna", "Rita", "Szabina", "Tünde", "Veronika", "Viktória", "Xénia", "Yvette", "Zselyke", "Zsanett",
-                        "Zsuzsa", "Zoé", "Nóra", "Liliána", "Maja", "Anna", "Bianka", "Dóra", "Emma", "Fanni"
-                      ],
+                      "Anikó", "Ágnes", "Beáta", "Cecília", "Dorottya", "Éva", "Fanni", "Gizella", "Hanna", "Ilona",
+                      "Judit", "Katalin", "Lilla", "Mária", "Nóra", "Orsolya", "Petra", "Réka", "Szilvia", "Tímea",
+                      "Veronika", "Zsófia", "Zsuzsanna", "Adrienn", "Dóra", "Flóra", "Henrietta", "Irén", "Klára", "Luca",
+                      "Melinda", "Nikolett", "Olga", "Piroska", "Rózsa", "Sára", "Tünde", "Valéria", "Viktória", "Xénia",
+                      "Zsanett", "Edit", "Fruzsina", "Gyöngyi", "Helga", "Ildikó", "Julianna", "Kitti", "Lili", "Margit"
+                  ],
                     'second': [
-                        "Nagy", "Kovács", "Tóth", "Szabó", "Horváth", "Varga", "Kiss", "Molnár", "Németh", "Farkas",
-                        "Papp", "Balázs", "Takács", "Juhász", "Simon", "Kálmán", "Bíró", "Fehér", "Lakatos", "Pásztor",
-                        "Pataki", "Török", "Kis", "Magyar", "Sándor", "Fehér", "Lukács", "Szőke", "Rácz", "Katona",
-                        "Fekete", "Bakos", "Virág", "János", "Bakos", "Balogh", "Barta", "Bíró", "Fehér", "Gáspár",
-                        "Bálint", "Barna", "Beke", "Benedek", "Bérces", "Bodnár", "Bogdán", "Boros", "Budai", "Csaba",
-                        "Csonka", "Csorba", "Dankó", "Dávid", "Demeter", "Dobos", "Dömötör", "Durkó", "Édes", "Érsek",
-                        "Farkas", "Fábián", "Fehér", "Fekete", "Ferenc", "Fodor", "Földi", "Füzesi", "Gábor", "Gál",
-                        "Gergely", "Görbe", "Gulyás", "Gyarmati", "Gyöngyösi", "Györe", "Györi", "Győző", "Hajdú", "Hegedüs",
-                        "Horváth", "Illés", "István", "Juhász", "Jónás", "Kántor", "Katona", "Kerekes", "Kiss", "Kocsis"
-                      ],
+                      "Nagy", "Kovács", "Tóth", "Szabó", "Horváth", "Varga", "Kiss", "Molnár", "Németh", "Farkas",
+                      "Balázs", "Balogh", "Papp", "Takács", "Juhász", "Szilágyi", "Mészáros", "Simon", "Fekete", "Pintér",
+                      "Katona", "Szűcs", "Kerekes", "Bíró", "Orbán", "Sándor", "Szalai", "Lukács", "Kocsis", "Gál",
+                      "Borbély", "Vincze", "Dénes", "Antal", "Hegedüs", "Fehér", "Fodor", "Bán", "Barta", "Török",
+                      "Virág", "Pál", "Magyar", "Somogyi", "Hajdu", "László", "Vörös", "Tamás", "Máté", "Nagy"
+                  ],
                 }
             }
         }},
@@ -1269,7 +1137,8 @@ const countries = {
                 }
             }
         }},
-    'Hong Kong': { 'en': {
+    'Hong Kong': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': ['Chi', 'Tong', 'Shu', 'Tao', 'Peng', 'Long', 'Neo', 'Liang', 'Yong', 'Hai', 'Tian', 'Qiang', 'Cong', 'Andrew', 'Shuai',
@@ -1318,16 +1187,41 @@ const countries = {
         }, 'native': {
             'sex': {
                 'male': {
-                    'first': [],
-                    'second': []
+                    'first': [
+                      "文強", "偉業", "志明", "明俊", "俊傑", "國豪", "浩然", "宗翰", "建業", "文彥",
+                      "浩軒", "子軒", "俊賢", "梓豪", "國偉", "志豪", "志鵬", "俊宇", "志成", "明輝",
+                      "嘉偉", "偉賢", "建國", "國基", "振宇", "浩澤", "志濤", "建宇", "浩昇", "建強",
+                      "志傑", "國強", "浩然", "志軒", "俊輝", "振豪", "浩宇", "俊偉", "志偉", "子健",
+                      "俊威", "文榮", "博文", "宗政", "梓軒", "偉勳", "建成", "博瀚", "家駿", "卓然"
+                  ],
+                    'second': [
+                      "李", "王", "張", "劉", "陳", "楊", "黃", "趙", "周", "吳",
+                      "徐", "孫", "胡", "朱", "高", "林", "何", "郭", "馬", "羅",
+                      "梁", "宋", "鄭", "唐", "程", "蔡", "曹", "袁", "許", "韓",
+                      "馮", "鄧", "曾", "彭", "蕭", "董", "潘", "葉", "蔣", "陸",
+                      "胡", "鍾", "姚", "魏", "成", "葉", "方", "白", "石", "賈"
+                  ]
                 },
                 'female': {
-                    'first': [],
-                    'second': [],
+                    'first': [
+                      "美麗", "惠儀", "雪瑩", "曉彤", "靜儀", "翠玲", "莉莉", "嘉欣", "思穎", "玲玲",
+                      "慧婷", "綺雯", "美玲", "蓓蕾", "文靜", "雅婷", "惠如", "婉婷", "芷晴", "晶晶",
+                      "雅雅", "慧敏", "詩雅", "靜雯", "佳怡", "雪兒", "薇薇", "思敏", "欣怡", "潔儀",
+                      "智欣", "雯雯", "慧玲", "曉彤", "綺麗", "雪梅", "雅文", "心怡", "曉萍", "家琪",
+                      "惠敏", "美怡", "靜文", "佩珊", "欣宜", "婉君", "雅婷", "思萍", "婉萍", "淑儀"
+                  ],
+                    'second': [
+                      "李", "王", "張", "劉", "陳", "楊", "黃", "趙", "周", "吳",
+                      "徐", "孫", "胡", "朱", "高", "林", "何", "郭", "馬", "羅",
+                      "梁", "宋", "鄭", "唐", "程", "蔡", "曹", "袁", "許", "韓",
+                      "馮", "鄧", "曾", "彭", "蕭", "董", "潘", "葉", "蔣", "陸",
+                      "胡", "鍾", "姚", "魏", "成", "葉", "方", "白", "石", "賈"
+                  ],
                 }
             }
         }},
-    'Greece': { 'en': {
+    'Greece': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -1448,7 +1342,8 @@ const countries = {
                 }
             }
         }},
-    'Georgia': { 'en': {
+    'Georgia': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -1617,7 +1512,8 @@ const countries = {
                 }
             }
         }},
-    'Denmark': { 'en': {
+    'Denmark': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -1800,7 +1696,8 @@ const countries = {
                 }
             }
         }},
-    'Israel': { 'en': {
+    'Israel': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -1989,7 +1886,8 @@ const countries = {
                 }
             }
         }},
-    'Iceland': { 'en': {
+    'Iceland': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -2182,7 +2080,8 @@ const countries = {
                 }
             }
         }},
-    'Kazakhstan': { 'en': {
+    'Kazakhstan': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -2490,7 +2389,8 @@ const countries = {
                 }
             }
         }},
-    'Lithuania': { 'en': {
+    'Lithuania': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -2595,7 +2495,8 @@ const countries = {
                 }
             }
         }},
-    'Morocco': { 'en': {
+    'Morocco': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -2652,57 +2553,44 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        'Mohammed', 'Ahmed', 'Omar', 'Ali', 'Youssef', 'Khalid', 'Ismail', 'Rachid', 'Abdellah', 'Mustapha',
-                        'Said', 'Hassan', 'Hamza', 'Adil', 'Nabil', 'Abdelilah', 'Anas', 'Zakaria', 'Nadir', 'Yassin',
-                        'Mehdi', 'Karim', 'Ayoub', 'Reda', 'Amine', 'Brahim', 'Tarik', 'Othman', 'Jawad', 'Hicham',
-                        'Abdelkader', 'Ayyoub', 'Mohcine', 'Bilal', 'Wissam', 'Aziz', 'Fayçal', 'Othmane', 'Kamal', 'Younes',
-                        'Abderrahmane', 'Youness', 'Mounir', 'Walid', 'Sofiane', 'Mohsin', 'Mehamed', 'Chakib', 'Imad', 'Hichame',
-                        'Houssam', 'Anouar', 'Saad', 'Khalil', 'Abdou', 'Tarek', 'Amir', 'Nour', 'Mouad', 'Hakim',
-                        'Abderrahim', 'Fouad', 'Yassine', 'Rida', 'Oualid', 'Badr', 'Najib', 'Mohcine', 'Ilyas', 'Taha',
-                        'Marouane', 'Achraf', 'Mohsen', 'Mohamed Amine', 'Ilias', 'Zouhair', 'Omar', 'Mohamed Ali', 'Majid', 'Mounir',
-                        'Mohamed Amine', 'Hassane', 'Yahya', 'Abdelwahed', 'Adnane', 'Abdellatif', 'Abdelkrim', 'Houcine', 'Achraf', 'Ayman',
-                        'Youness', 'Rachid', 'Houssine', 'Zakaria', 'Bilal', 'Nassim', 'Nizar', 'Ahmed', 'Wassim', 'Khalid'
-                      ],
-                    'second': [
-                        'Alami', 'Bouazza', 'Chraibi', 'El Amrani', 'Fassi', 'Gharib', 'Hilali', 'Idrissi', 'Jilali', 'Kabbaj',
-                        'Lahlou', 'Mokhtar', 'Najjar', 'Ouahbi', 'Rafiq', 'Sahraoui', 'Tazi', 'Ziani', 'Benali', 'Chaoui',
-                        'Dahbi', 'El Fahri', 'Fouad', 'Ghazi', 'Hassani', 'Ismaili', 'Joudi', 'Kamal', 'Lakhdar', 'Mansouri',
-                        'Naimi', 'Ouazzani', 'Rahmani', 'Seddiki', 'Taibi', 'Zerouali', 'Bahja', 'Chami', 'Doukkali', 'El Haouari',
-                        'Fassi', 'Ghazali', 'Hakimi', 'Issaoui', 'Jahjouh', 'Kasmi', 'Lahjouji', 'Mernissi', 'Naciri', 'Ouadoudi',
-                        'Rochdi', 'Sbihi', 'Tazi', 'Zakari', 'Benjelloun', 'Dakir', 'El Haddad', 'Fatihi', 'Ghiyati', 'Houssni',
-                        'Ibrir', 'Jaidi', 'Kabbaj', 'Lamrani', 'Mestari', 'Naji', 'Ouarghidi', 'Raji', 'Sekkat', 'Tabit',
-                        'Zemmouri', 'Bensaid', 'Dekkak', 'El Hani', 'Fattahi', 'Ghoulam', 'Ibourk', 'Jamaï', 'Kabli', 'Lazrak',
-                        'Mokhtari', 'Nakhi', 'Ouarab', 'Rami', 'Selmouni', 'Tadlaoui', 'Zemmouri', 'Benyahia', 'Dlimi', 'Ezzerhouni'
-                      ]
+                      "محمد", "أحمد", "عبد الرحمان", "عبد الله", "يوسف", "علي", "عبد العزيز", "مصطفى", "رضوان", "إسماعيل",
+                      "أيوب", "عمر", "خالد", "حسن", "حسين", "حمزة", "عبد الوهاب", "مراد", "بلال", "زكرياء",
+                      "سفيان", "عبد القادر", "عبد الحفيظ", "نور الدين", "مالك", "إياد", "مهدي", "نصر", "أشرف", "أمين",
+                      "عبد السلام", "عبد الكريم", "أنس", "سعيد", "إسلام", "سليمان", "معاذ", "محسن", "محمود", "ياسين",
+                      "طارق", "محمد أمين", "وليد", "هشام", "سمير", "نبيل", "رشيد", "أحمد عبد الله", "أسامة", "فؤاد"
+                  ],
+                    'second': ['العلمي', 'بوعزة', 'الشرايبي', 'العمراني', 'فاسي', 'الغريب', 'هلالي', 'إدريسي', 'جلالي', 'القباج',
+                      'اللحلو', 'مختار', 'النجار', 'الوحبي', 'رفيق', 'الصحراوي', 'تازي', 'زياني', 'بن علي', 'الشاوي',
+                      'الدهبي', 'الفحري', 'فؤاد', 'غازي', 'الحسني', 'الإسماعيلي', 'جودي', 'كمال', 'الأخضر', 'منصوري',
+                      'النعيمي', 'الوزاني', 'الرحماني', 'السديكي', 'الطيبي', 'زروالي', 'بهجة', 'شامي', 'الدكالي', 'الهواري',
+                      'فاسي', 'الغزالي', 'حكيمي', 'العيساوي', 'جحجوح', 'كاسمي', 'الحجوجي', 'المرنيسي', 'الناصري', 'الوعدودي',
+                      'الرشدي', 'السبيحي', 'تازي', 'زكري', 'بن جلون', 'الداكر', 'الحداد', 'الفتيحي', 'الغياتي', 'الحسني',
+                      'إبرير', 'جايدي', 'القباج', 'المراني', 'المستاري', 'الناجي', 'الورغيدي', 'راجي', 'السكات', 'الطبيت',
+                      'الزموري', 'بن سعيد', 'الدكاك', 'الهاني', 'فتاحي', 'الغلاوم', 'إبورك', 'الجماعي', 'كابلي', 'الزرق',
+                      'المختاري', 'النخي', 'الواراب', 'رامي', 'سلموني', 'تادلاوي', 'الزموري', 'بن يحيى', 'الدليمي', 'الزرهوني']
                 },
                 'female': {
                     'first': [
-                        'Fatima', 'Zainab', 'Amina', 'Khadija', 'Hafsa', 'Nour', 'Meryem', 'Sara', 'Loubna', 'Hayat',
-                        'Siham', 'Asmaa', 'Najat', 'Samira', 'Ibtissam', 'Latifa', 'Raja', 'Naima', 'Imane', 'Soukaina',
-                        'Houda', 'Hajar', 'Hanae', 'Wafa', 'Saida', 'Rim', 'Fadwa', 'Zahra', 'Malika', 'Nadia',
-                        'Nawal', 'Rachida', 'Asmae', 'Aicha', 'Yasmina', 'Kaoutar', 'Sofia', 'Karima', 'Safia', 'Nisrine',
-                        'Ghizlane', 'Bouchra', 'Salma', 'Amal', 'Khawla', 'Saida', 'Laila', 'Sabah', 'Houria', 'Naima',
-                        'Rkia', 'Zineb', 'Mina', 'Noura', 'Meriem', 'Khadija', 'Jihane', 'Nadia', 'Samia', 'Fatiha',
-                        'Rita', 'Wiam', 'Hanane', 'Fatiha', 'Mina', 'Noura', 'Samira', 'Yasmine', 'Nadia', 'Lina',
-                        'Imane', 'Chaimae', 'Wissam', 'Hanane', 'Wafa', 'Hanae', 'Siham', 'Laila', 'Fatima', 'Amina',
-                        'Zahra', 'Sara', 'Nour', 'Nawal', 'Aicha', 'Latifa', 'Sofia', 'Rita', 'Loubna', 'Imane',
-                        'Houda', 'Hayat', 'Nisrine', 'Fadwa', 'Kaoutar', 'Salma', 'Yasmina', 'Meryem', 'Samia', 'Saida'
-                      ],
-                    'second': [
-                        'Alami', 'Bouazza', 'Chraibi', 'El Amrani', 'Fassi', 'Gharib', 'Hilali', 'Idrissi', 'Jilali', 'Kabbaj',
-                        'Lahlou', 'Mokhtar', 'Najjar', 'Ouahbi', 'Rafiq', 'Sahraoui', 'Tazi', 'Ziani', 'Benali', 'Chaoui',
-                        'Dahbi', 'El Fahri', 'Fouad', 'Ghazi', 'Hassani', 'Ismaili', 'Joudi', 'Kamal', 'Lakhdar', 'Mansouri',
-                        'Naimi', 'Ouazzani', 'Rahmani', 'Seddiki', 'Taibi', 'Zerouali', 'Bahja', 'Chami', 'Doukkali', 'El Haouari',
-                        'Fassi', 'Ghazali', 'Hakimi', 'Issaoui', 'Jahjouh', 'Kasmi', 'Lahjouji', 'Mernissi', 'Naciri', 'Ouadoudi',
-                        'Rochdi', 'Sbihi', 'Tazi', 'Zakari', 'Benjelloun', 'Dakir', 'El Haddad', 'Fatihi', 'Ghiyati', 'Houssni',
-                        'Ibrir', 'Jaidi', 'Kabbaj', 'Lamrani', 'Mestari', 'Naji', 'Ouarghidi', 'Raji', 'Sekkat', 'Tabit',
-                        'Zemmouri', 'Bensaid', 'Dekkak', 'El Hani', 'Fattahi', 'Ghoulam', 'Ibourk', 'Jamaï', 'Kabli', 'Lazrak',
-                        'Mokhtari', 'Nakhi', 'Ouarab', 'Rami', 'Selmouni', 'Tadlaoui', 'Zemmouri', 'Benyahia', 'Dlimi', 'Ezzerhouni'
-                      ],
+                      "فاطمة", "خديجة", "زينب", "سعاد", "مريم", "سمية", "لطيفة", "نعيمة", "سلمى", "رجاء",
+                      "سارة", "عائشة", "نور", "حنان", "أمينة", "ليلى", "نجاة", "لمى", "سلمى", "حبيبة",
+                      "مريم", "سكينة", "لطيفة", "إبتسام", "هالة", "فدوى", "لينا", "زهراء", "دنيا", "أسماء",
+                      "حسناء", "رقية", "فاطمة", "رحمة", "سناء", "فدوى", "عبير", "عائشة", "هدى", "سلوى",
+                      "أمال", "جميلة", "نور", "صفاء", "أميرة", "بتول", "رباب", "نوال", "ناهد", "مرام"
+                  ],
+                    'second': ['العلمي', 'بوعزة', 'الشرايبي', 'العمراني', 'فاسي', 'الغريب', 'هلالي', 'إدريسي', 'جلالي', 'القباج',
+                      'اللحلو', 'مختار', 'النجار', 'الوحبي', 'رفيق', 'الصحراوي', 'تازي', 'زياني', 'بن علي', 'الشاوي',
+                      'الدهبي', 'الفحري', 'فؤاد', 'غازي', 'الحسني', 'الإسماعيلي', 'جودي', 'كمال', 'الأخضر', 'منصوري',
+                      'النعيمي', 'الوزاني', 'الرحماني', 'السديكي', 'الطيبي', 'زروالي', 'بهجة', 'شامي', 'الدكالي', 'الهواري',
+                      'فاسي', 'الغزالي', 'حكيمي', 'العيساوي', 'جحجوح', 'كاسمي', 'الحجوجي', 'المرنيسي', 'الناصري', 'الوعدودي',
+                      'الرشدي', 'السبيحي', 'تازي', 'زكري', 'بن جلون', 'الداكر', 'الحداد', 'الفتيحي', 'الغياتي', 'الحسني',
+                      'إبرير', 'جايدي', 'القباج', 'المراني', 'المستاري', 'الناجي', 'الورغيدي', 'راجي', 'السكات', 'الطبيت',
+                      'الزموري', 'بن سعيد', 'الدكاك', 'الهاني', 'فتاحي', 'الغلاوم', 'إبورك', 'الجماعي', 'كابلي', 'الزرق',
+                      'المختاري', 'النخي', 'الواراب', 'رامي', 'سلموني', 'تادلاوي', 'الزموري', 'بن يحيى', 'الدليمي', 'الزرهوني'],
                 }
             }
         }},
-    'Moldova': { 'en': {
+    'Moldova': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -2759,57 +2647,40 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        'Andrei', 'Vladimir', 'Ion', 'Alexandru', 'Dumitru', 'Sergiu', 'Nicolae', 'Mihai', 'Vasile', 'Valeriu',
-                        'Igor', 'Victor', 'Gheorghe', 'Oleg', 'Marian', 'Cristian', 'Iurie', 'Radu', 'Denis', 'Ilie',
-                        'Petru', 'Constantin', 'Gabriel', 'Stefan', 'Anatol', 'Grigore', 'Valentin', 'Marin', 'Ivan', 'Eduard',
-                        'Vitalie', 'Viorel', 'Artur', 'Aurel', 'Dorin', 'Veaceslav', 'Dmitrii', 'Vlad', 'Oxana', 'Sorin',
-                        'Leonid', 'Adrian', 'Ivan', 'Ciprian', 'Iulian', 'Bogdan', 'Adrian', 'Eugen', 'Octavian', 'Gavril',
-                        'Saveli', 'Silvian', 'Silviu', 'Boris', 'Sebastian', 'Maxim', 'Teodor', 'Adrian', 'Nikolai', 'Ilie',
-                        'Dionisie', 'Cezar', 'Ionel', 'Vadim', 'Emanuil', 'Orest', 'Alexei', 'Dorin', 'Iosif', 'Ovidiu',
-                        'Paul', 'Ghennadi', 'Florin', 'Arcadie', 'Zaharia', 'Dorian', 'Vladislav', 'Victor', 'Iurii', 'Emil',
-                        'Eduard', 'Ilia', 'Anton', 'Claudiu', 'Dorin', 'Iurie', 'Mihail', 'Octavian', 'Vlad', 'Alexandru',
-                        'Serghei', 'Miron', 'Aurelian', 'Valerian', 'Iuliu', 'Gheorghii', 'Ilie', 'Vasile', 'Vladimir', 'Dmitrii'
-                      ],
+                      "Vasile", "Ion", "Alexandru", "Dumitru", "Gheorghe", "Constantin", "Mihai", "Nicolae", "Ilie", "Dorin",
+                      "Valeriu", "Victor", "Sergiu", "Marian", "Andrei", "Petru", "Dorin", "Marin", "Adrian", "Vladimir",
+                      "Cristian", "Iacob", "Gheorghii", "Leonid", "Sorin", "Octavian", "Laurențiu", "Florin", "Vasiliu", "Radu",
+                      "Iulian", "Teodor", "Ovidiu", "Cosmin", "Aurel", "Cornel", "Eugeniu", "Eduard", "Dorin", "Oleg",
+                      "Daniel", "Bogdan", "Valentin", "Viorel", "Valeriu", "Dorian", "Doru", "Dumitru", "Ovidiu", "Marian"
+                  ],
                     'second': [
-                        'Ivanov', 'Popescu', 'Dumitru', 'Gheorghiu', 'Andrei', 'Niculescu', 'Vasile', 'Cozma', 'Pavel', 'Cebotari',
-                        'Sorin', 'Stoica', 'Sandu', 'Stanciu', 'Balan', 'Sava', 'Ciobanu', 'Roman', 'Burlacu', 'Ionescu',
-                        'Toma', 'Bogdan', 'Frunza', 'Grosu', 'Rusu', 'Diaconu', 'Marin', 'Dima', 'Stefan', 'Dumitrache',
-                        'Rosu', 'Mocanu', 'Dinu', 'Cristea', 'Lupu', 'Spataru', 'Iordache', 'Dobre', 'Filip', 'Lungu',
-                        'Bucur', 'Serban', 'Munteanu', 'Bratu', 'Constantin', 'Dragomir', 'Dragan', 'Radulescu', 'Gavrila', 'Petrica',
-                        'Gheorghe', 'Barbu', 'Cornea', 'Ungureanu', 'Moldovan', 'Cristian', 'Ghita', 'Seremet', 'Apostol', 'Paduraru',
-                        'Farcas', 'Iacob', 'Olaru', 'Vlad', 'Gheorghiță', 'Filimon', 'Neagu', 'Stefanescu', 'Cretu', 'Anton',
-                        'Cojocaru', 'Tudor', 'Radoi', 'Ilie', 'Chirita', 'Romanu', 'Vicol', 'Tudose', 'Panaite', 'Cristofor',
-                        'Budeanu', 'Marin', 'Balan', 'Vasiliu', 'Marinescu', 'Nica', 'Florea', 'Solomon', 'Diaconescu', 'Fratila'
-                      ]
+                      "Cojocaru", "Munteanu", "Balan", "Ceban", "Ursu", "Borta", "Cazacu", "Sava", "Lungu", "Popescu",
+                      "Nistor", "Gherman", "Grecu", "Toma", "Caraganciu", "Cornea", "Tataru", "Bordeianu", "Socolov", "Juc",
+                      "Andronachi", "Stratulat", "Bivol", "Dragan", "Spataru", "Cosovanu", "Dorosenco", "Cerchez", "Cimbru",
+                      "Gradinaru", "Hincu", "Ciobanu", "Mustea", "Miron", "Luchian", "Petrenco", "Zaicov", "Donciu", "Frunza",
+                      "Scurtu", "Matveev", "Pocrovnicu", "Zabolotni", "Soroceanu", "Cernei", "Nacu", "Calin"
+                  ]
                 },
                 'female': {
                     'first': [
-                        'Elena', 'Ana', 'Maria', 'Natalia', 'Olga', 'Irina', 'Tatiana', 'Valentina', 'Liuba', 'Svetlana',
-                        'Marina', 'Galina', 'Alina', 'Viorica', 'Angela', 'Tamara', 'Lilia', 'Ecaterina', 'Rodica', 'Eugenia',
-                        'Larisa', 'Elena', 'Raisa', 'Veronica', 'Nina', 'Valeria', 'Ludmila', 'Silvia', 'Ina', 'Vera',
-                        'Zinaida', 'Ema', 'Aurelia', 'Violeta', 'Eugenia', 'Roxana', 'Elica', 'Vladislava', 'Iuliana', 'Nadejda',
-                        'Eufrosina', 'Victoria', 'Adriana', 'Daniela', 'Liudmila', 'Aliona', 'Tamara', 'Raisa', 'Sofia', 'Iulia',
-                        'Taisia', 'Vera', 'Luminița', 'Sofia', 'Inessa', 'Ludmila', 'Vasilia', 'Lia', 'Ecaterina', 'Tatiana',
-                        'Lina', 'Aliona', 'Anastasia', 'Antonina', 'Evghenia', 'Eudochia', 'Valeria', 'Viviana', 'Cristina', 'Violeta',
-                        'Iraida', 'Emilia', 'Liuba', 'Tudora', 'Adela', 'Aliona', 'Galina', 'Vera', 'Silvia', 'Valentina',
-                        'Ecaterina', 'Ana-Maria', 'Nina', 'Rozalia', 'Iuliana', 'Veronica', 'Larisa', 'Marina', 'Oxana', 'Lia',
-                        'Diana', 'Luminița', 'Olimpia', 'Zara', 'Iulia', 'Ecaterina', 'Roxana', 'Tamara', 'Anastasia', 'Emilia'
-                      ],
+                      "Maria", "Elena", "Ana", "Liliana", "Eugenia", "Viorica", "Elena", "Valentina", "Doina", "Natalia",
+                      "Iulia", "Olga", "Marina", "Tatiana", "Adriana", "Irina", "Victoria", "Vera", "Ludmila", "Tamara",
+                      "Eugenia", "Larisa", "Svetlana", "Raisa", "Galina", "Ecaterina", "Anastasia", "Daniela", "Elena", "Silvia",
+                      "Valeria", "Nadejda", "Nina", "Antonia", "Alexandra", "Cristina", "Lilia", "Alina", "Ema", "Monica",
+                      "Dorina", "Elena", "Angela", "Elena", "Valentina", "Violeta", "Ruxandra", "Ana", "Carmen", "Elena"
+                  ],
                     'second': [
-                        'Ivanov', 'Popescu', 'Dumitru', 'Gheorghiu', 'Andrei', 'Niculescu', 'Vasile', 'Cozma', 'Pavel', 'Cebotari',
-                        'Sorin', 'Stoica', 'Sandu', 'Stanciu', 'Balan', 'Sava', 'Ciobanu', 'Roman', 'Burlacu', 'Ionescu',
-                        'Toma', 'Bogdan', 'Frunza', 'Grosu', 'Rusu', 'Diaconu', 'Marin', 'Dima', 'Stefan', 'Dumitrache',
-                        'Rosu', 'Mocanu', 'Dinu', 'Cristea', 'Lupu', 'Spataru', 'Iordache', 'Dobre', 'Filip', 'Lungu',
-                        'Bucur', 'Serban', 'Munteanu', 'Bratu', 'Constantin', 'Dragomir', 'Dragan', 'Radulescu', 'Gavrila', 'Petrica',
-                        'Gheorghe', 'Barbu', 'Cornea', 'Ungureanu', 'Moldovan', 'Cristian', 'Ghita', 'Seremet', 'Apostol', 'Paduraru',
-                        'Farcas', 'Iacob', 'Olaru', 'Vlad', 'Gheorghiță', 'Filimon', 'Neagu', 'Stefanescu', 'Cretu', 'Anton',
-                        'Cojocaru', 'Tudor', 'Radoi', 'Ilie', 'Chirita', 'Romanu', 'Vicol', 'Tudose', 'Panaite', 'Cristofor',
-                        'Budeanu', 'Marin', 'Balan', 'Vasiliu', 'Marinescu', 'Nica', 'Florea', 'Solomon', 'Diaconescu', 'Fratila'
-                      ],
+                      "Cojocaru", "Munteanu", "Balan", "Ceban", "Ursu", "Borta", "Cazacu", "Sava", "Lungu", "Popescu",
+                      "Nistor", "Gherman", "Grecu", "Toma", "Caraganciu", "Cornea", "Tataru", "Bordeianu", "Socolov", "Juc",
+                      "Andronachi", "Stratulat", "Bivol", "Dragan", "Spataru", "Cosovanu", "Dorosenco", "Cerchez", "Cimbru",
+                      "Gradinaru", "Hincu", "Ciobanu", "Mustea", "Miron", "Luchian", "Petrenco", "Zaicov", "Donciu", "Frunza",
+                      "Scurtu", "Matveev", "Pocrovnicu", "Zabolotni", "Soroceanu", "Cernei", "Nacu", "Calin"
+                  ],
                 }
             }
         }},
-    'Netherlands': { 'en': {
+    'Netherlands': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -2866,57 +2737,40 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        'Johannes', 'Jan', 'Pieter', 'Hendrik', 'Willem', 'Cornelis', 'Adrianus', 'Jacob', 'Gerrit', 'Petrus',
-                        'Arie', 'Albert', 'Gerard', 'Herman', 'Dirk', 'Franciscus', 'Antonius', 'Martinus', 'Theodorus', 'Rudolf',
-                        'Bart', 'Jeroen', 'Michiel', 'Rijk', 'Daan', 'Tobias', 'Erik', 'Maarten', 'Wouter', 'Karel',
-                        'Lars', 'Luuk', 'Sander', 'Lucas', 'Thijs', 'Tim', 'Stefan', 'Vincent', 'Jelle', 'Pieter-Jan',
-                        'Niels', 'Joris', 'Matthijs', 'Bram', 'Wim', 'Simon', 'Michel', 'Roel', 'Patrick', 'Boudewijn',
-                        'Johan', 'Alexander', 'Rutger', 'Victor', 'Maas', 'Gerben', 'Joost', 'Berend', 'Ewout', 'Levi',
-                        'Rogier', 'Freek', 'Sebastiaan', 'Martijn', 'Koen', 'Frits', 'Cas', 'Teun', 'Olivier', 'Floris',
-                        'Sam', 'Bastiaan', 'Christiaan', 'Willem-Jan', 'Reinier', 'Niek', 'Hugo', 'Job', 'Max', 'Gijs',
-                        'Rik', 'Hidde', 'Diederik', 'Klaas', 'Bert', 'Jelmer', 'Thierry', 'Jordy', 'Jop', 'Rens',
-                        'Jochem', 'Xander', 'Lennart', 'Remy', 'Sjoerd', 'Jesse', 'Mats', 'Quinten', 'Tijn', 'Ferdinand'
-                      ],
+                      "Jan", "Pieter", "Johan", "Willem", "Hendrik", "Cornelis", "Dirk", "Jacob", "Gerard", "Michiel",
+                      "Anton", "Bart", "Maarten", "Lucas", "Henk", "Erik", "Teun", "Thomas", "Piet", "Frits",
+                      "Herman", "Karel", "Gerrit", "Rutger", "Berend", "Joris", "Daan", "Reinier", "Thijs", "Roel",
+                      "Rik", "Jelle", "Tim", "Sebastiaan", "Rob", "Boudewijn", "Niek", "Wouter", "Bram", "Sander",
+                      "Hugo", "Timo", "Floris", "Luuk", "Jeroen", "Gijs", "Cas", "Johannes", "Gerben", "Rolf"
+                  ],
                     'second': [
-                        'de Jong', 'Jansen', 'de Vries', 'van den Berg', 'van Dijk', 'Bakker', 'Janssen', 'Visser', 'Smit', 'Meijer',
-                        'Mulder', 'de Boer', 'Bos', 'Vos', 'Peters', 'Hendriks', 'Koster', 'Veenstra', 'Prins', 'Schmidt',
-                        'van der Linden', 'van der Meer', 'de Graaf', 'van der Velden', 'de Bruin', 'van der Wal', 'van Doorn', 'Kok', 'Post',
-                        'Mol', 'Brouwer', 'Koning', 'de Lange', 'de Groot', 'Kuijpers', 'Timmermans', 'van Leeuwen', 'van der Heijden', 'Kuiper',
-                        'de Wit', 'Dijkstra', 'Bosch', 'van Beek', 'Jacobs', 'van de Ven', 'Vermeulen', 'Kramer', 'van Wijk', 'van der Laan',
-                        'van der Pols', 'Scholten', 'Jonker', 'Hoekstra', 'Huisman', 'Groen', 'van der Linde', 'Verbeek', 'Willems', 'van der Horst',
-                        'Schouten', 'Kuipers', 'van Dam', 'Bakker', 'Willemsen', 'Brouwer', 'de Lange', 'Veenstra', 'van Vliet', 'Visser',
-                        'Bosman', 'Koning', 'Vos', 'de Ruiter', 'de Vos', 'van Veen', 'Molenaar', 'van de Pol', 'Scholte', 'de Koning',
-                        'Molenaar', 'van Beek', 'van Dijk', 'Koster', 'Smeets', 'Bakker', 'de Wit', 'van Leeuwen', 'van der Zwan', 'de Groot'
-                      ]
+                      "de Jong", "Jansen", "de Vries", "van den Berg", "van Dijk", "Bakker", "Janssen", "Visser", "Smit", "Meijer",
+                      "de Boer", "Mulder", "de Groot", "Bos", "Vos", "Peters", "Hendriks", "van Leeuwen", "Dekker", "Brouwer",
+                      "van der Meer", "de Haan", "Vermeulen", "Kok", "van den Heuvel", "Prins", "Koopman", "de Wit", "Post", "Kuijpers",
+                      "van der Laan", "van Beek", "van der Linden", "Veenstra", "Schouten", "Petersen", "Nielsen", "Martens", "Sanders", "van der Wal",
+                      "van Boven", "Hermans", "Dijkstra", "Timmermans", "Huisman", "Evers", "Willems", "van der Heijden", "van der Ven", "Beekman"
+                  ]
                 },
                 'female': {
                     'first': [
-                        'Anna', 'Sophie', 'Emma', 'Julia', 'Eva', 'Tess', 'Lisa', 'Fleur', 'Saar', 'Lotte',
-                        'Lieke', 'Lena', 'Isa', 'Liv', 'Noa', 'Zoe', 'Lynn', 'Mila', 'Elin', 'Nina',
-                        'Rosa', 'Esmee', 'Amy', 'Fenna', 'Amber', 'Isabel', 'Roos', 'Femke', 'Jasmijn', 'Anouk',
-                        'Lara', 'Sara', 'Floor', 'Julie', 'Evi', 'Noor', 'Sophia', 'Lois', 'Milou', 'Nova',
-                        'Lina', 'Hannah', 'Olivia', 'Lizzy', 'Yara', 'Ava', 'Vera', 'Maud', 'Yasmine', 'Bente',
-                        'Lola', 'Anne', 'Daphne', 'Elise', 'Iris', 'Zara', 'Nova', 'Mia', 'Liv', 'Lara',
-                        'Aimée', 'Sofia', 'Nora', 'Emily', 'Lisanne', 'Johanna', 'Merel', 'Milou', 'Veerle', 'Ella',
-                        'Marit', 'Daisy', 'Elif', 'Sterre', 'Aya', 'Johanneke', 'Puck', 'Lotte', 'Renske', 'Nienke',
-                        'Lise', 'Isabella', 'Myrthe', 'Nadia', 'Faye', 'Madelief', 'Amélie', 'Kiki', 'Mara', 'Isla',
-                        'Lynn', 'Hanneke', 'Marianne', 'Zoë', 'Charlotte', 'Nienke', 'Jette', 'Feline', 'Demi', 'Isa'
-                      ],
+                      "Anna", "Marieke", "Sophie", "Emma", "Lotte", "Mieke", "Eva", "Anouk", "Liesbeth", "Elise",
+                      "Annelies", "Femke", "Lisanne", "Catharina", "Petra", "Inge", "Renate", "Judith", "Caroline", "Kim",
+                      "Linda", "Monique", "Karen", "Paulien", "Mirjam", "Ilse", "Nicole", "Esther", "Yvonne", "Nienke",
+                      "Laura", "Julia", "Merel", "Daphne", "Nina", "Floor", "Sanne", "Fleur", "Suzanne", "Lara",
+                      "Marianne", "Hanneke", "Jasmijn", "Miranda", "Bianca", "Daniëlle", "Lotte", "Maaike", "Lisette", "Margo"
+                  ],
                     'second': [
-                        'de Jong', 'Jansen', 'de Vries', 'van den Berg', 'van Dijk', 'Bakker', 'Janssen', 'Visser', 'Smit', 'Meijer',
-                        'Mulder', 'de Boer', 'Bos', 'Vos', 'Peters', 'Hendriks', 'Koster', 'Veenstra', 'Prins', 'Schmidt',
-                        'van der Linden', 'van der Meer', 'de Graaf', 'van der Velden', 'de Bruin', 'van der Wal', 'van Doorn', 'Kok', 'Post',
-                        'Mol', 'Brouwer', 'Koning', 'de Lange', 'de Groot', 'Kuijpers', 'Timmermans', 'van Leeuwen', 'van der Heijden', 'Kuiper',
-                        'de Wit', 'Dijkstra', 'Bosch', 'van Beek', 'Jacobs', 'van de Ven', 'Vermeulen', 'Kramer', 'van Wijk', 'van der Laan',
-                        'van der Pols', 'Scholten', 'Jonker', 'Hoekstra', 'Huisman', 'Groen', 'van der Linde', 'Verbeek', 'Willems', 'van der Horst',
-                        'Schouten', 'Kuipers', 'van Dam', 'Bakker', 'Willemsen', 'Brouwer', 'de Lange', 'Veenstra', 'van Vliet', 'Visser',
-                        'Bosman', 'Koning', 'Vos', 'de Ruiter', 'de Vos', 'van Veen', 'Molenaar', 'van de Pol', 'Scholte', 'de Koning',
-                        'Molenaar', 'van Beek', 'van Dijk', 'Koster', 'Smeets', 'Bakker', 'de Wit', 'van Leeuwen', 'van der Zwan', 'de Groot'
-                      ],
+                      "de Jong", "Jansen", "de Vries", "van den Berg", "van Dijk", "Bakker", "Janssen", "Visser", "Smit", "Meijer",
+                      "de Boer", "Mulder", "de Groot", "Bos", "Vos", "Peters", "Hendriks", "van Leeuwen", "Dekker", "Brouwer",
+                      "van der Meer", "de Haan", "Vermeulen", "Kok", "van den Heuvel", "Prins", "Koopman", "de Wit", "Post", "Kuijpers",
+                      "van der Laan", "van Beek", "van der Linden", "Veenstra", "Schouten", "Petersen", "Nielsen", "Martens", "Sanders", "van der Wal",
+                      "van Boven", "Hermans", "Dijkstra", "Timmermans", "Huisman", "Evers", "Willems", "van der Heijden", "van der Ven", "Beekman"
+                  ],
                 }
             }
         }},
-    'Norway': { 'en': {
+    'Norway': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -2975,59 +2829,40 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        'Ole', 'Johan', 'Andreas', 'Kristian', 'Erik', 'Lars', 'Per', 'Sven', 'Magnus', 'Knut',
-                        'Hans', 'Petter', 'Thomas', 'Martin', 'Jon', 'Harald', 'Geir', 'Bjørn', 'Odd', 'Trond',
-                        'Even', 'Frode', 'Helge', 'Sigurd', 'Nils', 'Arne', 'Steinar', 'Øyvind', 'Gunnar', 'Tore',
-                        'Ola', 'Roar', 'Terje', 'Kjell', 'Jan', 'Einar', 'Espen', 'Dag', 'Christian', 'Ivar',
-                        'Oskar', 'Morten', 'Eivind', 'Rune', 'Sindre', 'Børre', 'Sigmund', 'Jørgen', 'Erling', 'Fredrik',
-                        'Pål', 'Gustav', 'Trygve', 'Leif', 'Jostein', 'Marius', 'Stian', 'Oddvar', 'Kåre', 'Vidar',
-                        'Åge', 'Håkon', 'Gunnar', 'Jørgen', 'Inge', 'Asbjørn', 'Øystein', 'Herman', 'Henrik', 'Ivan',
-                        'Torstein', 'Eilert', 'Omar', 'Rolf', 'Tormod', 'Tor', 'Ludvik', 'Erlend', 'Ulrik', 'Oskar',
-                        'Harald', 'Erlend', 'Vegard', 'Ragnar', 'Lasse', 'Simen', 'Vilhelm', 'Finn', 'Alfred', 'Jens',
-                        'Ørjan', 'Torbjørn', 'Helge', 'Bjarte', 'Leiv', 'Joachim', 'Jørgen', 'Fridtjof', 'Erling', 'Petter'
-                      ],
+                      "Per", "Ole", "Lars", "Kjell", "Bjørn", "Erik", "Geir", "Jan", "Odd", "Hans",
+                      "Anders", "Tor", "Frode", "Jørgen", "Svein", "Nils", "Arne", "Terje", "Thomas", "Steinar",
+                      "Petter", "Morten", "Henrik", "Tore", "Kristian", "Espen", "Stian", "Øystein", "Rune", "Martin",
+                      "Magnus", "Gunnar", "Jon", "Sigmund", "Trond", "Stig", "Even", "Lasse", "Helge", "Roger",
+                      "Simen", "Kjetil", "Håkon", "Ola", "Ivar", "Einar", "Pål", "Fredrik", "Lennart", "Eivind"
+                  ],
                     'second': [
-                        'Olsen', 'Johansen', 'Larsen', 'Andersen', 'Pedersen', 'Nilsen', 'Kristiansen', 'Jensen', 'Hansen', 'Karlsen',
-                        'Svendsen', 'Knutsen', 'Olsen', 'Bakke', 'Sørensen', 'Solberg', 'Andresen', 'Strand', 'Eriksen', 'Moen',
-                        'Kristoffersen', 'Jacobsen', 'Haugen', 'Moe', 'Johannessen', 'Gundersen', 'Iversen', 'Olausen', 'Eide', 'Pettersen',
-                        'Berg', 'Tangen', 'Johnsen', 'Lie', 'Nielsen', 'Rasmussen', 'Vangen', 'Dahl', 'Aas', 'Berntsen',
-                        'Myhre', 'Rønning', 'Ottosen', 'Lunde', 'Haugen', 'Nygård', 'Sørlie', 'Hanssen', 'Nygaard', 'Bjerke',
-                        'Næss', 'Fossum', 'Haugland', 'Bakken', 'Wold', 'Berger', 'Isaksen', 'Ruud', 'Simonsen', 'Oppedal',
-                        'Lind', 'Arnesen', 'Halvorsen', 'Haga', 'Borge', 'Nordby', 'Haug', 'Lien', 'Sandvik', 'Gran',
-                        'Evensen', 'Mikkelsen', 'Aasen', 'Thoresen', 'Tveit', 'Ødegård', 'Hole', 'Fredriksen', 'Solem', 'Hovland',
-                        'Engebretsen', 'Vik', 'Engen', 'Nordli', 'Ødegaard', 'Brekke', 'Solheim', 'Tangen', 'Østby', 'Bråten',
-                        'Bø', 'Strøm', 'Torp', 'Gulbrandsen', 'Stensrud', 'Gjøen', 'Nygren', 'Eliassen', 'Helle', 'Hedlund'
-                      ]
+                      "Johansen", "Hansen", "Andersen", "Pedersen", "Olsen", "Larsen", "Kristiansen", "Jensen", "Karlsen", "Johnsen",
+                      "Pettersen", "Eriksen", "Berg", "Haugen", "Hagen", "Andreassen", "Jacobsen", "Dahl", "Johannessen", "Halvorsen",
+                      "Nilssen", "Rasmussen", "Solberg", "Martinsen", "Paulsen", "Knutsen", "Sørensen", "Knudsen", "Amundsen", "Evensen",
+                      "Bakke", "Svendsen", "Myhre", "Haugland", "Sæther", "Nilsen", "Gundersen", "Strand", "Tangen", "Solheim",
+                      "Bjerke", "Aas", "Lund", "Kvam", "Bakken", "Fredriksen", "Nygård", "Ødegård", "Sandvik", "Brekke"
+                  ]
                 },
                 'female': {
                     'first': [
-                        'Ingrid', 'Marianne', 'Kristin', 'Camilla', 'Ida', 'Lene', 'Hilde', 'Astrid', 'Eva', 'Nina',
-                        'Silje', 'Tone', 'Bente', 'Hege', 'Solveig', 'Kari', 'Annika', 'Helene', 'Vilde', 'Ragnhild',
-                        'Marit', 'Trine', 'Sofie', 'Emma', 'Linda', 'Johanne', 'Anita', 'Gunn', 'Malin', 'Lillian',
-                        'Karen', 'Berit', 'Elin', 'Pernille', 'Guro', 'Thea', 'Lisa', 'Maria', 'Anne', 'Julie',
-                        'Camilla', 'Gerd', 'Liv', 'Sigrid', 'Jorunn', 'Ellen', 'Gro', 'Anette', 'Kine', 'Siri',
-                        'Hanna', 'Kristine', 'Martha', 'Oda', 'Asta', 'Rita', 'Ane', 'Ella', 'Alma', 'Marte',
-                        'Lisbeth', 'Caroline', 'Ingeborg', 'Margit', 'Birgitte', 'Hanne', 'Linn', 'Aurora', 'Rønnaug', 'Siri',
-                        'Toril', 'Sylvia', 'Cecilie', 'Else', 'Kjersti', 'Elisabeth', 'Asta', 'Unni', 'Helga', 'Inger',
-                        'Berit', 'Eva', 'Nora', 'Kamilla', 'Amalie', 'Therese', 'Iselin', 'Synnøve', 'Ellinor', 'Viktoria',
-                        'Frida', 'Mona', 'Elise', 'Margrethe', 'Astrid', 'Rikke', 'Linnea', 'Hedda', 'Tiril', 'Idun'
-                      ],
-                    'second': [
-                        'Olsen', 'Johansen', 'Larsen', 'Andersen', 'Pedersen', 'Nilsen', 'Kristiansen', 'Jensen', 'Hansen', 'Karlsen',
-                        'Svendsen', 'Knutsen', 'Olsen', 'Bakke', 'Sørensen', 'Solberg', 'Andresen', 'Strand', 'Eriksen', 'Moen',
-                        'Kristoffersen', 'Jacobsen', 'Haugen', 'Moe', 'Johannessen', 'Gundersen', 'Iversen', 'Olausen', 'Eide', 'Pettersen',
-                        'Berg', 'Tangen', 'Johnsen', 'Lie', 'Nielsen', 'Rasmussen', 'Vangen', 'Dahl', 'Aas', 'Berntsen',
-                        'Myhre', 'Rønning', 'Ottosen', 'Lunde', 'Haugen', 'Nygård', 'Sørlie', 'Hanssen', 'Nygaard', 'Bjerke',
-                        'Næss', 'Fossum', 'Haugland', 'Bakken', 'Wold', 'Berger', 'Isaksen', 'Ruud', 'Simonsen', 'Oppedal',
-                        'Lind', 'Arnesen', 'Halvorsen', 'Haga', 'Borge', 'Nordby', 'Haug', 'Lien', 'Sandvik', 'Gran',
-                        'Evensen', 'Mikkelsen', 'Aasen', 'Thoresen', 'Tveit', 'Ødegård', 'Hole', 'Fredriksen', 'Solem', 'Hovland',
-                        'Engebretsen', 'Vik', 'Engen', 'Nordli', 'Ødegaard', 'Brekke', 'Solheim', 'Tangen', 'Østby', 'Bråten',
-                        'Bø', 'Strøm', 'Torp', 'Gulbrandsen', 'Stensrud', 'Gjøen', 'Nygren', 'Eliassen', 'Helle', 'Hedlund'
-                      ],
+                      "Anne", "Ingrid", "Marit", "Kristin", "Lise", "Marianne", "Hilde", "Tone", "Eva", "Gunn",
+                      "Kari", "Liv", "Hege", "Ida", "Nina", "Mette", "Solveig", "Line", "Camilla", "Inger",
+                      "Hanne", "Siri", "Anita", "Siv", "Berit", "Ragnhild", "Lena", "Grethe", "Linn", "Bente",
+                      "May", "Astrid", "Wenche", "Else", "Malin", "Katrine", "Monica", "Elisabeth", "Tina", "Mona",
+                      "Torill", "Elin", "Carina", "Trine", "Ann", "Silje", "Vibeke", "Synnøve", "Kjersti", "Jorunn"
+                  ],
+                    'second':[
+                      "Johansen", "Hansen", "Andersen", "Pedersen", "Olsen", "Larsen", "Kristiansen", "Jensen", "Karlsen", "Johnsen",
+                      "Pettersen", "Eriksen", "Berg", "Haugen", "Hagen", "Andreassen", "Jacobsen", "Dahl", "Johannessen", "Halvorsen",
+                      "Nilssen", "Rasmussen", "Solberg", "Martinsen", "Paulsen", "Knutsen", "Sørensen", "Knudsen", "Amundsen", "Evensen",
+                      "Bakke", "Svendsen", "Myhre", "Haugland", "Sæther", "Nilsen", "Gundersen", "Strand", "Tangen", "Solheim",
+                      "Bjerke", "Aas", "Lund", "Kvam", "Bakken", "Fredriksen", "Nygård", "Ødegård", "Sandvik", "Brekke"
+                  ],
                 }
             }
         }},
-    'UAE': { 'en': {
+    'UAE': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -3086,59 +2921,60 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        'Mohammed', 'Ahmed', 'Khalid', 'Saeed', 'Abdullah', 'Rashid', 'Faisal', 'Hamad', 'Sultan', 'Majid',
-                        'Saif', 'Hassan', 'Yousef', 'Omar', 'Nasser', 'Ali', 'Adnan', 'Khaled', 'Mohsin', 'Ibrahim',
-                        'Tariq', 'Nabil', 'Salim', 'Zayed', 'Issa', 'Fahad', 'Jamal', 'Jasim', 'Mubarak', 'Abdulaziz',
-                        'Jaber', 'Kadhim', 'Obaid', 'Riyad', 'Bader', 'Ghassan', 'Marwan', 'Nawaf', 'Othman', 'Saad',
-                        'Salman', 'Talal', 'Waleed', 'Zain', 'Amir', 'Arif', 'Asim', 'Bilal', 'Eisa', 'Faris',
-                        'Hadi', 'Hakim', 'Hani', 'Imran', 'Jalal', 'Karim', 'Laith', 'Mamdouh', 'Mazin', 'Najib',
-                        'Raed', 'Rami', 'Ridwan', 'Sami', 'Sharif', 'Tamer', 'Tarek', 'Wael', 'Zakariya', 'Zuhair',
-                        'Amin', 'Anwar', 'Ashraf', 'Ayman', 'Dawood', 'Esmail', 'Hisham', 'Karam', 'Khalifa', 'Lutfi',
-                        'Mahmoud', 'Nidal', 'Omar', 'Qasim', 'Raghib', 'Ramzi', 'Sabri', 'Thamer', 'Walid', 'Yasin',
-                        'Zayd', 'Zuhair', 'Aqeel', 'Fadi', 'Jawad', 'Kamal', 'Luay', 'Nizar', 'Osama', 'Sameer'
-                      ],
+                      'محمد', 'أحمد', 'خالد', 'سعيد', 'عبد الله', 'راشد', 'فيصل', 'حمد', 'سلطان', 'ماجد',
+                      'سيف', 'حسن', 'يوسف', 'عمر', 'ناصر', 'علي', 'عدنان', 'خالد', 'محسن', 'إبراهيم',
+                      'طارق', 'نبيل', 'سليم', 'زايد', 'عيسى', 'فهد', 'جمال', 'جاسم', 'مبارك', 'عبد العزيز',
+                      'جابر', 'كاظم', 'عبيد', 'رياض', 'بدر', 'غسان', 'مروان', 'نواف', 'عثمان', 'سعد',
+                      'سلمان', 'طلال', 'وليد', 'زين', 'أمير', 'عارف', 'عاصم', 'بلال', 'عيسى', 'فارس',
+                      'هادي', 'حكيم', 'هاني', 'عمران', 'جلال', 'كريم', 'ليث', 'ممدوح', 'مازن', 'نجيب',
+                      'رائد', 'رامي', 'رضوان', 'سامي', 'شريف', 'تامر', 'طارق', 'وائل', 'زكريا', 'زهير',
+                      'أمين', 'أنور', 'أشرف', 'أيمن', 'داود', 'إسماعيل', 'هشام', 'كرم', 'خليفة', 'لطفي',
+                      'محمود', 'نضال', 'عمر', 'قاسم', 'راغب', 'رمزي', 'صبري', 'ثامر', 'وليد', 'ياسين',
+                      'زيد', 'زهير', 'عقيل', 'فادي', 'جواد', 'كمال', 'لؤي', 'نزار', 'أسامة', 'سمير'
+                  ],
                     'second': [
-                        'Al-Hamed', 'Al-Farsi', 'Al-Mansoori', 'Al-Suwaidi', 'Al-Qasimi', 'Al-Mazrouei', 'Al-Ali', 'Al-Hashemi', 'Al-Kaabi', 'Al-Abdullah',
-                        'Al-Maktoum', 'Al-Nuaimi', 'Al-Hosani', 'Al-Salem', 'Al-Sharif', 'Al-Dhaheri', 'Al-Badi', 'Al-Falasi', 'Al-Jabri', 'Al-Ghafri',
-                        'Al-Blooshi', 'Al-Yafei', 'Al-Mahmoud', 'Al-Dhafiri', 'Al-Mulla', 'Al-Harbi', 'Al-Balushi', 'Al-Hassan', 'Al-Riyami', 'Al-Khatiri',
-                        'Al-Zarouni', 'Al-Shamsi', 'Al-Qahtani', 'Al-Muhairi', 'Al-Khalaf', 'Al-Shehhi', 'Al-Suwaidan', 'Al-Ghazali', 'Al-Tunaiji', 'Al-Dhahab',
-                        'Al-Sarhan', 'Al-Kuwari', 'Al-Khalidi', 'Al-Rashidi', 'Al-Ammari', 'Al-Jabali', 'Al-Marri', 'Al-Jassim', 'Al-Shanqiti', 'Al-Qarni',
-                        'Al-Mamari', 'Al-Hamadi', 'Al-Sabah', 'Al-Roumi', 'Al-Qurashi', 'Al-Shahrani', 'Al-Murad', 'Al-Masoud', 'Al-Mahdi', 'Al-Ajmi',
-                        'Al-Mandhari', 'Al-Shahwani', 'Al-Maamari', 'Al-Haddad', 'Al-Suhail', 'Al-Rais', 'Al-Zubair', 'Al-Rubaie', 'Al-Sadiq', 'Al-Suwaidan',
-                        'Al-Naimi', 'Al-Mazrooei', 'Al-Musharrekh', 'Al-Baloushi', 'Al-Junaibi', 'Al-Qubaisi', 'Al-Awadi', 'Al-Kuwari', 'Al-Otaibi', 'Al-Habashi',
-                        'Al-Nuaim', 'Al-Suwaidi', 'Al-Saadi', 'Al-Maskari', 'Al-Musallam', 'Al-Khouri', 'Al-Mannai', 'Al-Suwaidi', 'Al-Hammadi', 'Al-Kandari',
-                        'Al-Falasi', 'Al-Belushi', 'Al-Matroushi', 'Al-Suwaidi', 'Al-Mandhari', 'Al-Hammadi', 'Al-Awar', 'Al-Rubaie', 'Al-Muhairi', 'Al-Suwaidan'
-                      ]
+                      'الحمد', 'الفارسي', 'المنصوري', 'السويدي', 'القاسمي', 'المزروعي', 'العلي', 'الهاشمي', 'الكعبي', 'العبدالله',
+                      'المكتوم', 'النعيمي', 'الهوسني', 'السالم', 'الشريف', 'الظاهري', 'البادي', 'الفلاسي', 'الجبري', 'الغافري',
+                      'البلوشي', 'اليافعي', 'المحمود', 'الظافيري', 'الملا', 'الحربي', 'البلوشي', 'الحسن', 'الريامي', 'الخطيري',
+                      'الزروني', 'الشامسي', 'القحطاني', 'المحيري', 'الخلف', 'الشحي', 'السويدان', 'الغزالي', 'التنيجي', 'الذهب',
+                      'السرحان', 'الكواري', 'الخالدي', 'الرشيدي', 'العماري', 'الجبلي', 'المري', 'الجاسم', 'الشنقيطي', 'القرني',
+                      'المعمري', 'الحمادي', 'الصباح', 'الرومي', 'القرشي', 'الشهراني', 'المراد', 'المسعود', 'المهدي', 'العجمي',
+                      'المنظري', 'الشحواني', 'المعمري', 'الحداد', 'السهيل', 'الرئيس', 'الزبير', 'الربيعي', 'الصديق', 'السويدان',
+                      'النعيمي', 'المزروعي', 'المشرقي', 'البلوشي', 'الجنوبي', 'القبيسي', 'العوضي', 'الكواري', 'العتيبي', 'الحبشي',
+                      'النعيم', 'السويدي', 'السعدي', 'المسكاري', 'المسلم', 'الخوري', 'المناعي', 'السويدي', 'الحمادي', 'الكندري',
+                      'الفلاسي', 'البلوشي', 'المطروشي', 'السويدي', 'المنظري', 'الحمادي', 'العوار', 'الربيعي', 'المحيري', 'السويدان'
+                  ]
                 },
                 'female': {
                     'first': [
-                        'Fatima', 'Aisha', 'Layla', 'Noor', 'Mariam', 'Sara', 'Noura', 'Latifa', 'Huda', 'Muna',
-                        'Hanan', 'Sheikha', 'Amna', 'Reem', 'Khadija', 'Safia', 'Afaf', 'Nadia', 'Dana', 'Shaima',
-                        'Hayat', 'Zainab', 'Alya', 'Jawaher', 'Zahra', 'Asma', 'Razan', 'Jana', 'Maitha', 'Farida',
-                        'Manal', 'Shaikha', 'Fatemeh', 'Hamda', 'Lubna', 'Shaista', 'Bushra', 'Sabeen', 'Samia', 'Salma',
-                        'Nawal', 'Rania', 'Maryam', 'Maysoon', 'Mai', 'Buthaina', 'Maha', 'Amina', 'Ghada', 'Hessa',
-                        'Majida', 'Maysa', 'Najla', 'Roula', 'Samar', 'Abeer', 'Nisreen', 'Nourhan', 'Rabia', 'Maha',
-                        'Malak', 'Soraya', 'Rasha', 'Lina', 'Habiba', 'Hanan', 'Jumanah', 'Laila', 'Nada', 'Zaynab',
-                        'Ruwaida', 'Sahar', 'Saida', 'Rukaya', 'Tahani', 'Yasmine', 'Noura', 'Nadia', 'Jamila', 'Mouna',
-                        'Najah', 'Fadwa', 'Muna', 'Imane', 'Amal', 'Mai', 'Nasreen', 'Shahira', 'Samara', 'Shaza',
-                        'Sawsan', 'Fatma', 'Ayesha', 'Amira', 'Lubna', 'Myriam', 'Khawla', 'Sabah', 'Hayam', 'Diana'
-                      ],
+                      'فاطمة', 'عائشة', 'ليلى', 'نور', 'مريم', 'سارة', 'نورا', 'لطيفة', 'هدى', 'منى',
+                      'حنان', 'شيخة', 'آمنة', 'ريم', 'خديجة', 'صفية', 'عفاف', 'نادية', 'دانا', 'شيماء',
+                      'حياة', 'زينب', 'علياء', 'جواهر', 'زهراء', 'أسماء', 'رزان', 'جنى', 'ميثا', 'فريدة',
+                      'منال', 'شيخة', 'فاطمة', 'حمدة', 'لبنى', 'شيستا', 'بشرى', 'سبين', 'سامية', 'سلمى',
+                      'نوال', 'رانيا', 'مريم', 'ميسون', 'مي', 'بثينة', 'مها', 'أمينة', 'غادة', 'حصة',
+                      'ماجدة', 'ميساء', 'نجلاء', 'رولا', 'سمر', 'عبير', 'نسرين', 'نورهان', 'رابية', 'مها',
+                      'ملاك', 'سرايا', 'رشا', 'لينا', 'حبيبة', 'حنان', 'جمانة', 'ليلى', 'ندى', 'زينب',
+                      'رويدة', 'سحر', 'سعيدة', 'رقية', 'طهاني', 'ياسمين', 'نورا', 'نادية', 'جميلة', 'مونا',
+                      'نجاح', 'فدوى', 'منى', 'إيمان', 'أمل', 'مي', 'نسرين', 'شاهرة', 'سمارة', 'شذى',
+                      'سوسن', 'فاطمة', 'عائشة', 'أميرة', 'لبنى', 'ميريام', 'خولة', 'صباح', 'هيام', 'ديانا'
+                  ],
                     'second': [
-                        'Al-Hamed', 'Al-Farsi', 'Al-Mansoori', 'Al-Suwaidi', 'Al-Qasimi', 'Al-Mazrouei', 'Al-Ali', 'Al-Hashemi', 'Al-Kaabi', 'Al-Abdullah',
-                        'Al-Maktoum', 'Al-Nuaimi', 'Al-Hosani', 'Al-Salem', 'Al-Sharif', 'Al-Dhaheri', 'Al-Badi', 'Al-Falasi', 'Al-Jabri', 'Al-Ghafri',
-                        'Al-Blooshi', 'Al-Yafei', 'Al-Mahmoud', 'Al-Dhafiri', 'Al-Mulla', 'Al-Harbi', 'Al-Balushi', 'Al-Hassan', 'Al-Riyami', 'Al-Khatiri',
-                        'Al-Zarouni', 'Al-Shamsi', 'Al-Qahtani', 'Al-Muhairi', 'Al-Khalaf', 'Al-Shehhi', 'Al-Suwaidan', 'Al-Ghazali', 'Al-Tunaiji', 'Al-Dhahab',
-                        'Al-Sarhan', 'Al-Kuwari', 'Al-Khalidi', 'Al-Rashidi', 'Al-Ammari', 'Al-Jabali', 'Al-Marri', 'Al-Jassim', 'Al-Shanqiti', 'Al-Qarni',
-                        'Al-Mamari', 'Al-Hamadi', 'Al-Sabah', 'Al-Roumi', 'Al-Qurashi', 'Al-Shahrani', 'Al-Murad', 'Al-Masoud', 'Al-Mahdi', 'Al-Ajmi',
-                        'Al-Mandhari', 'Al-Shahwani', 'Al-Maamari', 'Al-Haddad', 'Al-Suhail', 'Al-Rais', 'Al-Zubair', 'Al-Rubaie', 'Al-Sadiq', 'Al-Suwaidan',
-                        'Al-Naimi', 'Al-Mazrooei', 'Al-Musharrekh', 'Al-Baloushi', 'Al-Junaibi', 'Al-Qubaisi', 'Al-Awadi', 'Al-Kuwari', 'Al-Otaibi', 'Al-Habashi',
-                        'Al-Nuaim', 'Al-Suwaidi', 'Al-Saadi', 'Al-Maskari', 'Al-Musallam', 'Al-Khouri', 'Al-Mannai', 'Al-Suwaidi', 'Al-Hammadi', 'Al-Kandari',
-                        'Al-Falasi', 'Al-Belushi', 'Al-Matroushi', 'Al-Suwaidi', 'Al-Mandhari', 'Al-Hammadi', 'Al-Awar', 'Al-Rubaie', 'Al-Muhairi', 'Al-Suwaidan'
-                      ],
+                      'الحمد', 'الفارسي', 'المنصوري', 'السويدي', 'القاسمي', 'المزروعي', 'العلي', 'الهاشمي', 'الكعبي', 'العبدالله',
+                      'المكتوم', 'النعيمي', 'الهوسني', 'السالم', 'الشريف', 'الظاهري', 'البادي', 'الفلاسي', 'الجبري', 'الغافري',
+                      'البلوشي', 'اليافعي', 'المحمود', 'الظافيري', 'الملا', 'الحربي', 'البلوشي', 'الحسن', 'الريامي', 'الخطيري',
+                      'الزروني', 'الشامسي', 'القحطاني', 'المحيري', 'الخلف', 'الشحي', 'السويدان', 'الغزالي', 'التنيجي', 'الذهب',
+                      'السرحان', 'الكواري', 'الخالدي', 'الرشيدي', 'العماري', 'الجبلي', 'المري', 'الجاسم', 'الشنقيطي', 'القرني',
+                      'المعمري', 'الحمادي', 'الصباح', 'الرومي', 'القرشي', 'الشهراني', 'المراد', 'المسعود', 'المهدي', 'العجمي',
+                      'المنظري', 'الشحواني', 'المعمري', 'الحداد', 'السهيل', 'الرئيس', 'الزبير', 'الربيعي', 'الصديق', 'السويدان',
+                      'النعيمي', 'المزروعي', 'المشرقي', 'البلوشي', 'الجنوبي', 'القبيسي', 'العوضي', 'الكواري', 'العتيبي', 'الحبشي',
+                      'النعيم', 'السويدي', 'السعدي', 'المسكاري', 'المسلم', 'الخوري', 'المناعي', 'السويدي', 'الحمادي', 'الكندري',
+                      'الفلاسي', 'البلوشي', 'المطروشي', 'السويدي', 'المنظري', 'الحمادي', 'العوار', 'الربيعي', 'المحيري', 'السويدان'
+                  ],
                 }
             }
         }},
-    'Poland': { 'en': {
+    'Poland': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -3249,7 +3085,8 @@ const countries = {
                 }
             }
         }},
-    'Portugal': { 'en': {
+    'Portugal': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [
@@ -3306,57 +3143,48 @@ const countries = {
             'sex': {
                 'male': {
                     'first': [
-                        'António', 'João', 'José', 'Luís', 'Miguel', 'Carlos', 'Manuel', 'Paulo', 'Fernando', 'Rui',
-                        'Pedro', 'André', 'Ricardo', 'Daniel', 'Nuno', 'Bruno', 'Jorge', 'Eduardo', 'Vítor', 'Alberto',
-                        'Fábio', 'Sérgio', 'Gonçalo', 'Hugo', 'Artur', 'Jaime', 'Dinis', 'Leonardo', 'António', 'Rafael',
-                        'Diogo', 'Mário', 'Francisco', 'Bernardo', 'Tomás', 'Gabriel', 'Alexandre', 'Rúben', 'Luis', 'José',
-                        'Joaquim', 'Afonso', 'Nélson', 'David', 'Adriano', 'Júlio', 'Raul', 'Ivan', 'Renato', 'Amílcar',
-                        'Simão', 'Gualter', 'Filipe', 'Salvador', 'Emanuel', 'Xavier', 'Gil', 'Ivo', 'Cristiano', 'Valentim',
-                        'Narciso', 'Domingos', 'Abel', 'Teófilo', 'Eugénio', 'César', 'Elias', 'Gustavo', 'Octávio', 'Rodrigo',
-                        'Aurélio', 'Júlio', 'Osvaldo', 'Lino', 'Sílvio', 'Virgílio', 'Nicolau', 'Aristides', 'Cândido', 'Estêvão',
-                        'Félix', 'Isidro', 'Leandro', 'Renato', 'Zé', 'Bartolomeu', 'Ciro', 'Dário', 'Edgar', 'Frederico',
-                        'Gastão', 'Honório', 'Ícaro', 'Joaquim', 'Kévim', 'Lázaro', 'Márcio', 'Noé', 'Oscar', 'Péricles'
-                      ],
+                      'Afonso', 'André', 'Bernardo', 'Carlos', 'Daniel', 'Duarte', 'Eduardo', 'Fernando', 'Gonçalo', 'Henrique',
+                      'Ivo', 'João', 'Luís', 'Manuel', 'Nuno', 'Óscar', 'Pedro', 'Quim', 'Ricardo', 'Sérgio',
+                      'Tomás', 'Umberto', 'Vasco', 'Xavier', 'Yago', 'Zé', 'Adriano', 'Bruno', 'Cristiano', 'Dinis',
+                      'Elias', 'Frederico', 'Gabriel', 'Hugo', 'Ivan', 'Joel', 'Leandro', 'Miguel', 'Nelson', 'Orlando',
+                      'Paulo', 'Rafael', 'Simão', 'Tiago', 'Uriel', 'Valentim', 'Wilson', 'Yuri', 'Zacarias', 'Abel'
+                  ],
                     'second': [
-                        'Silva', 'Santos', 'Oliveira', 'Pereira', 'Costa', 'Rodrigues', 'Martins', 'Ferreira', 'Almeida', 'Ribeiro',
-                        'Pinto', 'Carvalho', 'Teixeira', 'Alves', 'Cunha', 'Mendes', 'Araújo', 'Dias', 'Castro', 'Gomes',
-                        'Nunes', 'Lima', 'Barbosa', 'Fernandes', 'Marques', 'Gonçalves', 'Reis', 'Guimarães', 'Freitas', 'Sousa',
-                        'Machado', 'Neves', 'Soares', 'Lourenço', 'Correia', 'Ramos', 'Jesus', 'Vieira', 'Monteiro', 'Cardoso',
-                        'Grilo', 'Cruz', 'Gouveia', 'Baptista', 'Miranda', 'Faria', 'Madeira', 'Dantas', 'Vargas', 'Mesquita',
-                        'Couto', 'Fonseca', 'Brito', 'Lopes', 'Pacheco', 'Leite', 'Peixoto', 'Antunes', 'Veiga', 'Abrantes',
-                        'Maia', 'Guerreiro', 'Borges', 'Pestana', 'Quintana', 'Salgado', 'Andrade', 'Tavares', 'Rocha', 'Serra',
-                        'Aguiar', 'Coelho', 'Cavalcanti', 'Carmo', 'Cabral', 'Bezerra', 'Barros', 'Vasconcelos', 'Xavier', 'Lacerda',
-                        'Prado', 'Queirós', 'Fraga', 'Vieira', 'Mota', 'Valente', 'Dantas', 'Ximenes', 'Caldeira', 'Junqueira'
-                      ]
+                      'Silva', 'Santos', 'Oliveira', 'Pereira', 'Costa', 'Rodrigues', 'Martins', 'Ferreira', 'Almeida', 'Ribeiro',
+                      'Pinto', 'Carvalho', 'Teixeira', 'Alves', 'Cunha', 'Mendes', 'Araújo', 'Dias', 'Castro', 'Gomes',
+                      'Nunes', 'Lima', 'Barbosa', 'Fernandes', 'Marques', 'Gonçalves', 'Reis', 'Guimarães', 'Freitas', 'Sousa',
+                      'Machado', 'Neves', 'Soares', 'Lourenço', 'Correia', 'Ramos', 'Jesus', 'Vieira', 'Monteiro', 'Cardoso',
+                      'Grilo', 'Cruz', 'Gouveia', 'Baptista', 'Miranda', 'Faria', 'Madeira', 'Dantas', 'Vargas', 'Mesquita',
+                      'Couto', 'Fonseca', 'Brito', 'Lopes', 'Pacheco', 'Leite', 'Peixoto', 'Antunes', 'Veiga', 'Abrantes',
+                      'Maia', 'Guerreiro', 'Borges', 'Pestana', 'Quintana', 'Salgado', 'Andrade', 'Tavares', 'Rocha', 'Serra',
+                      'Aguiar', 'Coelho', 'Cavalcanti', 'Carmo', 'Cabral', 'Bezerra', 'Barros', 'Vasconcelos', 'Xavier', 'Lacerda',
+                      'Prado', 'Queirós', 'Fraga', 'Vieira', 'Mota', 'Valente', 'Dantas', 'Ximenes', 'Caldeira', 'Junqueira'
+                    ]
                 },
                 'female': {
                     'first': [
-                        'Ana', 'Maria', 'Joana', 'Isabel', 'Sofia', 'Carla', 'Helena', 'Margarida', 'Teresa', 'Rita',
-                        'Catarina', 'Inês', 'Laura', 'Patrícia', 'Diana', 'Eva', 'Beatriz', 'Leonor', 'Lara', 'Cláudia',
-                        'Daniela', 'Rosa', 'Andreia', 'Mónica', 'Marta', 'Fátima', 'Natália', 'Sílvia', 'Lúcia', 'Conceição',
-                        'Paula', 'Silvana', 'Tânia', 'Mafalda', 'Ana Maria', 'Fernanda', 'Liliana', 'Elsa', 'Adriana', 'Gabriela',
-                        'Vera', 'Carmo', 'Dalila', 'Iara', 'Marina', 'Sónia', 'Linda', 'Eunice', 'Carolina', 'Dulce',
-                        'Filomena', 'Graciete', 'Rute', 'Luciana', 'Juliana', 'Vânia', 'Beatriz', 'Ema', 'Renata', 'Bianca',
-                        'Sara', 'Cátia', 'Tatiana', 'Irina', 'Bárbara', 'Antónia', 'Amélia', 'Constança', 'Júlia', 'Zélia',
-                        'Suzana', 'Elisa', 'Lurdes', 'Odete', 'Violeta', 'Alcina', 'Lucília', 'Marília', 'Áurea', 'Ofélia',
-                        'Rosária', 'Teodora', 'Lisete', 'Jacinta', 'Valéria', 'Graça', 'Mara', 'Celeste', 'Hermínia', 'Isilda',
-                        'Liana', 'Regina', 'Hélia', 'Célia', 'Luísa', 'Olívia', 'Rosa Maria', 'Simone', 'Ester', 'Henriqueta'
-                      ],
+                      'Ana', 'Beatriz', 'Carolina', 'Daniela', 'Elisa', 'Fátima', 'Gabriela', 'Helena', 'Inês', 'Joana',
+                      'Lara', 'Mariana', 'Natália', 'Olívia', 'Patrícia', 'Rita', 'Sofia', 'Teresa', 'Úrsula', 'Vânia',
+                      'Xana', 'Yara', 'Zara', 'Andreia', 'Bianca', 'Clara', 'Débora', 'Érica', 'Filipa', 'Gisela',
+                      'Heloísa', 'Íris', 'Jéssica', 'Kátia', 'Lúcia', 'Marta', 'Nádia', 'Ofélia', 'Paula', 'Quitéria',
+                      'Raquel', 'Sara', 'Tânia', 'Úrsula', 'Vanda', 'Wanda', 'Xénia', 'Yasmin', 'Zélia', 'Adriana'
+                  ],
                     'second': [
-                        'Silva', 'Santos', 'Oliveira', 'Pereira', 'Costa', 'Rodrigues', 'Martins', 'Ferreira', 'Almeida', 'Ribeiro',
-                        'Pinto', 'Carvalho', 'Teixeira', 'Alves', 'Cunha', 'Mendes', 'Araújo', 'Dias', 'Castro', 'Gomes',
-                        'Nunes', 'Lima', 'Barbosa', 'Fernandes', 'Marques', 'Gonçalves', 'Reis', 'Guimarães', 'Freitas', 'Sousa',
-                        'Machado', 'Neves', 'Soares', 'Lourenço', 'Correia', 'Ramos', 'Jesus', 'Vieira', 'Monteiro', 'Cardoso',
-                        'Grilo', 'Cruz', 'Gouveia', 'Baptista', 'Miranda', 'Faria', 'Madeira', 'Dantas', 'Vargas', 'Mesquita',
-                        'Couto', 'Fonseca', 'Brito', 'Lopes', 'Pacheco', 'Leite', 'Peixoto', 'Antunes', 'Veiga', 'Abrantes',
-                        'Maia', 'Guerreiro', 'Borges', 'Pestana', 'Quintana', 'Salgado', 'Andrade', 'Tavares', 'Rocha', 'Serra',
-                        'Aguiar', 'Coelho', 'Cavalcanti', 'Carmo', 'Cabral', 'Bezerra', 'Barros', 'Vasconcelos', 'Xavier', 'Lacerda',
-                        'Prado', 'Queirós', 'Fraga', 'Vieira', 'Mota', 'Valente', 'Dantas', 'Ximenes', 'Caldeira', 'Junqueira'
-                      ],
+                      'Silva', 'Santos', 'Oliveira', 'Pereira', 'Costa', 'Rodrigues', 'Martins', 'Ferreira', 'Almeida', 'Ribeiro',
+                      'Pinto', 'Carvalho', 'Teixeira', 'Alves', 'Cunha', 'Mendes', 'Araújo', 'Dias', 'Castro', 'Gomes',
+                      'Nunes', 'Lima', 'Barbosa', 'Fernandes', 'Marques', 'Gonçalves', 'Reis', 'Guimarães', 'Freitas', 'Sousa',
+                      'Machado', 'Neves', 'Soares', 'Lourenço', 'Correia', 'Ramos', 'Jesus', 'Vieira', 'Monteiro', 'Cardoso',
+                      'Grilo', 'Cruz', 'Gouveia', 'Baptista', 'Miranda', 'Faria', 'Madeira', 'Dantas', 'Vargas', 'Mesquita',
+                      'Couto', 'Fonseca', 'Brito', 'Lopes', 'Pacheco', 'Leite', 'Peixoto', 'Antunes', 'Veiga', 'Abrantes',
+                      'Maia', 'Guerreiro', 'Borges', 'Pestana', 'Quintana', 'Salgado', 'Andrade', 'Tavares', 'Rocha', 'Serra',
+                      'Aguiar', 'Coelho', 'Cavalcanti', 'Carmo', 'Cabral', 'Bezerra', 'Barros', 'Vasconcelos', 'Xavier', 'Lacerda',
+                      'Prado', 'Queirós', 'Fraga', 'Vieira', 'Mota', 'Valente', 'Dantas', 'Ximenes', 'Caldeira', 'Junqueira'
+                    ],
                 }
             }
         }},
-    'Romania': { 'en': {
+    'Romania': { 
+      'en': {
             'sex': {
                 'male': {
                     'first': [

@@ -56,10 +56,13 @@ generateBtn.addEventListener("click", () => {
   const nameRandomNumber = randomInteger(0, namesEn.length - 1);
   const surnameRandomNumber = randomInteger(0, surnamesEn.length - 1);
 
+  const nameRandomNumberGeo = randomInteger(0, namesGeo.length - 1);
+  const surnameRandomNumberGeo = randomInteger(0, surnamesGeo.length - 1);
+
   firstEn.value = namesEn[nameRandomNumber];
   secondEn.value = surnamesEn[surnameRandomNumber];
-  firstGeo.value = namesGeo[nameRandomNumber];
-  secondGeo.value = surnamesGeo[surnameRandomNumber];
+  firstGeo.value = namesGeo[nameRandomNumberGeo];
+  secondGeo.value = surnamesGeo[surnameRandomNumberGeo];
 
   const { year, month, day } = getAge(selectAge.value);
   birthEn.value = `${day}/${month}/${year}`;
