@@ -4774,17 +4774,12 @@ const countries = {
                       "Максім", "Уладзімір", "Іван", "Ігар", "Яраслаў", "Станіслаў", "Аляксандар", "Дзяніс", "Канстанцін"
                     ],
                     'second': [
-                        'Ivanou', 'Mikalayeu', 'Aliaksandrou', 'Yauhenau', 'Viktarou', 'Dzmitryeu', 'Artsiomau', 'Pavelau', 'Yuryeu', 'Andreieu',
-                        'Siarheieu', 'Uladzimirou', 'Maksimau', 'Antonau', 'Yaraslau', 'Katsiaryn', 'Vitalieau', 'Alehau', 'Ramanau', 'Aliakseieu',
-                        'Piotrau', 'Iharau', 'Stanislau', 'Aliaksandrau', 'Aliaksandarou', 'Dzianisau', 'Kanstantsinau', 'Artsiomau', 'Yahorau', 'Yuryeu',
-                        'Mikhailau', 'Mikalayeu', 'Siarheieu', 'Aliaksandrau', 'Ramanau', 'Pavelau', 'Dzmitryeu', 'Andreieu', 'Yauhenau', 'Viktarou',
-                        'Vitalieau', 'Aliakseieu', 'Maksimau', 'Uladzimirou', 'Ivanau', 'Katsiaryn', 'Iharau', 'Yaraslau', 'Stanislau', 'Aliaksandarou',
-                        'Dzianisau', 'Kanstantsinau', 'Artsiomau', 'Aliaksandrau', 'Yahorau', 'Mikhailau', 'Mikalayeu', 'Siarheieu', 'Ramanau', 'Pavelau',
-                        'Dzmitryeu', 'Andreieu', 'Yauhenau', 'Viktarou', 'Vitalieau', 'Aliakseieu', 'Maksimau', 'Uladzimirou', 'Ivanau', 'Katsiaryn',
-                        'Iharau', 'Yaraslau', 'Stanislau', 'Aliaksandarou', 'Dzianisau', 'Kanstantsinau', 'Artsiomau', 'Aliaksandrau', 'Yahorau', 'Mikhailau',
-                        'Mikalayeu', 'Siarheieu', 'Ramanau', 'Pavelau', 'Dzmitryeu', 'Andreieu', 'Yauhenau', 'Viktarou', 'Vitalieau', 'Aliakseieu',
-                        'Maksimau', 'Uladzimirou', 'Ivanau', 'Katsiaryn', 'Iharau', 'Yaraslau', 'Stanislau', 'Aliaksandarou', 'Dzianisau', 'Kanstantsinau'
-                      ]
+                      'Іваноў', 'Пятроў', 'Сідарэнка', 'Кавалёў', 'Баранаў', 'Грыгор\'еў', 'Сяргееў', 'Васільеў', 'Кароль', 'Максімав',
+                      'Раманаў', 'Яўсееў', 'Лісоўскі', 'Буракоў', 'Ткачэнка', 'Чарняўскі', 'Багданаў', 'Сакалоў', 'Яфіменка', 'Кузняцоў',
+                      'Жукаў', 'Алісееў', 'Харэў', 'Фёдараў', 'Дарашэвіч', 'Дуброўскі', 'Ганчароў', 'Барысаў', 'Арцёмаў', 'Субоцін',
+                      'Ляўкоў', 'Яраш', 'Краўцоў', 'Заяцаў', 'Сташэўскі', 'Навуменка', 'Рыбакоў', 'Філіпав', 'Бяляеў', 'Забароўскі',
+                      'Шыкоў', 'Касцюк', 'Панамарэнка', 'Марчанка', 'Платонаў', 'Ханчанка', 'Мацвейка', 'Лапко', 'Сакалоўскі', 'Гурскі'
+                    ]
                 },
                 'female': {
                     'first': [
@@ -4800,17 +4795,12 @@ const countries = {
                       "Ніна", "Алена", "Марыя", "Анастасія", "Вікторыя", "Дар'я", "Таццяна", "Карына", "Карына", "Юлія"
                   ],
                     'second': [
-                        'Ivanova', 'Mikalayeva', 'Aliaksandrova', 'Yauhenava', 'Viktara', 'Dzmitryeva', 'Artsiomava', 'Pavelava', 'Yuryeva', 'Andreieva',
-                        'Siarheyeva', 'Uladzimirova', 'Maksimava', 'Antonava', 'Yaraslava', 'Katsiaryna', 'Vitalieva', 'Alekhava', 'Ramanoava', 'Aliakseyeva',
-                        'Piotraeva', 'Iharava', 'Stanislava', 'Aliaksandrau', 'Aliaksandarova', 'Dzianisava', 'Kanstantsinau', 'Artsiomava', 'Yahorava', 'Yuryeva',
-                        'Mikhailava', 'Mikalayeva', 'Siarheyeva', 'Aliaksandrau', 'Ramanava', 'Pavelava', 'Dzmitryeva', 'Andreieva', 'Yauhenava', 'Viktara',
-                        'Vitalieva', 'Aliakseyeva', 'Maksimava', 'Uladzimirova', 'Ivanova', 'Katsiaryna', 'Iharava', 'Yaraslava', 'Stanislava', 'Aliaksandarova',
-                        'Dzianisava', 'Kanstantsinau', 'Artsiomava', 'Aliaksandrau', 'Yahorava', 'Mikhailava', 'Mikalayeva', 'Siarheyeva', 'Ramanava', 'Pavelava',
-                        'Dzmitryeva', 'Andreieva', 'Yauhenava', 'Viktara', 'Vitalieva', 'Aliakseyeva', 'Maksimava', 'Uladzimirova', 'Ivanova', 'Katsiaryna',
-                        'Iharava', 'Yaraslava', 'Stanislava', 'Aliaksandarova', 'Dzianisava', 'Kanstantsinau', 'Artsiomava', 'Aliaksandrau', 'Yahorava', 'Mikhailava',
-                        'Mikalayeva', 'Siarheyeva', 'Ramanava', 'Pavelava', 'Dzmitryeva', 'Andreieva', 'Yauhenava', 'Viktara', 'Vitalieva', 'Aliakseyeva',
-                        'Maksimava', 'Uladzimirova', 'Ivanova', 'Katsiaryna', 'Iharava', 'Yaraslava', 'Stanislava', 'Aliaksandarova', 'Dzianisava', 'Kanstantsinau'
-                      ],
+                      'Іванова', 'Пятрова', 'Сідарэнка', 'Кавалева', 'Баранава', 'Грыгор\'ева', 'Сяргеева', 'Васільева', 'Кароль', 'Максімава',
+                      'Раманава', 'Яўсеева', 'Лісоўская', 'Буракова', 'Ткачэнка', 'Чарняўская', 'Багданава', 'Сакалова', 'Яфіменка', 'Кузняцова',
+                      'Жукава', 'Алісеева', 'Харэва', 'Фёдарава', 'Дарашэвіч', 'Дуброўская', 'Ганчарова', 'Барысава', 'Арцёмава', 'Субоціна',
+                      'Ляўкова', 'Яраш', 'Краўцова', 'Заяцава', 'Сташэўская', 'Навуменя', 'Рыбакова', 'Філіпава', 'Бяляева', 'Забароўская',
+                      'Шыкова', 'Касцюк', 'Панамарэнка', 'Марчанка', 'Платонава', 'Ханчанка', 'Мацвейка', 'Лапко', 'Сакалоўская', 'Гурская'
+                    ],
                 }
             }
         }},
