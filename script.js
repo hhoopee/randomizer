@@ -25,7 +25,7 @@ tabs.forEach((tab) => {
 });
 
 // add options to country select
-const countriesNames = [...Object.keys(countries)];
+const countriesNames = [...Object.keys(countries)].sort();
 
 countriesNames.forEach((countryName) => {
   createOption(countryName, selectCountry);
