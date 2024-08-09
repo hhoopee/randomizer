@@ -4914,7 +4914,118 @@ const countries = {
                       ],
                 }
             }
-        }}
+        }},
+    'Zambia': { 'en': {
+        'sex': {
+            'male': {
+                'first': ['John', 'Joseph', 'Peter', 'Charles', 'Moses', 'James', 'Emmanuel', 'Patrick', 'Christopher', 'Kelvin',
+                  'Kennedy', 'Richard', 'Stephen', 'George', 'David', 'Paul', 'Brian', 'Isaac', 'Evans', 'Victor', 'Martin', 'Edward',
+                  'Simon', 'Daniel', 'Felix', 'Michael', 'Alex', 'Andrew', 'Jackson', 'Robert', 'Godfrey', 'Godfrey', 'Henry', 'Samuel',
+                  'Vincent', 'William', 'Benson', 'Thomas', 'Clement', 'Alfred', 'Justin', 'Aaron', 'Lawrence', 'Fredrick', 'Frank',
+                  'Samson', 'Elias', 'Albert', 'Dickson', 'Lewis', 'Fred', 'Jonathan', 'Kenneth', 'Abraham', 'Gilbert', 'Collins',
+                  'Friday', 'Edwin', 'Wilson', 'Bernard', 'Stanley', 'Bright', 'Timothy', 'Leonard', 'Abel', 'Amos', 'Teddy', 'Jacob',
+                  'Micheal', 'Mike', 'Oscar', 'Anthony', 'Maxwell', 'Nelson', 'Steven', 'Ernest', 'Raphael', 'Allan', 'Oliver', 'Innocent',
+                  'Harrison', 'Reuben', 'Joshua', 'Geoffrey', 'Gabriel', 'Nicholas', 'Julius' ,'Phillip', 'Dominic', 'Derrick', 'Derick',
+                  'Evaristo', 'Ronald', 'Davy', 'Donald', 'Luka', 'Jimmy', 'Sunday', 'Benjamin', 'Jonas', 'Benny', 'Sylvester', 'Godwin',
+                  'Joe', 'Elvis', 'Clever', 'Nathan', 'Edson', 'Lloyd', 'Morris', 'Jack', 'Douglas', 'Solomon', 'Titus', 'Kenny', 'Lucky',
+                  'Gideon', 'Owen'
+                ],
+                'second': ['Phiri', 'Banda', 'Mulenga', 'Zulu', 'Musonda', 'Tembo', 'Mwale', 'Lungu', 'Sakala', 'Daka', 'Bwalya',
+                  'Mbewe', 'Mumba', 'Mwape', 'Kunda', 'Nyirenda', 'Chanda', 'Mwila', 'Zimba', 'Mutale', 'Ngoma', 'Mwewa', 'Chola',
+                  'Mubanga', 'Kabwe', 'Mwamba', 'Mwanza', 'Njobvu', 'Chama', 'Mwiinga', 'Mpundu', 'Ngosa', 'Mudenda', 'Mvula',
+                  'Mtonga', 'Moonga', 'Ngulube', 'Nyambe', 'Mukuka', 'Chirwa', 'Katongo', 'Mwenya', 'Kangwa', 'Jere', 'Mwansa',
+                  'Chewe', 'Njovu', 'Malambo', 'Siame', 'Moyo', 'Miti', 'Chomba', 'Kaunda', 'Soko', 'Nkandu', 'Manda', 'Kasongo',
+                  'Malama', 'Chalwe', 'Chileshe', 'Mubita', 'Kalunga', 'Chulu' ,'Nyirongo', 'Kasonde', 'Sinkala', 'Sitali', 'Chabala',
+                  'Kaluba', 'Ndhlovu', 'Kaoma', 'Simfukwe', 'Chibuye', 'Sinyangwe', 'Chilufya', 'Kumwenda', 'Chisenga', 'Chibwe',
+                  'Nkhata', 'Chinyama', 'Chishimba', 'Mkandawire', 'Moono', 'Sikazwe', 'Mwenda', 'Chansa', 'Lubinda', 'Kamanga',
+                  'Munsaka', 'Mweene', 'Gondwe', 'Michelo', 'Nanyangwe', 'Nakazwe', 'Chisanga', 'Cheelo', 'Kabaso', 'Kakoma',
+                  "Ng'andu", 'Ngandu', 'Kayombo', 'Sampa', 'Simwanza', 'Namfukwe', 'Mapulanga', 'Kalumba', 'Siwale', 'Nkonde',
+                  'Muyunda', 'Kabamba', 'Kalenga', 'Mweetwa', 'Muchindu', 'Sichone', 'Nambela', 'Nkole', 'Kampamba', 'Chali'
+                ]
+            },
+            'female': {
+                'first': ['Mary', 'Grace', 'Elizabeth', 'Joyce', 'Charity', 'Ruth', 'Alice', 'Beatrice', 'Judith',
+                  'Esther', 'Florence', 'Josephine', 'Francis', 'Mercy', 'Gift', 'Patricia', 'Maureen', 'Beauty', 'Bridget', 'Martha',
+                  'Eunice', 'Dorothy', 'Jane', 'Rosemary', 'Brenda', 'Precious', 'Maggie', 'Christine', 'Juliet', 'Christina', 'Annie',
+                  'Anna', 'Doreen', 'Monica', 'Susan', 'Prisca', 'Violet', 'Cecilia', 'Gladys', 'Justine', 'Sharon', 'Sarah', 'Hellen',
+                  'Janet', 'Justina', 'Regina', 'Margret', 'Theresa', 'Margaret', 'Harriet', 'Betty', 'Sydney', 'Angela', 'Mildred',
+                  'Naomi', 'Veronica', 'Lilian', 'Maria', 'Peggy', 'Priscilla', 'Rose', 'Lillian', 'Doris', 'Sylvia', 'Racheal',
+                  'Lydia', 'Morgan', 'Bertha', 'Victoria', 'Carol', 'Evelyn', 'Danny', 'Edith', 'Melody', 'Lucy', 'Ester', 'Cathrine',
+                  'Elina', 'Dennis', 'Rachael', 'Sara', 'Mavis', 'Yvonne', 'Gloria', 'Petronella', 'Jessy', 'Clara', 'Caroline',
+                  'Queen', 'Silvia', 'Linda', 'Edina', 'Eliza', 'Noah', 'Pamela', 'Stella', 'Cynthia', 'Matilda', 'Happy', 'Rhoda',
+                  'Sandra', 'Lucia', 'Ivy', 'Nelly', 'Vivian', 'Jean', 'Constance', 'Sophia', 'Kelly', 'Selina', 'Fanny', 'Ethel',
+                  'Emelda', 'Agnes', 'Dorcas'
+                ],
+                'second': ['Phiri', 'Banda', 'Mulenga', 'Zulu', 'Musonda', 'Tembo', 'Mwale', 'Lungu', 'Sakala', 'Daka', 'Bwalya',
+                  'Mbewe', 'Mumba', 'Mwape', 'Kunda', 'Nyirenda', 'Chanda', 'Mwila', 'Zimba', 'Mutale', 'Ngoma', 'Mwewa', 'Chola',
+                  'Mubanga', 'Kabwe', 'Mwamba', 'Mwanza', 'Njobvu', 'Chama', 'Mwiinga', 'Mpundu', 'Ngosa', 'Mudenda', 'Mvula',
+                  'Mtonga', 'Moonga', 'Ngulube', 'Nyambe', 'Mukuka', 'Chirwa', 'Katongo', 'Mwenya', 'Kangwa', 'Jere', 'Mwansa',
+                  'Chewe', 'Njovu', 'Malambo', 'Siame', 'Moyo', 'Miti', 'Chomba', 'Kaunda', 'Soko', 'Nkandu', 'Manda', 'Kasongo',
+                  'Malama', 'Chalwe', 'Chileshe', 'Mubita', 'Kalunga', 'Chulu' ,'Nyirongo', 'Kasonde', 'Sinkala', 'Sitali', 'Chabala',
+                  'Kaluba', 'Ndhlovu', 'Kaoma', 'Simfukwe', 'Chibuye', 'Sinyangwe', 'Chilufya', 'Kumwenda', 'Chisenga', 'Chibwe',
+                  'Nkhata', 'Chinyama', 'Chishimba', 'Mkandawire', 'Moono', 'Sikazwe', 'Mwenda', 'Chansa', 'Lubinda', 'Kamanga',
+                  'Munsaka', 'Mweene', 'Gondwe', 'Michelo', 'Nanyangwe', 'Nakazwe', 'Chisanga', 'Cheelo', 'Kabaso', 'Kakoma',
+                  "Ng'andu", 'Ngandu', 'Kayombo', 'Sampa', 'Simwanza', 'Namfukwe', 'Mapulanga', 'Kalumba', 'Siwale', 'Nkonde',
+                  'Muyunda', 'Kabamba', 'Kalenga', 'Mweetwa', 'Muchindu', 'Sichone', 'Nambela', 'Nkole', 'Kampamba', 'Chali'
+                ],
+            }
+        }
+    }, 'native': {
+        'sex': {
+          'male': {
+              'first': ['John', 'Joseph', 'Peter', 'Charles', 'Moses', 'James', 'Emmanuel', 'Patrick', 'Christopher', 'Kelvin',
+                'Kennedy', 'Richard', 'Stephen', 'George', 'David', 'Paul', 'Brian', 'Isaac', 'Evans', 'Victor', 'Martin', 'Edward',
+                'Simon', 'Daniel', 'Felix', 'Michael', 'Alex', 'Andrew', 'Jackson', 'Robert', 'Godfrey', 'Godfrey', 'Henry', 'Samuel',
+                'Vincent', 'William', 'Benson', 'Thomas', 'Clement', 'Alfred', 'Justin', 'Aaron', 'Lawrence', 'Fredrick', 'Frank',
+                'Samson', 'Elias', 'Albert', 'Dickson', 'Lewis', 'Fred', 'Jonathan', 'Kenneth', 'Abraham', 'Gilbert', 'Collins',
+                'Friday', 'Edwin', 'Wilson', 'Bernard', 'Stanley', 'Bright', 'Timothy', 'Leonard', 'Abel', 'Amos', 'Teddy', 'Jacob',
+                'Micheal', 'Mike', 'Oscar', 'Anthony', 'Maxwell', 'Nelson', 'Steven', 'Ernest', 'Raphael', 'Allan', 'Oliver', 'Innocent',
+                'Harrison', 'Reuben', 'Joshua', 'Geoffrey', 'Gabriel', 'Nicholas', 'Julius' ,'Phillip', 'Dominic', 'Derrick', 'Derick',
+                'Evaristo', 'Ronald', 'Davy', 'Donald', 'Luka', 'Jimmy', 'Sunday', 'Benjamin', 'Jonas', 'Benny', 'Sylvester', 'Godwin',
+                'Joe', 'Elvis', 'Clever', 'Nathan', 'Edson', 'Lloyd', 'Morris', 'Jack', 'Douglas', 'Solomon', 'Titus', 'Kenny', 'Lucky',
+                'Gideon', 'Owen'
+              ],
+              'second': ['Phiri', 'Banda', 'Mulenga', 'Zulu', 'Musonda', 'Tembo', 'Mwale', 'Lungu', 'Sakala', 'Daka', 'Bwalya',
+                'Mbewe', 'Mumba', 'Mwape', 'Kunda', 'Nyirenda', 'Chanda', 'Mwila', 'Zimba', 'Mutale', 'Ngoma', 'Mwewa', 'Chola',
+                'Mubanga', 'Kabwe', 'Mwamba', 'Mwanza', 'Njobvu', 'Chama', 'Mwiinga', 'Mpundu', 'Ngosa', 'Mudenda', 'Mvula',
+                'Mtonga', 'Moonga', 'Ngulube', 'Nyambe', 'Mukuka', 'Chirwa', 'Katongo', 'Mwenya', 'Kangwa', 'Jere', 'Mwansa',
+                'Chewe', 'Njovu', 'Malambo', 'Siame', 'Moyo', 'Miti', 'Chomba', 'Kaunda', 'Soko', 'Nkandu', 'Manda', 'Kasongo',
+                'Malama', 'Chalwe', 'Chileshe', 'Mubita', 'Kalunga', 'Chulu' ,'Nyirongo', 'Kasonde', 'Sinkala', 'Sitali', 'Chabala',
+                'Kaluba', 'Ndhlovu', 'Kaoma', 'Simfukwe', 'Chibuye', 'Sinyangwe', 'Chilufya', 'Kumwenda', 'Chisenga', 'Chibwe',
+                'Nkhata', 'Chinyama', 'Chishimba', 'Mkandawire', 'Moono', 'Sikazwe', 'Mwenda', 'Chansa', 'Lubinda', 'Kamanga',
+                'Munsaka', 'Mweene', 'Gondwe', 'Michelo', 'Nanyangwe', 'Nakazwe', 'Chisanga', 'Cheelo', 'Kabaso', 'Kakoma',
+                "Ng'andu", 'Ngandu', 'Kayombo', 'Sampa', 'Simwanza', 'Namfukwe', 'Mapulanga', 'Kalumba', 'Siwale', 'Nkonde',
+                'Muyunda', 'Kabamba', 'Kalenga', 'Mweetwa', 'Muchindu', 'Sichone', 'Nambela', 'Nkole', 'Kampamba', 'Chali'
+              ]
+          },
+          'female': {
+              'first': ['Mary', 'Grace', 'Elizabeth', 'Joyce', 'Charity', 'Ruth', 'Alice', 'Beatrice', 'Judith',
+                'Esther', 'Florence', 'Josephine', 'Francis', 'Mercy', 'Gift', 'Patricia', 'Maureen', 'Beauty', 'Bridget', 'Martha',
+                'Eunice', 'Dorothy', 'Jane', 'Rosemary', 'Brenda', 'Precious', 'Maggie', 'Christine', 'Juliet', 'Christina', 'Annie',
+                'Anna', 'Doreen', 'Monica', 'Susan', 'Prisca', 'Violet', 'Cecilia', 'Gladys', 'Justine', 'Sharon', 'Sarah', 'Hellen',
+                'Janet', 'Justina', 'Regina', 'Margret', 'Theresa', 'Margaret', 'Harriet', 'Betty', 'Sydney', 'Angela', 'Mildred',
+                'Naomi', 'Veronica', 'Lilian', 'Maria', 'Peggy', 'Priscilla', 'Rose', 'Lillian', 'Doris', 'Sylvia', 'Racheal',
+                'Lydia', 'Morgan', 'Bertha', 'Victoria', 'Carol', 'Evelyn', 'Danny', 'Edith', 'Melody', 'Lucy', 'Ester', 'Cathrine',
+                'Elina', 'Dennis', 'Rachael', 'Sara', 'Mavis', 'Yvonne', 'Gloria', 'Petronella', 'Jessy', 'Clara', 'Caroline',
+                'Queen', 'Silvia', 'Linda', 'Edina', 'Eliza', 'Noah', 'Pamela', 'Stella', 'Cynthia', 'Matilda', 'Happy', 'Rhoda',
+                'Sandra', 'Lucia', 'Ivy', 'Nelly', 'Vivian', 'Jean', 'Constance', 'Sophia', 'Kelly', 'Selina', 'Fanny', 'Ethel',
+                'Emelda', 'Agnes', 'Dorcas'
+              ],
+              'second': ['Phiri', 'Banda', 'Mulenga', 'Zulu', 'Musonda', 'Tembo', 'Mwale', 'Lungu', 'Sakala', 'Daka', 'Bwalya',
+                'Mbewe', 'Mumba', 'Mwape', 'Kunda', 'Nyirenda', 'Chanda', 'Mwila', 'Zimba', 'Mutale', 'Ngoma', 'Mwewa', 'Chola',
+                'Mubanga', 'Kabwe', 'Mwamba', 'Mwanza', 'Njobvu', 'Chama', 'Mwiinga', 'Mpundu', 'Ngosa', 'Mudenda', 'Mvula',
+                'Mtonga', 'Moonga', 'Ngulube', 'Nyambe', 'Mukuka', 'Chirwa', 'Katongo', 'Mwenya', 'Kangwa', 'Jere', 'Mwansa',
+                'Chewe', 'Njovu', 'Malambo', 'Siame', 'Moyo', 'Miti', 'Chomba', 'Kaunda', 'Soko', 'Nkandu', 'Manda', 'Kasongo',
+                'Malama', 'Chalwe', 'Chileshe', 'Mubita', 'Kalunga', 'Chulu' ,'Nyirongo', 'Kasonde', 'Sinkala', 'Sitali', 'Chabala',
+                'Kaluba', 'Ndhlovu', 'Kaoma', 'Simfukwe', 'Chibuye', 'Sinyangwe', 'Chilufya', 'Kumwenda', 'Chisenga', 'Chibwe',
+                'Nkhata', 'Chinyama', 'Chishimba', 'Mkandawire', 'Moono', 'Sikazwe', 'Mwenda', 'Chansa', 'Lubinda', 'Kamanga',
+                'Munsaka', 'Mweene', 'Gondwe', 'Michelo', 'Nanyangwe', 'Nakazwe', 'Chisanga', 'Cheelo', 'Kabaso', 'Kakoma',
+                "Ng'andu", 'Ngandu', 'Kayombo', 'Sampa', 'Simwanza', 'Namfukwe', 'Mapulanga', 'Kalumba', 'Siwale', 'Nkonde',
+                'Muyunda', 'Kabamba', 'Kalenga', 'Mweetwa', 'Muchindu', 'Sichone', 'Nambela', 'Nkole', 'Kampamba', 'Chali'
+              ],
+          }
+      }
+    }}
 }
 
 const object = {
